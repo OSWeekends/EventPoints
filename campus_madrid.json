@@ -1,1 +1,278 @@
-[{"date": "2017-01-04", "location": {"lon": -3.7182264000000487, "lat": 40.41249699999999}, "source": {"name": "Campus Madrid"}, "price": {"isFree": false, "details": "Unknown"}}, {"date": "2017-01-05", "location": {"lon": -3.7182264000000487, "lat": 40.41249699999999}, "source": {"name": "Campus Madrid"}, "price": {"isFree": false, "details": "Unknown"}}, {"date": "2017-01-06", "location": {"lon": -3.7182264000000487, "lat": 40.41249699999999}, "source": {"name": "Campus Madrid"}, "price": {"isFree": false, "details": "Unknown"}}, {"date": "2017-01-07", "location": {"lon": -3.7182264000000487, "lat": 40.41249699999999}, "source": {"name": "Campus Madrid"}, "price": {"isFree": false, "details": "Unknown"}}, {"date": "2017-01-08", "location": {"lon": -3.7182264000000487, "lat": 40.41249699999999}, "source": {"name": "Campus Madrid"}, "price": {"isFree": false, "details": "Unknown"}}, {"date": "2017-01-09", "abstrat_details": "<p>On\u00a0Monday, January 9,\u00a0<a href=\"http://tech.eu/\">Tech.eu</a>\u00a0and\u00a0<a href=\"http://novobrief.com/\">Novobrief</a>\u00a0will share our new full-year data on venture capital activity across Europe, with a focus on Spain, and our outlook for 2017. We'll also include a short panel discussion with founders from local tech companies who have successfully raised venture capital. This will be followed up with drinks and networking at the same location.\u00a0We are personally inviting leaders across Madrid's tech scene, so this is an event you won't want to miss!</p>\n\n<p><b>The agenda</b>:</p>\n\n<p>- Introduction from\u00a0<a href=\"https://twitter.com/robinwauters\">Robin Wauters</a>, founder and editor of\u00a0<a href=\"http://tech.eu/\">Tech.eu</a></p>\n\n<p>- Trends in European venture capital, from\u00a0<a href=\"https://twitter.com/shaheensamavati\">Shaheen Samavati</a>, data analyst and reporter at\u00a0<a href=\"http://tech.eu/\">Tech.eu</a></p>\n\n<p>- The VC landscape in Spain, from\u00a0<a href=\"https://twitter.com/abarrera\">Alex Barrera</a>, partner at\u00a0<a href=\"http://tech.eu/\">Tech.eu</a>, and chief WOWness officier at\u00a0<a href=\"http://press42.com/\">Press42</a></p>\n\n<p>- Founders of Spanish tech companies talk about their experiences raising financing, moderated by:\u00a0<a href=\"https://twitter.com/jaimenovoa\">Jaime Novoa</a>, founder of\u00a0<a href=\"http://novobrief.com/\">Novobrief</a>\u00a0and analyst at\u00a0<a href=\"http://kfund.co/\">K Fund</a>. Featuring:\u00a0Ander Michelena, CEO of\u00a0<a href=\"http://www.ticketbis.com/\">Ticketbis</a>\u00a0(aquired by Stubhub/Ebay in May); Alejandro Artacho, CEO of\u00a0<a href=\"http://www.spotahome.com/\">Spotahome</a>; Eduardo Fern\u00e1ndez, CEO of\u00a0<a href=\"https://www.shuttlecloud.com/\">ShuttleCloud</a>; and\u00a0Ben Askew-Renaut, CEO of\u00a0<a href=\"https://www.packlink.es/\">Packlink</a>.</p>\n\n<p>- Drinks and networking</p>\n\n<p><b>About Tech.eu</b></p>\n\n<p><a href=\"http://novobrief.com/\">Tech.eu</a>\u00a0is Europe's top online source for technology news, data analysis and market intelligence. If you haven't already, make sure to sign up for our weekly\u00a0<a href=\"http://tech.eu/subscribe-to-newsletter/\">newsletter</a>\u00a0and\u00a0<a href=\"http://tech.eu/?s=podcast\">podcast series</a>\u00a0to keep up on the latest in European tech and venture capital.\u00a0</p>\n\n<p>If you have a funding announcement or other significant tech industry news and would like to be featured in our newsletter and/or podcast, please email\u00a0<a href=\"mailto:shaheen@tech.eu\">shaheen@tech.eu</a>.</p>\n\n<p><b>About Novobrief</b></p>\n\n<p><a href=\"http://novobrief.com/\">Novobrief</a>\u00a0is an English language publication covering the Spanish startup ecosystem.</p>", "source": {"name": "Campus Madrid", "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxVFZvSUFBVww"}, "price": {"isFree": false, "details": "Unknown"}, "abstrat": "On Monday, January 9, Tech.eu and Novobrief will share our new full-year data on venture capital activity across Europe, with a focus on ...", "title": "The state of Spanish and European VC with Tech.eu and Novobrief", "location": {"notes": "Auditorium", "lon": -3.7182264000000487, "lat": 40.41249699999999}}, {"date": "2017-01-10", "location": {"lon": -3.7182264000000487, "lat": 40.41249699999999}, "source": {"name": "Campus Madrid"}, "price": {"isFree": false, "details": "Unknown"}}, {"date": "2017-01-11", "abstrat_details": "<br>Actualizar una aplicaci\u00f3n es una acci\u00f3n frecuente seg\u00fan le vas dotando de mayor funcionalidad y por supuesto quieres que siempre est\u00e9 disponible para tus usuarios finales. Los usuarios son cr\u00edticos para ti y tu quieres ser capaz de desplegar nuevas versiones de tu aplicaci\u00f3n sin afectarles lo m\u00e1s m\u00ednimo. En esta charla ense\u00f1ar\u00e9 como crear una aplicaci\u00f3n pensando zero down-time. La aplicaci\u00f3n estar\u00e1 funcionando en OpenShift y ser\u00e1 actualizada sin afectar a los usuarios finales. Tambi\u00e9n os describir\u00e9 que consideraciones hay que tener y c\u00f3mo utilizar las herramientas disponibles para poder hacer Continuous Deployment de vuestra aplicaci\u00f3n.<br><br><b>Ponente:</b><br>Jorge Morales, Field Product Manager de OpenShift y Developer Advocate. Interesado en interactuar con clientes y usuarios de nuestra tecnolog\u00eda para entender como poder mejorarla. Desarrollador Java durante muchos a\u00f1os aunque \u00faltimamente me estoy volviendo pol\u00edglota. Apasionado del cloud y del mundo DevOps, siempre he estado intentando que los desarrolladores sientan producci\u00f3n muy cercana. Cuando no viajo intento disfrutar de la familia sin m\u00e1s hobbies que ellos.", "source": {"name": "Campus Madrid", "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxVDBwMEFBQww"}, "price": {"isFree": false, "details": "Unknown"}, "abstrat": "Actualizar una aplicaci\u00f3n es una acci\u00f3n frecuente seg\u00fan le vas dotando de mayor funcionalidad y por supuesto quieres que siempre est\u00e9 ...", "title": "Dise\u00f1ar tus aplicaciones pensando en actualizaciones con zero down-time.", "location": {"notes": "Auditorium", "lon": -3.7182264000000487, "lat": 40.41249699999999}}, {"date": "2017-01-12", "abstrat_details": "<br>New at Campus? Want to know more about how to get the most out of it and meet other female entrepreneurs?<br><br>Every second Thursday of each month at 1pm women ambassadors from the Campus community invite you to join them at the Campus Caf\u00e9 to answer your questions and help you make great connections. No signup needed!<br><br>Coffee and cake is on us! :)", "source": {"name": "Campus Madrid", "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxU202ZkFBQww"}, "price": {"isFree": false, "details": "Unknown"}, "abstrat": "New at Campus? Want to know more about how to get the most out of it and meet other female entrepreneurs?Every second Thursday of each ...", "title": "Campus Community: Women Welcome", "location": {"notes": "Cafe Floor 1", "lon": -3.7182264000000487, "lat": 40.41249699999999}}, {"date": "2017-01-13", "abstrat_details": "<br>El \u00fanico evento exclusivamente dedicado a los nuevos dominios de Internet. Escucha a los mejores expertos en Internet, marketing digital, ...<br><br>Pon mas Dominios en tu Startup!<br>Est\u00e1s interesado en saber c\u00f3mo puedes usar los nuevos Dominios para mejorar el marketing y la presencia online ? Expertos en esta materia te ense\u00f1ar\u00e1n:\u00a0<br><br>*\u00a0\u00a0\u00a0\u00bfCu\u00e1les son los nuevos dominios disponibles?<br>*\u00a0\u00a0\u00a0\u00bfA qui\u00e9n se dirigen y qui\u00e9n puede registrarlos?<br>*\u00a0\u00a0\u00a0\u00bfC\u00f3mo ayudan a mejorar la presencia online?<br>*\u00a0\u00a0\u00a0\u00bfC\u00f3mo se pueden usar en las campa\u00f1as de marketing?<br>*\u00a0\u00a0\u00a0\u00bfQu\u00e9 impacto van a tener en el comercio electr\u00f3nico?<br>*\u00a0\u00a0\u00a0\u00bfCu\u00e1l es la mejor estrategia para registrar nuevos dominios?<br>*\u00a0\u00a0\u00a0\u00bfQu\u00e9 extensiones interesan a cada tipo de negocio?<br>*\u00a0\u00a0\u00a0\u00bfQu\u00e9 hacer y qu\u00e9 no hacer con un nuevo dominio?<br>*\u00a0\u00a0\u00a0\u00bfQu\u00e9 est\u00e1n haciendo ya otras empresas con estos dominios?<br><br>Keynote Speaker: Jes\u00fas Alonso Gallo<br><br>Fundador de Restaurantes.com<br>De empleado en serie a emprendedor en serie, de emprendedor en serie a inversor en serie.", "source": {"name": "Campus Madrid", "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxU2wyUkFBUww"}, "price": {"isFree": false, "details": "Unknown"}, "abstrat": "El \u00fanico evento exclusivamente dedicado a los nuevos dominios de Internet. Escucha a los mejores expertos en Internet, marketing digital, ...", "title": "TheName SHOW Madrid", "location": {"notes": "Auditorium", "lon": -3.7182264000000487, "lat": 40.41249699999999}}]
+[
+    {
+        "abstrat": "On Monday, January 9, Tech.eu and Novobrief will share our new full-year data on venture capital activity across Europe, with a focus on ...",
+        "abstrat_details": "<p>On Monday, January 9, <a href=\"http://tech.eu/\">Tech.eu</a> and <a href=\"http://novobrief.com/\">Novobrief</a> will share our new full-year data on venture capital activity across Europe, with a focus on Spain, and our outlook for 2017. We'll also include a short panel discussion with founders from local tech companies who have successfully raised venture capital. This will be followed up with drinks and networking at the same location. We are personally inviting leaders across Madrid's tech scene, so this is an event you won't want to miss!</p>\n\n<p><b>The agenda</b>:</p>\n\n<p>- Introduction from <a href=\"https://twitter.com/robinwauters\">Robin Wauters</a>, founder and editor of <a href=\"http://tech.eu/\">Tech.eu</a></p>\n\n<p>- Trends in European venture capital, from <a href=\"https://twitter.com/shaheensamavati\">Shaheen Samavati</a>, data analyst and reporter at <a href=\"http://tech.eu/\">Tech.eu</a></p>\n\n<p>- The VC landscape in Spain, from <a href=\"https://twitter.com/abarrera\">Alex Barrera</a>, partner at <a href=\"http://tech.eu/\">Tech.eu</a>, and chief WOWness officier at <a href=\"http://press42.com/\">Press42</a></p>\n\n<p>- Founders of Spanish tech companies talk about their experiences raising financing, moderated by: <a href=\"https://twitter.com/jaimenovoa\">Jaime Novoa</a>, founder of <a href=\"http://novobrief.com/\">Novobrief</a> and analyst at <a href=\"http://kfund.co/\">K Fund</a>. Featuring: Ander Michelena, CEO of <a href=\"http://www.ticketbis.com/\">Ticketbis</a> (aquired by Stubhub/Ebay in May); Alejandro Artacho, CEO of <a href=\"http://www.spotahome.com/\">Spotahome</a>; Eduardo Fernández, CEO of <a href=\"https://www.shuttlecloud.com/\">ShuttleCloud</a>; and Ben Askew-Renaut, CEO of <a href=\"https://www.packlink.es/\">Packlink</a>.</p>\n\n<p>- Drinks and networking</p>\n\n<p><b>About Tech.eu</b></p>\n\n<p><a href=\"http://novobrief.com/\">Tech.eu</a> is Europe's top online source for technology news, data analysis and market intelligence. If you haven't already, make sure to sign up for our weekly <a href=\"http://tech.eu/subscribe-to-newsletter/\">newsletter</a> and <a href=\"http://tech.eu/?s=podcast\">podcast series</a> to keep up on the latest in European tech and venture capital. </p>\n\n<p>If you have a funding announcement or other significant tech industry news and would like to be featured in our newsletter and/or podcast, please email <a href=\"mailto:shaheen@tech.eu\">shaheen@tech.eu</a>.</p>\n\n<p><b>About Novobrief</b></p>\n\n<p><a href=\"http://novobrief.com/\">Novobrief</a> is an English language publication covering the Spanish startup ecosystem.</p>",
+        "date": "2017-01-09T18:00:00Z",
+        "location": {
+            "lat": 40.41249699999999,
+            "lon": -3.7182264000000487,
+            "name": "Campus Madrid",
+            "notes": "Auditorium"
+        },
+        "price": {
+            "details": "Unknown",
+            "isFree": false
+        },
+        "source": {
+            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxVFZvSUFBVww",
+            "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
+            "name": "Campus Madrid",
+            "url": "http://campus.co/madrid"
+        },
+        "target_url": "https://www.eventbrite.com/e/the-state-of-spanish-and-european-vc-with-techeu-and-novobrief-tickets-30325084143",
+        "title": "The state of Spanish and European VC with Tech.eu and Novobrief"
+    },
+    {
+        "abstrat": "Actualizar una aplicación es una acción frecuente según le vas dotando de mayor funcionalidad y por supuesto quieres que siempre esté ...",
+        "abstrat_details": "<br>Actualizar una aplicación es una acción frecuente según le vas dotando de mayor funcionalidad y por supuesto quieres que siempre esté disponible para tus usuarios finales. Los usuarios son críticos para ti y tu quieres ser capaz de desplegar nuevas versiones de tu aplicación sin afectarles lo más mínimo. En esta charla enseñaré como crear una aplicación pensando zero down-time. La aplicación estará funcionando en OpenShift y será actualizada sin afectar a los usuarios finales. También os describiré que consideraciones hay que tener y cómo utilizar las herramientas disponibles para poder hacer Continuous Deployment de vuestra aplicación.<br><br><b>Ponente:</b><br>Jorge Morales, Field Product Manager de OpenShift y Developer Advocate. Interesado en interactuar con clientes y usuarios de nuestra tecnología para entender como poder mejorarla. Desarrollador Java durante muchos años aunque últimamente me estoy volviendo políglota. Apasionado del cloud y del mundo DevOps, siempre he estado intentando que los desarrolladores sientan producción muy cercana. Cuando no viajo intento disfrutar de la familia sin más hobbies que ellos.",
+        "date": "2017-01-11T19:00:00Z",
+        "location": {
+            "lat": 40.41249699999999,
+            "lon": -3.7182264000000487,
+            "name": "Campus Madrid",
+            "notes": "Auditorium"
+        },
+        "price": {
+            "details": "Unknown",
+            "isFree": false
+        },
+        "source": {
+            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxVDBwMEFBQww",
+            "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
+            "name": "Campus Madrid",
+            "url": "http://campus.co/madrid"
+        },
+        "target_url": "https://www.meetup.com/es/meetup-group-lAoZvyGw/events/235877104/?eventId=235877104",
+        "title": "Diseñar tus aplicaciones pensando en actualizaciones con zero down-time."
+    },
+    {
+        "abstrat": "Actualizar una aplicación es una acción frecuente según le vas dotando de mayor funcionalidad y por supuesto quieres que siempre esté ...",
+        "abstrat_details": "<br>Actualizar una aplicación es una acción frecuente según le vas dotando de mayor funcionalidad y por supuesto quieres que siempre esté disponible para tus usuarios finales. Los usuarios son críticos para ti y tu quieres ser capaz de desplegar nuevas versiones de tu aplicación sin afectarles lo más mínimo. En esta charla enseñaré como crear una aplicación pensando zero down-time. La aplicación estará funcionando en OpenShift y será actualizada sin afectar a los usuarios finales. También os describiré que consideraciones hay que tener y cómo utilizar las herramientas disponibles para poder hacer Continuous Deployment de vuestra aplicación.<br><br><b>Ponente:</b><br>Jorge Morales, Field Product Manager de OpenShift y Developer Advocate. Interesado en interactuar con clientes y usuarios de nuestra tecnología para entender como poder mejorarla. Desarrollador Java durante muchos años aunque últimamente me estoy volviendo políglota. Apasionado del cloud y del mundo DevOps, siempre he estado intentando que los desarrolladores sientan producción muy cercana. Cuando no viajo intento disfrutar de la familia sin más hobbies que ellos.",
+        "date": "2017-01-11T19:00:00Z",
+        "location": {
+            "lat": 40.41249699999999,
+            "lon": -3.7182264000000487,
+            "name": "Campus Madrid",
+            "notes": "Auditorium"
+        },
+        "price": {
+            "details": "Unknown",
+            "isFree": false
+        },
+        "source": {
+            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxVDBwMEFBQww",
+            "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
+            "name": "Campus Madrid",
+            "url": "http://campus.co/madrid"
+        },
+        "target_url": "https://www.meetup.com/es/meetup-group-lAoZvyGw/events/235877104/?eventId=235877104",
+        "title": "Diseñar tus aplicaciones pensando en actualizaciones con zero down-time."
+    },
+    {
+        "abstrat": "New at Campus? Want to know more about how to get the most out of it and meet other female entrepreneurs?Every second Thursday of each ...",
+        "abstrat_details": "<br>New at Campus? Want to know more about how to get the most out of it and meet other female entrepreneurs?<br><br>Every second Thursday of each month at 1pm women ambassadors from the Campus community invite you to join them at the Campus Café to answer your questions and help you make great connections. No signup needed!<br><br>Coffee and cake is on us! :)",
+        "date": "2017-01-12T13:00:00Z",
+        "location": {
+            "lat": 40.41249699999999,
+            "lon": -3.7182264000000487,
+            "name": "Campus Madrid",
+            "notes": "Cafe Floor 1"
+        },
+        "price": {
+            "details": "Unknown",
+            "isFree": false
+        },
+        "source": {
+            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxU202ZkFBQww",
+            "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
+            "name": "Campus Madrid",
+            "url": "http://campus.co/madrid"
+        },
+        "target_url": null,
+        "title": "Campus Community: Women Welcome"
+    },
+    {
+        "abstrat": "New at Campus? Want to know more about how to get the most out of it and meet other female entrepreneurs?Every second Thursday of each ...",
+        "abstrat_details": "<br>New at Campus? Want to know more about how to get the most out of it and meet other female entrepreneurs?<br><br>Every second Thursday of each month at 1pm women ambassadors from the Campus community invite you to join them at the Campus Café to answer your questions and help you make great connections. No signup needed!<br><br>Coffee and cake is on us! :)",
+        "date": "2017-01-12T13:00:00Z",
+        "location": {
+            "lat": 40.41249699999999,
+            "lon": -3.7182264000000487,
+            "name": "Campus Madrid",
+            "notes": "Cafe Floor 1"
+        },
+        "price": {
+            "details": "Unknown",
+            "isFree": false
+        },
+        "source": {
+            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxU202ZkFBQww",
+            "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
+            "name": "Campus Madrid",
+            "url": "http://campus.co/madrid"
+        },
+        "target_url": null,
+        "title": "Campus Community: Women Welcome"
+    },
+    {
+        "abstrat": "El único evento exclusivamente dedicado a los nuevos dominios de Internet. Escucha a los mejores expertos en Internet, marketing digital, ...",
+        "abstrat_details": "<br>El único evento exclusivamente dedicado a los nuevos dominios de Internet. Escucha a los mejores expertos en Internet, marketing digital, ...<br><br>Pon mas Dominios en tu Startup!<br>Estás interesado en saber cómo puedes usar los nuevos Dominios para mejorar el marketing y la presencia online ? Expertos en esta materia te enseñarán: <br><br>*   ¿Cuáles son los nuevos dominios disponibles?<br>*   ¿A quién se dirigen y quién puede registrarlos?<br>*   ¿Cómo ayudan a mejorar la presencia online?<br>*   ¿Cómo se pueden usar en las campañas de marketing?<br>*   ¿Qué impacto van a tener en el comercio electrónico?<br>*   ¿Cuál es la mejor estrategia para registrar nuevos dominios?<br>*   ¿Qué extensiones interesan a cada tipo de negocio?<br>*   ¿Qué hacer y qué no hacer con un nuevo dominio?<br>*   ¿Qué están haciendo ya otras empresas con estos dominios?<br><br>Keynote Speaker: Jesús Alonso Gallo<br><br>Fundador de Restaurantes.com<br>De empleado en serie a emprendedor en serie, de emprendedor en serie a inversor en serie.",
+        "date": "2017-01-13T09:30:00Z",
+        "location": {
+            "lat": 40.41249699999999,
+            "lon": -3.7182264000000487,
+            "name": "Campus Madrid",
+            "notes": "Auditorium"
+        },
+        "price": {
+            "details": "Unknown",
+            "isFree": false
+        },
+        "source": {
+            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxU2wyUkFBUww",
+            "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
+            "name": "Campus Madrid",
+            "url": "http://campus.co/madrid"
+        },
+        "target_url": "http://www.thename.show/madrid/",
+        "title": "TheName SHOW Madrid"
+    },
+    {
+        "abstrat": "On Monday, January 9, Tech.eu and Novobrief will share our new full-year data on venture capital activity across Europe, with a focus on ...",
+        "abstrat_details": "<p>On Monday, January 9, <a href=\"http://tech.eu/\">Tech.eu</a> and <a href=\"http://novobrief.com/\">Novobrief</a> will share our new full-year data on venture capital activity across Europe, with a focus on Spain, and our outlook for 2017. We'll also include a short panel discussion with founders from local tech companies who have successfully raised venture capital. This will be followed up with drinks and networking at the same location. We are personally inviting leaders across Madrid's tech scene, so this is an event you won't want to miss!</p>\n\n<p><b>The agenda</b>:</p>\n\n<p>- Introduction from <a href=\"https://twitter.com/robinwauters\">Robin Wauters</a>, founder and editor of <a href=\"http://tech.eu/\">Tech.eu</a></p>\n\n<p>- Trends in European venture capital, from <a href=\"https://twitter.com/shaheensamavati\">Shaheen Samavati</a>, data analyst and reporter at <a href=\"http://tech.eu/\">Tech.eu</a></p>\n\n<p>- The VC landscape in Spain, from <a href=\"https://twitter.com/abarrera\">Alex Barrera</a>, partner at <a href=\"http://tech.eu/\">Tech.eu</a>, and chief WOWness officier at <a href=\"http://press42.com/\">Press42</a></p>\n\n<p>- Founders of Spanish tech companies talk about their experiences raising financing, moderated by: <a href=\"https://twitter.com/jaimenovoa\">Jaime Novoa</a>, founder of <a href=\"http://novobrief.com/\">Novobrief</a> and analyst at <a href=\"http://kfund.co/\">K Fund</a>. Featuring: Ander Michelena, CEO of <a href=\"http://www.ticketbis.com/\">Ticketbis</a> (aquired by Stubhub/Ebay in May); Alejandro Artacho, CEO of <a href=\"http://www.spotahome.com/\">Spotahome</a>; Eduardo Fernández, CEO of <a href=\"https://www.shuttlecloud.com/\">ShuttleCloud</a>; and Ben Askew-Renaut, CEO of <a href=\"https://www.packlink.es/\">Packlink</a>.</p>\n\n<p>- Drinks and networking</p>\n\n<p><b>About Tech.eu</b></p>\n\n<p><a href=\"http://novobrief.com/\">Tech.eu</a> is Europe's top online source for technology news, data analysis and market intelligence. If you haven't already, make sure to sign up for our weekly <a href=\"http://tech.eu/subscribe-to-newsletter/\">newsletter</a> and <a href=\"http://tech.eu/?s=podcast\">podcast series</a> to keep up on the latest in European tech and venture capital. </p>\n\n<p>If you have a funding announcement or other significant tech industry news and would like to be featured in our newsletter and/or podcast, please email <a href=\"mailto:shaheen@tech.eu\">shaheen@tech.eu</a>.</p>\n\n<p><b>About Novobrief</b></p>\n\n<p><a href=\"http://novobrief.com/\">Novobrief</a> is an English language publication covering the Spanish startup ecosystem.</p>",
+        "date": "2017-01-09T18:00:00Z",
+        "location": {
+            "lat": 40.41249699999999,
+            "lon": -3.7182264000000487,
+            "name": "Campus Madrid",
+            "notes": "Auditorium"
+        },
+        "price": {
+            "details": "Unknown",
+            "isFree": false
+        },
+        "source": {
+            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxVFZvSUFBVww",
+            "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
+            "name": "Campus Madrid",
+            "url": "http://campus.co/madrid"
+        },
+        "target_url": "https://www.eventbrite.com/e/the-state-of-spanish-and-european-vc-with-techeu-and-novobrief-tickets-30325084143",
+        "title": "The state of Spanish and European VC with Tech.eu and Novobrief"
+    },
+    {
+        "abstrat": "Actualizar una aplicación es una acción frecuente según le vas dotando de mayor funcionalidad y por supuesto quieres que siempre esté ...",
+        "abstrat_details": "<br>Actualizar una aplicación es una acción frecuente según le vas dotando de mayor funcionalidad y por supuesto quieres que siempre esté disponible para tus usuarios finales. Los usuarios son críticos para ti y tu quieres ser capaz de desplegar nuevas versiones de tu aplicación sin afectarles lo más mínimo. En esta charla enseñaré como crear una aplicación pensando zero down-time. La aplicación estará funcionando en OpenShift y será actualizada sin afectar a los usuarios finales. También os describiré que consideraciones hay que tener y cómo utilizar las herramientas disponibles para poder hacer Continuous Deployment de vuestra aplicación.<br><br><b>Ponente:</b><br>Jorge Morales, Field Product Manager de OpenShift y Developer Advocate. Interesado en interactuar con clientes y usuarios de nuestra tecnología para entender como poder mejorarla. Desarrollador Java durante muchos años aunque últimamente me estoy volviendo políglota. Apasionado del cloud y del mundo DevOps, siempre he estado intentando que los desarrolladores sientan producción muy cercana. Cuando no viajo intento disfrutar de la familia sin más hobbies que ellos.",
+        "date": "2017-01-11T19:00:00Z",
+        "location": {
+            "lat": 40.41249699999999,
+            "lon": -3.7182264000000487,
+            "name": "Campus Madrid",
+            "notes": "Auditorium"
+        },
+        "price": {
+            "details": "Unknown",
+            "isFree": false
+        },
+        "source": {
+            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxVDBwMEFBQww",
+            "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
+            "name": "Campus Madrid",
+            "url": "http://campus.co/madrid"
+        },
+        "target_url": "https://www.meetup.com/es/meetup-group-lAoZvyGw/events/235877104/?eventId=235877104",
+        "title": "Diseñar tus aplicaciones pensando en actualizaciones con zero down-time."
+    },
+    {
+        "abstrat": "Actualizar una aplicación es una acción frecuente según le vas dotando de mayor funcionalidad y por supuesto quieres que siempre esté ...",
+        "abstrat_details": "<br>Actualizar una aplicación es una acción frecuente según le vas dotando de mayor funcionalidad y por supuesto quieres que siempre esté disponible para tus usuarios finales. Los usuarios son críticos para ti y tu quieres ser capaz de desplegar nuevas versiones de tu aplicación sin afectarles lo más mínimo. En esta charla enseñaré como crear una aplicación pensando zero down-time. La aplicación estará funcionando en OpenShift y será actualizada sin afectar a los usuarios finales. También os describiré que consideraciones hay que tener y cómo utilizar las herramientas disponibles para poder hacer Continuous Deployment de vuestra aplicación.<br><br><b>Ponente:</b><br>Jorge Morales, Field Product Manager de OpenShift y Developer Advocate. Interesado en interactuar con clientes y usuarios de nuestra tecnología para entender como poder mejorarla. Desarrollador Java durante muchos años aunque últimamente me estoy volviendo políglota. Apasionado del cloud y del mundo DevOps, siempre he estado intentando que los desarrolladores sientan producción muy cercana. Cuando no viajo intento disfrutar de la familia sin más hobbies que ellos.",
+        "date": "2017-01-11T19:00:00Z",
+        "location": {
+            "lat": 40.41249699999999,
+            "lon": -3.7182264000000487,
+            "name": "Campus Madrid",
+            "notes": "Auditorium"
+        },
+        "price": {
+            "details": "Unknown",
+            "isFree": false
+        },
+        "source": {
+            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxVDBwMEFBQww",
+            "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
+            "name": "Campus Madrid",
+            "url": "http://campus.co/madrid"
+        },
+        "target_url": "https://www.meetup.com/es/meetup-group-lAoZvyGw/events/235877104/?eventId=235877104",
+        "title": "Diseñar tus aplicaciones pensando en actualizaciones con zero down-time."
+    },
+    {
+        "abstrat": "New at Campus? Want to know more about how to get the most out of it and meet other female entrepreneurs?Every second Thursday of each ...",
+        "abstrat_details": "<br>New at Campus? Want to know more about how to get the most out of it and meet other female entrepreneurs?<br><br>Every second Thursday of each month at 1pm women ambassadors from the Campus community invite you to join them at the Campus Café to answer your questions and help you make great connections. No signup needed!<br><br>Coffee and cake is on us! :)",
+        "date": "2017-01-12T13:00:00Z",
+        "location": {
+            "lat": 40.41249699999999,
+            "lon": -3.7182264000000487,
+            "name": "Campus Madrid",
+            "notes": "Cafe Floor 1"
+        },
+        "price": {
+            "details": "Unknown",
+            "isFree": false
+        },
+        "source": {
+            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxU202ZkFBQww",
+            "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
+            "name": "Campus Madrid",
+            "url": "http://campus.co/madrid"
+        },
+        "target_url": null,
+        "title": "Campus Community: Women Welcome"
+    },
+    {
+        "abstrat": "New at Campus? Want to know more about how to get the most out of it and meet other female entrepreneurs?Every second Thursday of each ...",
+        "abstrat_details": "<br>New at Campus? Want to know more about how to get the most out of it and meet other female entrepreneurs?<br><br>Every second Thursday of each month at 1pm women ambassadors from the Campus community invite you to join them at the Campus Café to answer your questions and help you make great connections. No signup needed!<br><br>Coffee and cake is on us! :)",
+        "date": "2017-01-12T13:00:00Z",
+        "location": {
+            "lat": 40.41249699999999,
+            "lon": -3.7182264000000487,
+            "name": "Campus Madrid",
+            "notes": "Cafe Floor 1"
+        },
+        "price": {
+            "details": "Unknown",
+            "isFree": false
+        },
+        "source": {
+            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxU202ZkFBQww",
+            "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
+            "name": "Campus Madrid",
+            "url": "http://campus.co/madrid"
+        },
+        "target_url": null,
+        "title": "Campus Community: Women Welcome"
+    },
+    {
+        "abstrat": "El único evento exclusivamente dedicado a los nuevos dominios de Internet. Escucha a los mejores expertos en Internet, marketing digital, ...",
+        "abstrat_details": "<br>El único evento exclusivamente dedicado a los nuevos dominios de Internet. Escucha a los mejores expertos en Internet, marketing digital, ...<br><br>Pon mas Dominios en tu Startup!<br>Estás interesado en saber cómo puedes usar los nuevos Dominios para mejorar el marketing y la presencia online ? Expertos en esta materia te enseñarán: <br><br>*   ¿Cuáles son los nuevos dominios disponibles?<br>*   ¿A quién se dirigen y quién puede registrarlos?<br>*   ¿Cómo ayudan a mejorar la presencia online?<br>*   ¿Cómo se pueden usar en las campañas de marketing?<br>*   ¿Qué impacto van a tener en el comercio electrónico?<br>*   ¿Cuál es la mejor estrategia para registrar nuevos dominios?<br>*   ¿Qué extensiones interesan a cada tipo de negocio?<br>*   ¿Qué hacer y qué no hacer con un nuevo dominio?<br>*   ¿Qué están haciendo ya otras empresas con estos dominios?<br><br>Keynote Speaker: Jesús Alonso Gallo<br><br>Fundador de Restaurantes.com<br>De empleado en serie a emprendedor en serie, de emprendedor en serie a inversor en serie.",
+        "date": "2017-01-13T09:30:00Z",
+        "location": {
+            "lat": 40.41249699999999,
+            "lon": -3.7182264000000487,
+            "name": "Campus Madrid",
+            "notes": "Auditorium"
+        },
+        "price": {
+            "details": "Unknown",
+            "isFree": false
+        },
+        "source": {
+            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxU2wyUkFBUww",
+            "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
+            "name": "Campus Madrid",
+            "url": "http://campus.co/madrid"
+        },
+        "target_url": "http://www.thename.show/madrid/",
+        "title": "TheName SHOW Madrid"
+    }
+]
