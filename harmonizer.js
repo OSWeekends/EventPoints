@@ -1,19 +1,20 @@
 var _ = require("lodash"),
-    uuidV4 = require('uuid/v4'),
-    fs = require('fs'),
-    evenbrite = require("./datasource/output/eventbrite.json"),
-    campusMadrid = require("./datasource/output/campus_madrid.json"),
-    firebase = require('firebase');
+  uuidV4 = require('uuid/v4'),
+  fs = require('fs');
 
-module.exports = function(){
-    var arrayEventos = [];
+module.exports = function() {
+  var arrayEventos = [];
 
-    // Merging Arrays
-    arrayEventos = campusMadrid.concat(evenbrite);
+  fs.readdir('./datasource/output', (err, files) => {
+    files.forEach(file => {
+      if (/.json/.test(file)) {
+        var currentArray = require(`./datasource/output/${file}`);
 
-    // Clean the data
-    evenbrite = campusMadrid = null;
-
+        if (currentArray.length > 0) {
+          arrayEventos = _.concat(arrayEventos, currentArray)
+        }
+      }
+    });
 
     /*
         Filtering duplicate elements
@@ -22,18 +23,19 @@ module.exports = function(){
     arrayEventos = _.uniqBy(arrayEventos, "target_url");
 
     // adding UUIDs
-    arrayEventos.forEach(function(event){
-        event.id = uuidV4()
-    })
-/*
-    fs.writeFile('./final.json', JSON.stringify(arrayEventos , null, 4), function (err) {
-        if (!err) {
-            console.log('.output/final.json -- Actualizado!');
-        } else {
-            console.log('ERROR FATAL!! Al guardar ./final.json');
-            throw err;
-        }
+    arrayEventos.forEach(function(event) {
+      event.id = uuidV4();
     });
-*/
-    return arrayEventos;
+
+    fs.writeFile('./final.json', JSON.stringify(arrayEventos, null, 4), function(err) {
+      if (!err) {
+        console.log('.output/final.json -- Actualizado!');
+      } else {
+        console.log('ERROR FATAL!! Al guardar ./final.json');
+        throw err;
+      }
+    });
+  });
+
+  return arrayEventos;
 };
