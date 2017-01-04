@@ -47,6 +47,7 @@ if request.getcode() == 200:
                 currentEvent["title"] = title.text.strip()
                 currentEvent["location"]["name"] = location.text.strip()
                 currentEvent["source"]["event_url"] = nextUrl['href']
+                currentEvent["target_url"] = nextUrl['href']
 
                 requestCurrentEvent = urlopen(currentEvent["source"]["event_url"])
                 if requestCurrentEvent.getcode() == 200:
@@ -68,9 +69,10 @@ if request.getcode() == 200:
                         currentEvent["location"]["lat"] = locationDetails[0]
                         currentEvent["location"]["lon"] = locationDetails[1]
 
-                        priceRaw = priceRaw.text.strip()
                         currentEvent["abstract_details"] = abstractDetails.text.strip()
                         currentEvent["abstract"] = currentEvent["abstract_details"][0:500]
+
+                        priceRaw = priceRaw.text.strip()
 
                         if (priceRaw == "Gratis" or priceRaw == "Free" or priceRaw == None):
                             currentEvent["price"]["isFree"] = True
