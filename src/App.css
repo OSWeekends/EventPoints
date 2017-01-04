@@ -1,0 +1,17 @@
+.app-bar {
+	margin-bottom: 40px;
+}
+
+.card-container {
+	margin: 0 auto;
+	max-width: 500px;
+}
+
+.card {
+	margin-bottom: 30px;
+}
+
+.logo-img {
+  margin: 20px 0;
+  max-width: 200px;
+}
