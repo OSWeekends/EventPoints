@@ -3,10 +3,7 @@ from bs4 import BeautifulSoup
 from urllib.request import urlopen
 import json
 import re
-from datetime import datetime
 import datetime as dt
-
-
 
 # Ampliación pendiente
 # https://www.eventbrite.com/d/spain--madrid/science-and-tech--events/madrid/?crt=regular&end_date=01%2F18%2F2017&sort=best&start_date=01%2F18%2F2017
@@ -42,8 +39,8 @@ if request.getcode() == 200:
             nextUrl = eventSoup.find("a", {"class": "list-card__main"})
             if title and date and nextUrl:
                 
-                now = datetime.now()
-                date = datetime.strptime(str(now.year) +" " + date.text.strip(), '%Y %a, %b %d\n %H:%M %p')
+                now = dt.datetime.now()
+                date = dt.datetime.strptime(str(now.year) +" " + date.text.strip(), '%Y %a, %b %d\n %H:%M %p')
                 date.isoformat()
                 
                 currentEvent["date"] = str(date).replace(" ", "T") + "Z"
@@ -89,7 +86,6 @@ if request.getcode() == 200:
                         
                         if date > startWeek and date < finishWeek:
                             eventList.append(currentEvent)
-                        
                 else:
                     print("Error! Al intentar capturar más detalles")
             else:
