@@ -41,6 +41,8 @@
   },
   "homepage": "https://github.com/OSWeekends/calendario#readme",
   "dependencies": {
-    "pillars": "0.3.7"
+    "lodash": "4.17.4",
+    "pillars": "0.3.7",
+    "uuid": "3.0.1"
   }
 }
