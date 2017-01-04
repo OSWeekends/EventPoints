@@ -4,7 +4,9 @@
   "description": "Proyecto EventPoints de Open Source Weekends",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom"
   },
   "repository": {
     "type": "git",
@@ -33,6 +35,10 @@
     {
       "name": "Laetitia Carquet",
       "url": "https://github.com/carquet"
+    },
+    {
+      "name": "Jose Miguel Bejarano",
+      "url": "https://github.com/xDae"
     }
   ],
   "license": "GPL-3.0",
@@ -43,8 +49,15 @@
   "dependencies": {
     "firebase": "3.0.5",
     "lodash": "4.17.4",
+    "material-ui": "^0.16.6",
     "pillars": "0.3.7",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-tap-event-plugin": "^2.0.1",
     "scheduled": "0.4.5",
     "uuid": "3.0.1"
+  },
+  "devDependencies": {
+    "react-scripts": "0.8.4"
   }
 }
