@@ -3,6 +3,7 @@ import urllib.request
 import json
 import time
 import datetime as dt
+import re
 
 
 today = (time.strftime("%y-%m-%d")) #to know the actual date
@@ -45,6 +46,7 @@ for day in datajson["objects"]:
             details["source"]["logo"] = "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg"
             details["abstrat"] = event["descriptionPreview"]
             details["abstrat_details"]=event["eventData"]["description"]
+            details["abstrat_details"] = re.sub(re.compile('<.*?>'), '', details["abstrat_details"])
             jsonfinal.append(details)
         else:
             print (str(eventdate) + "no pasa") 
