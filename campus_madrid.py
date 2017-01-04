@@ -3,8 +3,7 @@ import urllib.request
 import json
 import time
 
-today = (time.strftime("%y/%m/%d")) #to know the actual date
-today = today.replace(r"/", "-") # the r before "/" is for raw, and not scape
+today = (time.strftime("%y-%m-%d")) #to know the actual date
 
 urlconsult = 'https://www.campus.co/api/campuses/ag1zfmd3ZWItY2FtcHVzciILEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQM/events/?format=list&start=20' #/events/.... dejarlo igual el 20 es de 20-17
 
@@ -41,7 +40,7 @@ for i in datajson["objects"]:
                 details["abstrat_details"]=event["eventData"]["description"]
                 jsonfinal.append(details)
             
-print (jsonfinal)
+#print (jsonfinal)
 
 jsonfinal = json.dumps(jsonfinal,sort_keys=True, ensure_ascii=False,indent=4)
 archivo = open("campus_madrid.json","w")
