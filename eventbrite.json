@@ -19,6 +19,7 @@
             "name": "Evenbrite",
             "url": "https://www.eventbrite.es"
         },
+        "target_url": "https://www.eventbrite.es/e/entradas-visit-techhub-madrid-30461181213",
         "title": "Visit TechHub Madrid"
     },
     {
@@ -41,6 +42,7 @@
             "name": "Evenbrite",
             "url": "https://www.eventbrite.es"
         },
+        "target_url": "https://www.eventbrite.es/e/entradas-programacion-funcional-avanzada-con-scala-2a-ed-29668373905",
         "title": "Programación funcional avanzada con Scala (2ª ed.)"
     },
     {
@@ -63,6 +65,7 @@
             "name": "Evenbrite",
             "url": "https://www.eventbrite.es"
         },
+        "target_url": "https://www.eventbrite.com/e/entradas-4d-vr-realidad-virtual-sonora-extraterrestre-30405355236",
         "title": "4D VR - Realidad Virtual Sonora Extraterrestre"
     },
     {
@@ -85,6 +88,7 @@
             "name": "Evenbrite",
             "url": "https://www.eventbrite.es"
         },
+        "target_url": "https://www.eventbrite.es/e/entradas-visit-techhub-madrid-30461182216",
         "title": "Visit TechHub Madrid"
     },
     {
@@ -107,6 +111,7 @@
             "name": "Evenbrite",
             "url": "https://www.eventbrite.es"
         },
+        "target_url": "https://www.eventbrite.es/e/entradas-lanzamiento-de-technovation-taller-de-apps-para-ninas-de-10-a-18-anos-29299356163",
         "title": "Lanzamiento de Technovation - Taller de Apps para niñas de 10 a 18 años"
     },
     {
@@ -129,6 +134,7 @@
             "name": "Evenbrite",
             "url": "https://www.eventbrite.es"
         },
+        "target_url": "https://www.eventbrite.es/e/entradas-seminario-emadrid-sobre-pensamiento-computacional-30217726032",
         "title": "Seminario eMadrid sobre \"Pensamiento Computacional\""
     },
     {
@@ -151,6 +157,7 @@
             "name": "Evenbrite",
             "url": "https://www.eventbrite.es"
         },
+        "target_url": "https://www.eventbrite.es/e/entradas-digitalk-women-el-papel-de-la-mujer-en-entornos-tecnologicos-avanzados-30557216457",
         "title": "Digitalk Women: El papel de la mujer en entornos tecnológicos avanzados"
     }
 ]
