@@ -1,4 +1,6 @@
-var project = require('pillars'),
+var exec = require('child_process').exec,
+    fs = require('fs'),
+    project = require('pillars'),
     firebase = require('firebase'),
     config = require('./config'),
     harmonizer = require("./harmonizer.js");
@@ -75,6 +77,31 @@ function updateData(){
       }
     });
 }
+
+function pythonRocks () {
+    fs.readdir('./datasource/', (err, files) => {
+      files.forEach(file => {
+          if(/.py/.test(file)){
+            console.log(`---- Proceso hijo de ${file} Iniciado! ------`);
+            exec('cd datasource && python3 '+ file, function(error, stdout, stderr) {
+                console.log(`---- Proceso hijo de ${file} terminado! -----`);
+
+                if(stdout){
+                    console.log('stdout: ' + stdout);
+                }
+
+                if(stderr){
+                    console.log('stderr: ' + stderr);
+                }
+
+                if (error) {
+                    console.log('exec error: ' + error);
+                }
+            });
+          }
+      });
+    });
+};
 
 //updateData();
 //readData();
