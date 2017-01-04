@@ -1,57 +1,60 @@
 var exec = require('child_process').exec,
-  fs = require('fs'),
-  project = require('pillars'),
-  firebase = require('firebase'),
-  config = require('./config'),
-  harmonizer = require("./harmonizer.js");
+    fs = require('fs'),
+    project = require('pillars'),
+    firebase = require('firebase'),
+    Scheduled = require("scheduled"),
+    config = require('./config'),
+    harmonizer = require("./harmonizer.js");
 
 // Bring data from datasources
-var data = harmonizer();
+var data = [];
 
 // Firebase setup
 firebase.initializeApp({
-  serviceAccount: {
-    projectId: config.firebase.project_id,
-    clientEmail: config.firebase.client_email,
-    privateKey: config.firebase.private_key
-  },
-  databaseURL: "https://" + config.firebase.project_id + ".firebaseio.com"
+    serviceAccount: {
+        projectId: config.firebase.project_id,
+        clientEmail: config.firebase.client_email,
+        privateKey: config.firebase.private_key
+    },
+    databaseURL: "https://" + config.firebase.project_id + ".firebaseio.com"
 });
 
 var db = firebase.database();
 var ref = db.ref("events");
 
+require("./harmonizer.js")(firebase);
+
 // Starting the project
 project.services.get('http').configure({
-  port: process.env.PORT || 3000
+    port: process.env.PORT || 3000
 }).start();
 
 // Define Rutes
 var apiRoute = new Route({
-  id: 'staticRoute',
-  path: '/api',
-  cors: true
+    id: 'staticRoute',
+    path: '/api',
+    cors: true
 }, function(gw) {
-  gw.redirect("/");
+    gw.redirect("/");
 });
 
 var apiEventsRoute = new Route({
-  id: 'staticRoute',
-  path: 'api/events',
-  cors: true
+    id: 'staticRoute',
+    path: 'api/events',
+    cors: true
 }, function(gw) {
-  gw.json(data, {
-    deep: 10
-  });
+    gw.json(data, {
+        deep: 10
+    });
 });
 
 var staticRoute = new Route({
-  id: 'staticRoute',
-  path: '/*:path',
-  directory: {
-    path: './public',
-    listing: true
-  }
+    id: 'staticRoute',
+    path: '/*:path',
+    directory: {
+        path: './public',
+        listing: true
+    }
 });
 
 // Adding routes objects to the project
@@ -59,50 +62,53 @@ project.routes.add(apiEventsRoute);
 project.routes.add(apiRoute);
 project.routes.add(staticRoute);
 
-function readData() {
-  ref.once("value", function(snapshot) {
-    data = snapshot.val();
-  }, function(errorObject) {
-    console.log("Error:", errorObject);
-  });
-}
-
-function updateData() {
-  ref.set(data, function(error) {
-    if (error) {
-      console.log("Data could not be saved." + error);
-    } else {
-      console.log("Data saved successfully.");
-    }
-  });
-}
-
-function pythonRocks() {
-  fs.readdir('./datasource/', (err, files) => {
-    files.forEach(file => {
-      if (/.py/.test(file)) {
-        console.log(`---- Proceso hijo de ${file} Iniciado! ------`);
-        exec('cd datasource && python3 ' + file, function(error, stdout, stderr) {
-          console.log(`---- Proceso hijo de ${file} terminado! -----`);
-          if (stdout) {
-            console.log('stdout: ' + stdout);
-          }
-
-          if (stderr) {
-            console.log('stderr: ' + stderr);
-          }
-
-          if (error) {
-            console.log('exec error: ' + error);
-          }
-        });
-      }
-    });
-  });
-}
-
-// pythonRocks()
-// updateData();
-// readData();
-
 // Cron Tasks
+var pythonRocks = new Scheduled({
+    id: "pythonRocks",
+    pattern: "0 19 * * * *",
+    task: function() {
+        fs.readdir('./datasource/', (err, files) => {
+            files.forEach(file => {
+                if (/.py/.test(file)) {
+                    console.log(`---- Proceso hijo de ${file} Iniciado! ------`);
+                    exec('cd datasource && python3 ' + file, function(error, stdout, stderr) {
+                        console.log(`---- Proceso hijo de ${file} terminado! -----`);
+                        if (stdout) {
+                            console.log('stdout: ' + stdout);
+                        }
+
+                        if (stderr) {
+                            console.log('stderr: ' + stderr);
+                        }
+
+                        if (error) {
+                            console.log('exec error: ' + error);
+                        }
+                    });
+                }
+            });
+        });
+    }
+}).start();
+
+var harmonizerTask = new Scheduled({
+    id: "harmonizerTask",
+    pattern: "15 19 * * * *",
+    task: function() {
+        harmonizer(firebase);
+    }
+}).start();
+
+var readData = new Scheduled({
+    id: "updateDataValue",
+    pattern: "30 19 * * * *",
+    task: function() {
+        ref.once("value", function(snapshot) {
+            data = snapshot.val();
+        }, function(errorObject) {
+            console.log("Error:", errorObject);
+        });
+    }
+}).start();
+
+readData.launch();
