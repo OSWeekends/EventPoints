@@ -21,20 +21,26 @@
     {
       "name": "Ulises Gascón",
       "url": "https://github.com/ulisesGascon"
-    }, {
+    },
+    {
       "name": "Jose Manuel Gallego Chamorro",
       "url": "https://github.com/Josheriff"
-    }, {
+    },
+    {
       "name": "Ignacio Villanueva",
       "url": "https://github.com/ignaciodenuevo"
-    }, {
+    },
+    {
       "name": "Laetitia Carquet",
       "url": "https://github.com/carquet"
-    } 
+    }
   ],
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/OSWeekends/calendario/issues"
   },
-  "homepage": "https://github.com/OSWeekends/calendario#readme"
+  "homepage": "https://github.com/OSWeekends/calendario#readme",
+  "dependencies": {
+    "pillars": "0.3.7"
+  }
 }

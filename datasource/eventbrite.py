@@ -95,7 +95,7 @@ if request.getcode() == 200:
 else:
     print("Error con la petición.")
 
-text_file = open("eventbrite.json", "w")
+text_file = open("output/eventbrite.json", "w")
 print("Guardado... en eventbrite.json")
 text_file.write(json.dumps(eventList, sort_keys=True, ensure_ascii=False, indent=4))
 text_file.close()
