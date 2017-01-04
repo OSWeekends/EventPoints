@@ -34,8 +34,6 @@ for day in datajson["objects"]:
         finishWeek = now + dt.timedelta(days=7)
 
         if eventdate > startWeek and eventdate < finishWeek:
-            print (str(eventdate) + "si pasa")
-
             details["date"] = event["eventData"]["local_start"]
             details["title"] = event["eventData"]["name"]
             details["target_url"] = event["eventData"]["url"]
@@ -46,11 +44,8 @@ for day in datajson["objects"]:
             details["abstrat"] = event["descriptionPreview"]
             details["abstrat_details"]=event["eventData"]["description"]
             jsonfinal.append(details)
-        else:
-            print (str(eventdate) + "no pasa")
-#print (jsonfinal)
 
 jsonfinal = json.dumps(jsonfinal,sort_keys=True, ensure_ascii=False,indent=4)
-archivo = open("campus_madrid.json","w")
+archivo = open("output/campus_madrid.json","w")
 archivo.write(str((jsonfinal)))
 archivo.close()
