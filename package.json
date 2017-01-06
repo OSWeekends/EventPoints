@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
     "react-start": "react-scripts start",
     "react-build": "react-scripts build",
     "react-test": "react-scripts test --env=jsdom"
@@ -50,8 +50,10 @@
   "homepage": "https://github.com/OSWeekends/calendario#readme",
   "dependencies": {
     "firebase": "3.0.5",
+    "google-map-react": "^0.22.3",
     "lodash": "4.17.4",
     "pillars": "0.3.7",
+    "react-google-maps": "^6.0.1",
     "scheduled": "0.4.5",
     "uuid": "3.0.1"
   },
