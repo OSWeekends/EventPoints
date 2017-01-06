@@ -7,7 +7,7 @@ module.exports = function(firebase) {
     var db = firebase.database();
     var ref = db.ref("events");
     fs.readdir('./datasource/output', (err, files) => {
-        files.forEach(file => {
+        files.forEach(function(file){
             if (/.json/.test(file)) {
                 var currentArray = require(`./datasource/output/${file}`);
 
@@ -36,6 +36,7 @@ module.exports = function(firebase) {
             }
         });
 
+/*
         // Just in case the review is needed
         fs.writeFile('./final.json', JSON.stringify(arrayEventos, null, 4), function(err) {
             if (!err) {
@@ -45,5 +46,7 @@ module.exports = function(firebase) {
                 throw err;
             }
         });
+*/
     });
+
 };

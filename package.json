@@ -4,9 +4,11 @@
   "description": "Proyecto EventPoints de Open Source Weekends",
   "main": "server.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom"
+    "start": "node server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "react-start": "react-scripts start",
+    "react-build": "react-scripts build",
+    "react-test": "react-scripts test --env=jsdom"
   },
   "repository": {
     "type": "git",
@@ -49,15 +51,15 @@
   "dependencies": {
     "firebase": "3.0.5",
     "lodash": "4.17.4",
-    "material-ui": "^0.16.6",
     "pillars": "0.3.7",
-    "react": "^15.4.1",
-    "react-dom": "^15.4.1",
-    "react-tap-event-plugin": "^2.0.1",
     "scheduled": "0.4.5",
     "uuid": "3.0.1"
   },
   "devDependencies": {
-    "react-scripts": "0.8.4"
+    "material-ui": "0.16.6",
+    "react-scripts": "0.8.4",
+    "react": "15.4.1",
+    "react-dom": "15.4.1",
+    "react-tap-event-plugin": "2.0.1"
   }
 }

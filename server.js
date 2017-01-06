@@ -68,7 +68,7 @@ var pythonRocks = new Scheduled({
     pattern: "0 19 * * * *",
     task: function() {
         fs.readdir('./datasource/', (err, files) => {
-            files.forEach(file => {
+            files.forEach(function (file) {
                 if (/.py/.test(file)) {
                     console.log(`---- Proceso hijo de ${file} Iniciado! ------`);
                     exec('cd datasource && python3 ' + file, function(error, stdout, stderr) {
@@ -112,3 +112,5 @@ var readData = new Scheduled({
 }).start();
 
 readData.launch();
+//harmonizerTask.launch();
+//pythonRocks.launch();
