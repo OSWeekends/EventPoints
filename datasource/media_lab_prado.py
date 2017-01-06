@@ -51,7 +51,7 @@ for page in eventsList:
 
 for one_event in one_by_oneevent:
 	currentEvent = {
-				"location": {"name": "MediaLab Prado","lon": 40.411321,"lat": -3.693456},
+				"location": {"name": "MediaLab Prado","lng": 40.411321,"lat": -3.693456},
 				"price": {},
 				"source": {
 				"name": "MediaLab Prado",

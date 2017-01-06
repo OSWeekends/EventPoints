@@ -66,8 +66,8 @@ if request.getcode() == 200:
                         locationDetails = locationDetails.group(0).split(",")
                         
                         currentEvent["location"]["notes"] = False
-                        currentEvent["location"]["lat"] = locationDetails[0]
-                        currentEvent["location"]["lon"] = locationDetails[1]
+                        currentEvent["location"]["lat"] = float(locationDetails[0])
+                        currentEvent["location"]["lng"] = float(locationDetails[1])
                         
                         currentEvent["abstract_details"] = abstractDetails.text.strip()
                         currentEvent["abstract"] = currentEvent["abstract_details"][0:500]

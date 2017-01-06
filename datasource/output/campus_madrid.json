@@ -5,7 +5,7 @@
         "date": "2017-01-09T18:00:00Z",
         "location": {
             "lat": 40.41249699999999,
-            "lon": -3.7182264000000487,
+            "lng": -3.7182264000000487,
             "name": "Campus Madrid",
             "notes": "Auditorium"
         },
@@ -23,12 +23,12 @@
         "title": "The state of Spanish and European VC with Tech.eu and Novobrief"
     },
     {
-        "abstrat": "Lucía Liencres organiza en Campus Madrid una sesión de Yoga todos los miércoles a las 8.00 am para ayudar a los emprendedores a empezar el ...",
-        "abstrat_details": "Lucía Liencres organiza en Campus Madrid una sesión de Yoga todos los miércoles a las 8.00 am para ayudar a los emprendedores a empezar el día con buen pie.\n\nImparte la clase Lucía o Rebeca, dependiendo del día.\n\nPRECIO: 3€ la clase (si coges bono mensual) o 4€ por una clase suelta, a pagar como tarde el día de cada mes mediante transferencia bancaria, o, si es una clase suelta, el día antes a la clase.\n\nTodos los niveles.\n\nTipo de yoga: flow vinyasa (dinámico).",
-        "date": "2017-01-11T08:00:00Z",
+        "abstrat": "Actualizar una aplicación es una acción frecuente según le vas dotando de mayor funcionalidad y por supuesto quieres que siempre esté ...",
+        "abstrat_details": "Actualizar una aplicación es una acción frecuente según le vas dotando de mayor funcionalidad y por supuesto quieres que siempre esté disponible para tus usuarios finales. Los usuarios son críticos para ti y tu quieres ser capaz de desplegar nuevas versiones de tu aplicación sin afectarles lo más mínimo. En esta charla enseñaré como crear una aplicación pensando zero down-time. La aplicación estará funcionando en OpenShift y será actualizada sin afectar a los usuarios finales. También os describiré que consideraciones hay que tener y cómo utilizar las herramientas disponibles para poder hacer Continuous Deployment de vuestra aplicación.Ponente:Jorge Morales, Field Product Manager de OpenShift y Developer Advocate. Interesado en interactuar con clientes y usuarios de nuestra tecnología para entender como poder mejorarla. Desarrollador Java durante muchos años aunque últimamente me estoy volviendo políglota. Apasionado del cloud y del mundo DevOps, siempre he estado intentando que los desarrolladores sientan producción muy cercana. Cuando no viajo intento disfrutar de la familia sin más hobbies que ellos.",
+        "date": "2017-01-11T19:00:00Z",
         "location": {
             "lat": 40.41249699999999,
-            "lon": -3.7182264000000487,
+            "lng": -3.7182264000000487,
             "name": "Campus Madrid",
             "notes": "Auditorium"
         },
@@ -37,12 +37,104 @@
             "isFree": false
         },
         "source": {
-            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxUnFiU0FBUww",
+            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxVDBwMEFBQww",
             "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
             "name": "Campus Madrid",
             "url": "http://campus.co/madrid"
         },
-        "target_url": "http://www.lucialiencres.com/yoga-campus-madrid/",
-        "title": "Campus Community: Yoga"
+        "target_url": "https://www.meetup.com/es/meetup-group-lAoZvyGw/events/235877104/?eventId=235877104",
+        "title": "Diseñar tus aplicaciones pensando en actualizaciones con zero down-time."
+    },
+    {
+        "abstrat": "Actualizar una aplicación es una acción frecuente según le vas dotando de mayor funcionalidad y por supuesto quieres que siempre esté ...",
+        "abstrat_details": "Actualizar una aplicación es una acción frecuente según le vas dotando de mayor funcionalidad y por supuesto quieres que siempre esté disponible para tus usuarios finales. Los usuarios son críticos para ti y tu quieres ser capaz de desplegar nuevas versiones de tu aplicación sin afectarles lo más mínimo. En esta charla enseñaré como crear una aplicación pensando zero down-time. La aplicación estará funcionando en OpenShift y será actualizada sin afectar a los usuarios finales. También os describiré que consideraciones hay que tener y cómo utilizar las herramientas disponibles para poder hacer Continuous Deployment de vuestra aplicación.Ponente:Jorge Morales, Field Product Manager de OpenShift y Developer Advocate. Interesado en interactuar con clientes y usuarios de nuestra tecnología para entender como poder mejorarla. Desarrollador Java durante muchos años aunque últimamente me estoy volviendo políglota. Apasionado del cloud y del mundo DevOps, siempre he estado intentando que los desarrolladores sientan producción muy cercana. Cuando no viajo intento disfrutar de la familia sin más hobbies que ellos.",
+        "date": "2017-01-11T19:00:00Z",
+        "location": {
+            "lat": 40.41249699999999,
+            "lng": -3.7182264000000487,
+            "name": "Campus Madrid",
+            "notes": "Auditorium"
+        },
+        "price": {
+            "details": "Unknown",
+            "isFree": false
+        },
+        "source": {
+            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxVDBwMEFBQww",
+            "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
+            "name": "Campus Madrid",
+            "url": "http://campus.co/madrid"
+        },
+        "target_url": "https://www.meetup.com/es/meetup-group-lAoZvyGw/events/235877104/?eventId=235877104",
+        "title": "Diseñar tus aplicaciones pensando en actualizaciones con zero down-time."
+    },
+    {
+        "abstrat": "New at Campus? Want to know more about how to get the most out of it and meet other female entrepreneurs?Every second Thursday of each ...",
+        "abstrat_details": "New at Campus? Want to know more about how to get the most out of it and meet other female entrepreneurs?Every second Thursday of each month at 1pm women ambassadors from the Campus community invite you to join them at the Campus Café to answer your questions and help you make great connections. No signup needed!Coffee and cake is on us! :)",
+        "date": "2017-01-12T13:00:00Z",
+        "location": {
+            "lat": 40.41249699999999,
+            "lng": -3.7182264000000487,
+            "name": "Campus Madrid",
+            "notes": "Cafe Floor 1"
+        },
+        "price": {
+            "details": "Unknown",
+            "isFree": false
+        },
+        "source": {
+            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxU202ZkFBQww",
+            "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
+            "name": "Campus Madrid",
+            "url": "http://campus.co/madrid"
+        },
+        "target_url": null,
+        "title": "Campus Community: Women Welcome"
+    },
+    {
+        "abstrat": "New at Campus? Want to know more about how to get the most out of it and meet other female entrepreneurs?Every second Thursday of each ...",
+        "abstrat_details": "New at Campus? Want to know more about how to get the most out of it and meet other female entrepreneurs?Every second Thursday of each month at 1pm women ambassadors from the Campus community invite you to join them at the Campus Café to answer your questions and help you make great connections. No signup needed!Coffee and cake is on us! :)",
+        "date": "2017-01-12T13:00:00Z",
+        "location": {
+            "lat": 40.41249699999999,
+            "lng": -3.7182264000000487,
+            "name": "Campus Madrid",
+            "notes": "Cafe Floor 1"
+        },
+        "price": {
+            "details": "Unknown",
+            "isFree": false
+        },
+        "source": {
+            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxU202ZkFBQww",
+            "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
+            "name": "Campus Madrid",
+            "url": "http://campus.co/madrid"
+        },
+        "target_url": null,
+        "title": "Campus Community: Women Welcome"
+    },
+    {
+        "abstrat": "El único evento exclusivamente dedicado a los nuevos dominios de Internet. Escucha a los mejores expertos en Internet, marketing digital, ...",
+        "abstrat_details": "El único evento exclusivamente dedicado a los nuevos dominios de Internet. Escucha a los mejores expertos en Internet, marketing digital, ...Pon mas Dominios en tu Startup!Estás interesado en saber cómo puedes usar los nuevos Dominios para mejorar el marketing y la presencia online ? Expertos en esta materia te enseñarán: *   ¿Cuáles son los nuevos dominios disponibles?*   ¿A quién se dirigen y quién puede registrarlos?*   ¿Cómo ayudan a mejorar la presencia online?*   ¿Cómo se pueden usar en las campañas de marketing?*   ¿Qué impacto van a tener en el comercio electrónico?*   ¿Cuál es la mejor estrategia para registrar nuevos dominios?*   ¿Qué extensiones interesan a cada tipo de negocio?*   ¿Qué hacer y qué no hacer con un nuevo dominio?*   ¿Qué están haciendo ya otras empresas con estos dominios?Keynote Speaker: Jesús Alonso GalloFundador de Restaurantes.comDe empleado en serie a emprendedor en serie, de emprendedor en serie a inversor en serie.",
+        "date": "2017-01-13T09:30:00Z",
+        "location": {
+            "lat": 40.41249699999999,
+            "lng": -3.7182264000000487,
+            "name": "Campus Madrid",
+            "notes": "Auditorium"
+        },
+        "price": {
+            "details": "Unknown",
+            "isFree": false
+        },
+        "source": {
+            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxU2wyUkFBUww",
+            "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
+            "name": "Campus Madrid",
+            "url": "http://campus.co/madrid"
+        },
+        "target_url": "http://www.thename.show/madrid/",
+        "title": "TheName SHOW Madrid"
     }
 ]

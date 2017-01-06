@@ -4,8 +4,8 @@
         "abstract_details": "Are you working on an exciting tech product and are interested in joining of the TechHub community? We'd love to meet you - come visit us at Campus Madrid and see what being a TechHub member is all about!\n \nOur team will make you a tea/coffee, show you the TechHub space, and talk to you about:\n\nMembership structure and costs, and what the best membership combination is for you and your team\nWhat’s included in the membership and how we support our members through events, community initiatives and our international support network (connecting members to potential collaborators, partners, employees and investors)\nThe TechHub application criteria and process (who we accept, what information you need to give and how long it takes to process applications)\nAnswer any other questions you have about how we can help your startup or how you can collaborate with TechHub\n\n\nYou're also welcome to bring your colleagues - please make sure they register for the tour via this Eventbrite page by forwarding them the link ;) If you are running late or need to cancel, please email us on membership.madrid@techhub.com\n¡Hasta pronto!",
         "date": "2017-01-11T11:00:00Z",
         "location": {
-            "lat": "40.41263300000001",
-            "lon": "-3.718321899999978",
+            "lat": 40.41263300000001,
+            "lng": -3.718321899999978,
             "name": "TechHub Madrid, Madrid",
             "notes": false
         },
@@ -23,17 +23,40 @@
         "title": "Visit TechHub Madrid"
     },
     {
+        "abstract": "Dear data lovers! These days of festivities seem to be finally wearing off and your usual routing starts to take over soon… And your usual routine includes, of course, attending a Databeers event! So, lest you have the withdrawal syndrome, we are back!\n\nThis time we have a Databeers Branded Event organized jointly with Telefónica, who provides the content and the venue & beers for your sheer enjoyment of their data stories. We will meet at 19:00 at the Ágora Wayra in the Telefónica building at C",
+        "abstract_details": "Dear data lovers! These days of festivities seem to be finally wearing off and your usual routing starts to take over soon… And your usual routine includes, of course, attending a Databeers event! So, lest you have the withdrawal syndrome, we are back!\n\nThis time we have a Databeers Branded Event organized jointly with Telefónica, who provides the content and the venue & beers for your sheer enjoyment of their data stories. We will meet at 19:00 at the Ágora Wayra in the Telefónica building at Calle Gran Vía 28 planta 8ª (entrance is in calle Valverde 2). Important! Please note that Telefónica requires attendees to indicate their national IDs when reserving the ticket and to show their IDs at the entrance (so we’ll ask for it in the Eventbrite form).\n\nPlease register here for the event!\n\nOur data speakers lineup is as follows:\n\nPedro López Fernández, Lead Data Scientist - Drivies (Telefónica I+D), title TBD\nJavier Carro Calabor, (Data Analyst - LUCA) - Commuter Traffic: Can Big Data solve the problem?\nCarlos Olmos & Alberto Santos, Urban Data Analytics, title TBD\nJuan Luis Cano, Synergic Partners, @astrojuanlu, \"Kitt, esquiva a ese peatón”\nTomás Morales, Synergic Partners, title TBD\n\nSpread the word, be data and bring your friends, because as you know the more the merrier!",
+        "date": "2017-01-12T07:00:00Z",
+        "location": {
+            "lat": 40.4204889,
+            "lng": -3.702173499999958,
+            "name": "Ágora Wayra (Edificio Telefónica, planta 8), Madrid",
+            "notes": false
+        },
+        "price": {
+            "details": false,
+            "isFree": true
+        },
+        "source": {
+            "event_url": "https://www.eventbrite.es/e/entradas-databeers-branded-event-telefonica-30903885353",
+            "logo": "https://eventbrite-s3.s3.amazonaws.com/marketing/landingpages/shared/images/eb-logo.png",
+            "name": "Evenbrite",
+            "url": "https://www.eventbrite.es"
+        },
+        "target_url": "https://www.eventbrite.es/e/entradas-databeers-branded-event-telefonica-30903885353",
+        "title": "Databeers Branded Event - Telefónica"
+    },
+    {
         "abstract": "Resumen\n\nEste curso ofrece una introducción avanzada a tres estilos de programación soportados y promovidos por la programación funcional: la programación genérica, la programación aplicativa y la programación monádica. El curso también introduce el papel que juegan las álgebras en la programación funcional, y los dos estilos de programación algebraica principales: basados en type classes y basados en F-algebras, transformaciones naturales, tipos algebraicos de datos generalizados, etc. Durante ",
         "abstract_details": "Resumen\n\nEste curso ofrece una introducción avanzada a tres estilos de programación soportados y promovidos por la programación funcional: la programación genérica, la programación aplicativa y la programación monádica. El curso también introduce el papel que juegan las álgebras en la programación funcional, y los dos estilos de programación algebraica principales: basados en type classes y basados en F-algebras, transformaciones naturales, tipos algebraicos de datos generalizados, etc. Durante el curso utilizaremos Scala y su fantástico ecosistema de librerías para la programación funcional, concretamente, shapeless y las librerías de type classes scalaz y cats. Con una menor relevancia, en el curso también se hará mención a la librería de pruebas Scalacheck. Para cada uno de estos tres estilos de programación, se describirán los problemas más relevantes para los que están pensados, sus abstracciones constituyentes y el soporte que ofrecen para ellos las librerías del ecosistema de Scala.\n\nObjetivos\n\nEncuadrar los tres estilos de programación estudiados durante el curso como parte del catálogo de técnicas de modularidad proporcionadas por la programación funcional\nEntender los patrones de diseño utilizados por Cats y Scalaz en la implementación de la signatura, leyes, operaciones derivadas, instancias y sintaxis de las type classes incluidas en dichas librerías.\nInstanciar las type classes monádicas más comunes (MonadState, MonadError, etc.) con los transformadores de mónadas correspondientes (StateT, EitherT, etc.), y entender cómo funcionan dichos transformadores.\nEntender el papel que desempeñan las algebras en la programación funcionaln como especificaciones de DSLs, y las distintas formas de representarlas: con tipos algebraicos de datos (F-Algebras) y mediante type classes (Ojbect-algebras).\nUtilizar tipos algebraicos de datos generalizados, transformaciones naturales y Free monads para diseñar DSLs, y saber cuándo utilizar estas representaciones en lugar de las basadas en Church encodings y álgebras de objetos.\nEntender las diferencias entre los estilos aplicativo y monádico (es decir, imperativo), sus principales aplicaciones y el soporte que ofrecen scalaz y cats para ellos\nEntender el concepto de representación libre (\"free structures\") y su aplicación al diseño de lenguajes aplicativos y monádicos\nEntender el papel de las listas heterogéneas (HList) y los coproductos para abstraer la forma particular de los tipos algebraicos de datos (ADTs), y poder de esa forma implementar algoritmos genéricos que trabajen a ese nivel de abstracción (por ejemplo, para derivar automáticamente type classes). ¡Todo ello utilizando shapeless!\nEntender la arquitectura interna de shapeless, cats y scalaz, así como las técnicas de Scala más avanzadas utilizadas en su diseño\n¡Aprender más programación funcional por uno mismo!\n\nTemario\n\nType class libraries: Scalaz & Cats\n\nScalaz & Cats overview\nType classes: Monad, MonadState, MonadError, etc.\nMonad transformers: StateT, EitherT, etc.\n\n\nAlgebras and functional programming\n\nF-algebras and object-algebras\nGADTs and natural transformations\nFree structures: free monoids and free monads\n\n\nApplicative programming\n\nApplicative functors\nTraversables\nFree applicatives\n\n\nDatatype generic programming\n\nShapeless architecture\nHList, Coproduct and Fix\nAutomatic type class derivation\n\n\n\nAudiencia\nEste curso está especialmente dirigido a ti si:\n\nProgramadores de Scala con conocimientos intermedios de programación funcional, deseosos de mejorar su conocimiento de este paradigma y poder utilizar shapeless, scalaz, cats, y otras librerías igualmente avanzadas del ecosistema de Scala, en su código de producción\nProgramadores con un conocimiento profundo de programación funcional, con ganas de saber cómo se aplican dichos conocimientos con Scala y su ecosistema de librerías\n\nMás información en ... \nhttp://www.hablapps.com/index.html#functional-advanced-es",
         "date": "2017-01-13T04:00:00Z",
         "location": {
-            "lat": "40.3543998",
-            "lon": "-3.7462984999999662",
+            "lat": 40.3543998,
+            "lng": -3.7462984999999662,
             "name": "Parque Científico Universidad Carlos III de Madrid, Leganés, Madrid",
             "notes": false
         },
         "price": {
-            "details": "275 € – 550 €",
+            "details": "275 € – 550 €",
             "isFree": false
         },
         "source": {
@@ -44,120 +67,5 @@
         },
         "target_url": "https://www.eventbrite.es/e/entradas-programacion-funcional-avanzada-con-scala-2a-ed-29668373905",
         "title": "Programación funcional avanzada con Scala (2ª ed.)"
-    },
-    {
-        "abstract": "Presentacion y demostración práctica del sistema de realidad virtual 4D VR de grabación y reproducción de sonido que no necesita ningún tipo de auricular para mover objetos sonoros tridimensionales. \nEste sistema de sonido, puede mover y rotar objetos sonoros sobre sí mismos, crear huecos sonoros (agujeros negros) y representar la realidad que nos rodea al 100% con un ratio de realismo 1:1. \nTecnologia Extraterrestre a tu alcance, ¿te lo vas a perder?",
-        "abstract_details": "Presentacion y demostración práctica del sistema de realidad virtual 4D VR de grabación y reproducción de sonido que no necesita ningún tipo de auricular para mover objetos sonoros tridimensionales. \nEste sistema de sonido, puede mover y rotar objetos sonoros sobre sí mismos, crear huecos sonoros (agujeros negros) y representar la realidad que nos rodea al 100% con un ratio de realismo 1:1. \nTecnologia Extraterrestre a tu alcance, ¿te lo vas a perder?",
-        "date": "2017-01-14T01:00:00Z",
-        "location": {
-            "lat": "40.41249699999999",
-            "lon": "-3.7182264000000487",
-            "name": "Campus Google Madrid, Madrid",
-            "notes": false
-        },
-        "price": {
-            "details": false,
-            "isFree": true
-        },
-        "source": {
-            "event_url": "https://www.eventbrite.com/e/entradas-4d-vr-realidad-virtual-sonora-extraterrestre-30405355236",
-            "logo": "https://eventbrite-s3.s3.amazonaws.com/marketing/landingpages/shared/images/eb-logo.png",
-            "name": "Evenbrite",
-            "url": "https://www.eventbrite.es"
-        },
-        "target_url": "https://www.eventbrite.com/e/entradas-4d-vr-realidad-virtual-sonora-extraterrestre-30405355236",
-        "title": "4D VR - Realidad Virtual Sonora Extraterrestre"
-    },
-    {
-        "abstract": "Are you working on an exciting tech product and are interested in joining of the TechHub community? We'd love to meet you - come visit us at Campus Madrid and see what being a TechHub member is all about!\n \nOur team will make you a tea/coffee, show you the TechHub space, and talk to you about:\n\nMembership structure and costs, and what the best membership combination is for you and your team\nWhat’s included in the membership and how we support our members through events, community initiatives and",
-        "abstract_details": "Are you working on an exciting tech product and are interested in joining of the TechHub community? We'd love to meet you - come visit us at Campus Madrid and see what being a TechHub member is all about!\n \nOur team will make you a tea/coffee, show you the TechHub space, and talk to you about:\n\nMembership structure and costs, and what the best membership combination is for you and your team\nWhat’s included in the membership and how we support our members through events, community initiatives and our international support network (connecting members to potential collaborators, partners, employees and investors)\nThe TechHub application criteria and process (who we accept, what information you need to give and how long it takes to process applications)\nAnswer any other questions you have about how we can help your startup or how you can collaborate with TechHub\n\n\nYou're also welcome to bring your colleagues - please make sure they register for the tour via this Eventbrite page by forwarding them the link ;) If you are running late or need to cancel, please email us on membership.madrid@techhub.com\n¡Hasta pronto!",
-        "date": "2017-01-18T11:00:00Z",
-        "location": {
-            "lat": "40.41263300000001",
-            "lon": "-3.718321899999978",
-            "name": "TechHub Madrid, Madrid",
-            "notes": false
-        },
-        "price": {
-            "details": false,
-            "isFree": true
-        },
-        "source": {
-            "event_url": "https://www.eventbrite.es/e/entradas-visit-techhub-madrid-30461182216",
-            "logo": "https://eventbrite-s3.s3.amazonaws.com/marketing/landingpages/shared/images/eb-logo.png",
-            "name": "Evenbrite",
-            "url": "https://www.eventbrite.es"
-        },
-        "target_url": "https://www.eventbrite.es/e/entradas-visit-techhub-madrid-30461182216",
-        "title": "Visit TechHub Madrid"
-    },
-    {
-        "abstract": "Empieza una nueva edición de Technovation, el programa de tecnología y emprendimiento en el que chicas de 10 a 18 años crean una app que resuelve un problema social. Cada año, Technovation invita a equipos de niñas y adolescentes de todo el mundo a aprender y aplicar las competencias que son necesarias para resolver problemas reales a través de la tecnología, siendo líderes e innovadoras.\nEstos equipos identifican un problema, crean una app para resolverlo, programan la app presentan su plan de ",
-        "abstract_details": "Empieza una nueva edición de Technovation, el programa de tecnología y emprendimiento en el que chicas de 10 a 18 años crean una app que resuelve un problema social. Cada año, Technovation invita a equipos de niñas y adolescentes de todo el mundo a aprender y aplicar las competencias que son necesarias para resolver problemas reales a través de la tecnología, siendo líderes e innovadoras.\nEstos equipos identifican un problema, crean una app para resolverlo, programan la app presentan su plan de negocio a expertos y lanzan la app al mercado – todo en 3 meses y sin experiencia previa. Las inscripciones están abiertas ahora para esta edición que empieza en enero y acaba con la presentación online del proyecto el 26 de abril. \nÚnete a nosotros si eres una joven que quiere conocer el programa o simplemente pasar una tarde aprendiendo el proceso de creación de una app. También te esperamos si quieres ser mentor o mentora.",
-        "date": "2017-01-19T06:30:00Z",
-        "location": {
-            "lat": "40.4121601",
-            "lon": "-3.718060400000013",
-            "name": "Campus Madrid, Madrid",
-            "notes": false
-        },
-        "price": {
-            "details": false,
-            "isFree": true
-        },
-        "source": {
-            "event_url": "https://www.eventbrite.es/e/entradas-lanzamiento-de-technovation-taller-de-apps-para-ninas-de-10-a-18-anos-29299356163",
-            "logo": "https://eventbrite-s3.s3.amazonaws.com/marketing/landingpages/shared/images/eb-logo.png",
-            "name": "Evenbrite",
-            "url": "https://www.eventbrite.es"
-        },
-        "target_url": "https://www.eventbrite.es/e/entradas-lanzamiento-de-technovation-taller-de-apps-para-ninas-de-10-a-18-anos-29299356163",
-        "title": "Lanzamiento de Technovation - Taller de Apps para niñas de 10 a 18 años"
-    },
-    {
-        "abstract": "Seminario eMadrid sobre \"Pensamiento Computacional\"\nSeminario gratuito. Toda la información del evento está disponible en la web de la la red eMadrid.\nPrograma\n\n\nEl repositorio de proyectos Scratch: nuevas oportunidades de investigación y su impacto en la educación. Jesús Moreno León. Programamos.\n\n\nEl Pensamiento computacional como una herramienta transversal en los centros educativos.Julio Rodríguez Borges. Sesa Sistemas.\n\n\nPensamiento Computacional Unplugged para niños: Enseñanza de la comput",
-        "abstract_details": "Seminario eMadrid sobre \"Pensamiento Computacional\"\nSeminario gratuito. Toda la información del evento está disponible en la web de la la red eMadrid.\nPrograma\n\n\nEl repositorio de proyectos Scratch: nuevas oportunidades de investigación y su impacto en la educación. Jesús Moreno León. Programamos.\n\n\nEl Pensamiento computacional como una herramienta transversal en los centros educativos.Julio Rodríguez Borges. Sesa Sistemas.\n\n\nPensamiento Computacional Unplugged para niños: Enseñanza de la computación sin el protagonista.Christian Brackmann. Instituto Federal de Educación, Ciencia y Tecnología Farroupilha (IFFAR).",
-        "date": "2017-01-20T03:00:00Z",
-        "location": {
-            "lat": "40.2867615",
-            "lon": "-3.821852799999988",
-            "name": "Universidad Rey Juan Carlos, Fuenlabrada",
-            "notes": false
-        },
-        "price": {
-            "details": false,
-            "isFree": true
-        },
-        "source": {
-            "event_url": "https://www.eventbrite.es/e/entradas-seminario-emadrid-sobre-pensamiento-computacional-30217726032",
-            "logo": "https://eventbrite-s3.s3.amazonaws.com/marketing/landingpages/shared/images/eb-logo.png",
-            "name": "Evenbrite",
-            "url": "https://www.eventbrite.es"
-        },
-        "target_url": "https://www.eventbrite.es/e/entradas-seminario-emadrid-sobre-pensamiento-computacional-30217726032",
-        "title": "Seminario eMadrid sobre \"Pensamiento Computacional\""
-    },
-    {
-        "abstract": "Tras el éxito de su primera convocatoria, el grupo de Diversity de Accenture, Digital Women Iberia, nos invita a su segunda Digitalk Women.\nA través de una serie de sesiones relacionadas con el mundo digital profundizaremos en puntos de innovación digital en los que Accenture está poniendo actualmente su foco.\nEn este caso la sesión se centrará en el papel de la mujer en entornos tecnológicos avanzados.\nBerta Galán, Lorena Rojas y Marta Murillo (Accenture Digital Delivery) comenzarán hablando so",
-        "abstract_details": "Tras el éxito de su primera convocatoria, el grupo de Diversity de Accenture, Digital Women Iberia, nos invita a su segunda Digitalk Women.\nA través de una serie de sesiones relacionadas con el mundo digital profundizaremos en puntos de innovación digital en los que Accenture está poniendo actualmente su foco.\nEn este caso la sesión se centrará en el papel de la mujer en entornos tecnológicos avanzados.\nBerta Galán, Lorena Rojas y Marta Murillo (Accenture Digital Delivery) comenzarán hablando sobre cómo en los últimos años se está dando una mayor visibilidad a las mujeres dentro de entornos tecnológicos. Para ello, es necesario enfrentarse a nuevos retos y conseguir un mayor desarrollo profesional. En esta sesión, contaremos las experiencias y desafíos que se encuentran en su día a día distintas mujeres con diferentes roles dentro del mundo de la innovación y el desarrollo de proyectos. Como, desde la inspiración y el trabajo, se mantienen al corriente de las nuevas herramientas, lideran, gestionan equipos y crecen profesionalmente en un sector altamente complicado.\nA continuación Sara Gomes (Accenture Portugal, conferencia en Inglés), nos hablará sobre como la educación y prejuicios sobre el rol de la mujer respecto al hombre afectan en la selección de carreras técnicas por parte de las mujeres. Este “hándicap” afecta también en la evolución de su vida profesional en este sector.\nSara contará además su experiencia profesional tras sufrir un periodo de coma, que le ha ayudado a reflexionar y aplicar nuevas herramientas para la transformación digital de organizaciones tanto en Europa como en Estados Unidos.\nAunque estas sesiones están organizadas e impartidas por este grupo de mujeres, el evento está totalmente abierto y enfocado tanto a hombres como a mujeres por igual, ¡Os esperamos!\nDigital Women Iberia\n*Tras la sesión tendrá lugar un coctel de networking",
-        "date": "2017-01-23T07:00:00Z",
-        "location": {
-            "lat": "40.4124971",
-            "lon": "-3.7182264000000487",
-            "name": "Google Campus Madrid, Madrid",
-            "notes": false
-        },
-        "price": {
-            "details": false,
-            "isFree": true
-        },
-        "source": {
-            "event_url": "https://www.eventbrite.es/e/entradas-digitalk-women-el-papel-de-la-mujer-en-entornos-tecnologicos-avanzados-30557216457",
-            "logo": "https://eventbrite-s3.s3.amazonaws.com/marketing/landingpages/shared/images/eb-logo.png",
-            "name": "Evenbrite",
-            "url": "https://www.eventbrite.es"
-        },
-        "target_url": "https://www.eventbrite.es/e/entradas-digitalk-women-el-papel-de-la-mujer-en-entornos-tecnologicos-avanzados-30557216457",
-        "title": "Digitalk Women: El papel de la mujer en entornos tecnológicos avanzados"
     }
 ]

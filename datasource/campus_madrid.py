@@ -26,7 +26,7 @@ for day in datajson["objects"]:
     
     details = {"source":{"name":"Campus Madrid"},"price":{"isFree":False,"details":"Unknown"},"location":{}} #creating the properties that has properties
     details["location"]["lat"] = 40.41249699999999
-    details["location"]["lon"] = -3.7182264000000487
+    details["location"]["lng"] = -3.7182264000000487
     details["location"]["name"] = "Campus Madrid"
     
     for event in day["events"]:
