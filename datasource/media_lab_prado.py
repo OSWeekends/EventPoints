@@ -1,9 +1,9 @@
-# http://medialab-prado.es/events/2016-12-01
 # -*- coding: utf-8 -*-
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
 import time
 import datetime as dt
+import json
 
 
 
@@ -70,10 +70,14 @@ for one_event in one_by_oneevent:
 		currentEvent["target_url"] = event_url['href']
 		currentEvent["source"]["event_url"] = event_url['href']
 		currentEvent["abstract"] = abstract.text
-		currentEvent["abstract-details"] = abstract
+		currentEvent["abstract-details"] = abstract.text
+	
 	jsonfinal.append(currentEvent)
 
-print(jsonfinal)
+text_file = open("output/media-lab-prado.json", "w")
+print("Guardado... en medialab.json")
+text_file.write(json.dumps(jsonfinal, sort_keys=True, ensure_ascii=False, indent=4))
+text_file.close()
 					
 
 
