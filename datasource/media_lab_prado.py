@@ -53,7 +53,7 @@ for one_event in one_by_oneevent:
 	currentEvent = {
 				"location": {"name": "MediaLab Prado","lng": 40.411321,"lat": -3.693456},
 				"price": {
-          "isTrusted": True,
+          "isTrusted": False,
         },
 				"source": {
 				"name": "MediaLab Prado",
