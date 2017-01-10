@@ -48,6 +48,7 @@ for one_event in one_by_oneevent:
 						"isTrusted": False,
 						"details": "estimado"
 				},
+				"location": {"name": "MediaLab Prado","lng": 40.411321,"lat": -3.693456},
 				"source": {
 					"name": "MediaLab Prado",
 					"logo": "http://blogs.medialab-prado.es/streamlab/wp-content/uploads/sites/28/2016/01/00_logo-medialab-madrid.jpg",

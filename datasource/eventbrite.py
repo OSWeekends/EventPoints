@@ -24,7 +24,9 @@ if request.getcode() == 200:
         for event in events:
             currentEvent = {
                 "location": {},
-                "price": {},
+                "price": {
+                    "isTrusted": True,
+                },
                 "source": {
                     "name": "Evenbrite",
                     "logo": "https://eventbrite-s3.s3.amazonaws.com/marketing/landingpages/shared/images/eb-logo.png",

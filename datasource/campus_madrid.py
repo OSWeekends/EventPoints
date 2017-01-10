@@ -24,7 +24,7 @@ now = dt.datetime.now()
 
 for day in datajson["objects"]:
     
-    details = {"source":{"name":"Campus Madrid"},"price":{"isFree":False,"details":"Unknown"},"location":{}} #creating the properties that has properties
+    details = {"source":{"name":"Campus Madrid"},"price":{"isFree":True,"isTrusted":False,"details":"estimado"},"location":{}} #creating the properties that has properties
     details["location"]["lat"] = 40.41249699999999
     details["location"]["lng"] = -3.7182264000000487
     details["location"]["name"] = "Campus Madrid"
