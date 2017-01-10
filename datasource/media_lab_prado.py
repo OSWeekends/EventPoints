@@ -52,7 +52,9 @@ for page in eventsList:
 for one_event in one_by_oneevent:
 	currentEvent = {
 				"location": {"name": "MediaLab Prado","lng": 40.411321,"lat": -3.693456},
-				"price": {},
+				"price": {
+          "isTrusted": True,
+        },
 				"source": {
 				"name": "MediaLab Prado",
 				"logo": "http://blogs.medialab-prado.es/streamlab/wp-content/uploads/sites/28/2016/01/00_logo-medialab-madrid.jpg",
