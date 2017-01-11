@@ -1,7 +1,2 @@
-application: eventpoints-app
-version: 1
-runtime: node
-api_version: 1
-handlers:
-- url: /.*
-  script: server.js
+env: flex
+runtime: nodejs

@@ -112,5 +112,5 @@ var readData = new Scheduled({
 }).start();
 
 readData.launch();
-//harmonizerTask.launch();
+harmonizerTask.launch();
 //pythonRocks.launch();
