@@ -1,77 +1,8 @@
 [
     {
-        "abstrat": "On Monday, January 9, Tech.eu and Novobrief will share our new full-year data on venture capital activity across Europe, with a focus on ...",
-        "abstrat_details": "On Monday, January 9, Tech.eu and Novobrief will share our new full-year data on venture capital activity across Europe, with a focus on Spain, and our outlook for 2017. We'll also include a short panel discussion with founders from local tech companies who have successfully raised venture capital. This will be followed up with drinks and networking at the same location. We are personally inviting leaders across Madrid's tech scene, so this is an event you won't want to miss!\n\nThe agenda:\n\n- Introduction from Robin Wauters, founder and editor of Tech.eu\n\n- Trends in European venture capital, from Shaheen Samavati, data analyst and reporter at Tech.eu\n\n- The VC landscape in Spain, from Alex Barrera, partner at Tech.eu, and chief WOWness officier at Press42\n\n- Founders of Spanish tech companies talk about their experiences raising financing, moderated by: Jaime Novoa, founder of Novobrief and analyst at K Fund. Featuring: Ander Michelena, CEO of Ticketbis (aquired by Stubhub/Ebay in May); Alejandro Artacho, CEO of Spotahome; Eduardo Fernández, CEO of ShuttleCloud; and Ben Askew-Renaut, CEO of Packlink.\n\n- Drinks and networking\n\nAbout Tech.eu\n\nTech.eu is Europe's top online source for technology news, data analysis and market intelligence. If you haven't already, make sure to sign up for our weekly newsletter and podcast series to keep up on the latest in European tech and venture capital. \n\nIf you have a funding announcement or other significant tech industry news and would like to be featured in our newsletter and/or podcast, please email shaheen@tech.eu.\n\nAbout Novobrief\n\nNovobrief is an English language publication covering the Spanish startup ecosystem.",
-        "date": "2017-01-09T18:00:00Z",
-        "location": {
-            "lat": 40.41249699999999,
-            "lng": -3.7182264000000487,
-            "name": "Campus Madrid",
-            "notes": "Auditorium"
-        },
-        "price": {
-            "details": "Unknown",
-            "isFree": false
-        },
-        "source": {
-            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxVFZvSUFBVww",
-            "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
-            "name": "Campus Madrid",
-            "url": "http://campus.co/madrid"
-        },
-        "target_url": "https://www.eventbrite.com/e/the-state-of-spanish-and-european-vc-with-techeu-and-novobrief-tickets-30325084143",
-        "title": "The state of Spanish and European VC with Tech.eu and Novobrief"
-    },
-    {
-        "abstrat": "Actualizar una aplicación es una acción frecuente según le vas dotando de mayor funcionalidad y por supuesto quieres que siempre esté ...",
-        "abstrat_details": "Actualizar una aplicación es una acción frecuente según le vas dotando de mayor funcionalidad y por supuesto quieres que siempre esté disponible para tus usuarios finales. Los usuarios son críticos para ti y tu quieres ser capaz de desplegar nuevas versiones de tu aplicación sin afectarles lo más mínimo. En esta charla enseñaré como crear una aplicación pensando zero down-time. La aplicación estará funcionando en OpenShift y será actualizada sin afectar a los usuarios finales. También os describiré que consideraciones hay que tener y cómo utilizar las herramientas disponibles para poder hacer Continuous Deployment de vuestra aplicación.Ponente:Jorge Morales, Field Product Manager de OpenShift y Developer Advocate. Interesado en interactuar con clientes y usuarios de nuestra tecnología para entender como poder mejorarla. Desarrollador Java durante muchos años aunque últimamente me estoy volviendo políglota. Apasionado del cloud y del mundo DevOps, siempre he estado intentando que los desarrolladores sientan producción muy cercana. Cuando no viajo intento disfrutar de la familia sin más hobbies que ellos.",
-        "date": "2017-01-11T19:00:00Z",
-        "location": {
-            "lat": 40.41249699999999,
-            "lng": -3.7182264000000487,
-            "name": "Campus Madrid",
-            "notes": "Auditorium"
-        },
-        "price": {
-            "details": "Unknown",
-            "isFree": false
-        },
-        "source": {
-            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxVDBwMEFBQww",
-            "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
-            "name": "Campus Madrid",
-            "url": "http://campus.co/madrid"
-        },
-        "target_url": "https://www.meetup.com/es/meetup-group-lAoZvyGw/events/235877104/?eventId=235877104",
-        "title": "Diseñar tus aplicaciones pensando en actualizaciones con zero down-time."
-    },
-    {
-        "abstrat": "Actualizar una aplicación es una acción frecuente según le vas dotando de mayor funcionalidad y por supuesto quieres que siempre esté ...",
-        "abstrat_details": "Actualizar una aplicación es una acción frecuente según le vas dotando de mayor funcionalidad y por supuesto quieres que siempre esté disponible para tus usuarios finales. Los usuarios son críticos para ti y tu quieres ser capaz de desplegar nuevas versiones de tu aplicación sin afectarles lo más mínimo. En esta charla enseñaré como crear una aplicación pensando zero down-time. La aplicación estará funcionando en OpenShift y será actualizada sin afectar a los usuarios finales. También os describiré que consideraciones hay que tener y cómo utilizar las herramientas disponibles para poder hacer Continuous Deployment de vuestra aplicación.Ponente:Jorge Morales, Field Product Manager de OpenShift y Developer Advocate. Interesado en interactuar con clientes y usuarios de nuestra tecnología para entender como poder mejorarla. Desarrollador Java durante muchos años aunque últimamente me estoy volviendo políglota. Apasionado del cloud y del mundo DevOps, siempre he estado intentando que los desarrolladores sientan producción muy cercana. Cuando no viajo intento disfrutar de la familia sin más hobbies que ellos.",
-        "date": "2017-01-11T19:00:00Z",
-        "location": {
-            "lat": 40.41249699999999,
-            "lng": -3.7182264000000487,
-            "name": "Campus Madrid",
-            "notes": "Auditorium"
-        },
-        "price": {
-            "details": "Unknown",
-            "isFree": false
-        },
-        "source": {
-            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxVDBwMEFBQww",
-            "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
-            "name": "Campus Madrid",
-            "url": "http://campus.co/madrid"
-        },
-        "target_url": "https://www.meetup.com/es/meetup-group-lAoZvyGw/events/235877104/?eventId=235877104",
-        "title": "Diseñar tus aplicaciones pensando en actualizaciones con zero down-time."
-    },
-    {
-        "abstrat": "New at Campus? Want to know more about how to get the most out of it and meet other female entrepreneurs?Every second Thursday of each ...",
-        "abstrat_details": "New at Campus? Want to know more about how to get the most out of it and meet other female entrepreneurs?Every second Thursday of each month at 1pm women ambassadors from the Campus community invite you to join them at the Campus Café to answer your questions and help you make great connections. No signup needed!Coffee and cake is on us! :)",
-        "date": "2017-01-12T13:00:00Z",
+        "abstract": "Este meetup mensual busca juntarnos en un mismo espacio para que las ideas fluyan. Tendremos la oportunidad de aprender unos de otros y ...",
+        "abstract_details": "Este meetup mensual busca juntarnos en un mismo espacio para que las ideas fluyan. Tendremos la oportunidad de aprender unos de otros y descubrir nuevas tecnologías. También habrá lugar para microtalleres y presentaciones de proyectos de código abierto en los que estéis contribuyendo o desarrollando. La única condición es que lo que hagamos en este espacio sea Código abierto y sin ánimo de lucro.¡Todo el mundo es bienvenido! Programadores, diseñadores, estudiantes, entusiastas, curiosos... coged vuestro portátil y uniros a participar.",
+        "date": "2017-01-14T10:30:00Z",
         "location": {
             "lat": 40.41249699999999,
             "lng": -3.7182264000000487,
@@ -79,45 +10,23 @@
             "notes": "Cafe Floor 1"
         },
         "price": {
-            "details": "Unknown",
-            "isFree": false
+            "details": "estimado",
+            "isFree": true,
+            "isTrusted": false
         },
         "source": {
-            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxU202ZkFBQww",
+            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxVFRLS0FBNAw",
             "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
             "name": "Campus Madrid",
             "url": "http://campus.co/madrid"
         },
-        "target_url": null,
-        "title": "Campus Community: Women Welcome"
+        "target_url": "https://www.meetup.com/es-ES/Open-Source-Weekends/events/236190563/",
+        "title": "Open Source Weekends: Reunión de Enero"
     },
     {
-        "abstrat": "New at Campus? Want to know more about how to get the most out of it and meet other female entrepreneurs?Every second Thursday of each ...",
-        "abstrat_details": "New at Campus? Want to know more about how to get the most out of it and meet other female entrepreneurs?Every second Thursday of each month at 1pm women ambassadors from the Campus community invite you to join them at the Campus Café to answer your questions and help you make great connections. No signup needed!Coffee and cake is on us! :)",
-        "date": "2017-01-12T13:00:00Z",
-        "location": {
-            "lat": 40.41249699999999,
-            "lng": -3.7182264000000487,
-            "name": "Campus Madrid",
-            "notes": "Cafe Floor 1"
-        },
-        "price": {
-            "details": "Unknown",
-            "isFree": false
-        },
-        "source": {
-            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxU202ZkFBQww",
-            "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
-            "name": "Campus Madrid",
-            "url": "http://campus.co/madrid"
-        },
-        "target_url": null,
-        "title": "Campus Community: Women Welcome"
-    },
-    {
-        "abstrat": "El único evento exclusivamente dedicado a los nuevos dominios de Internet. Escucha a los mejores expertos en Internet, marketing digital, ...",
-        "abstrat_details": "El único evento exclusivamente dedicado a los nuevos dominios de Internet. Escucha a los mejores expertos en Internet, marketing digital, ...Pon mas Dominios en tu Startup!Estás interesado en saber cómo puedes usar los nuevos Dominios para mejorar el marketing y la presencia online ? Expertos en esta materia te enseñarán: *   ¿Cuáles son los nuevos dominios disponibles?*   ¿A quién se dirigen y quién puede registrarlos?*   ¿Cómo ayudan a mejorar la presencia online?*   ¿Cómo se pueden usar en las campañas de marketing?*   ¿Qué impacto van a tener en el comercio electrónico?*   ¿Cuál es la mejor estrategia para registrar nuevos dominios?*   ¿Qué extensiones interesan a cada tipo de negocio?*   ¿Qué hacer y qué no hacer con un nuevo dominio?*   ¿Qué están haciendo ya otras empresas con estos dominios?Keynote Speaker: Jesús Alonso GalloFundador de Restaurantes.comDe empleado en serie a emprendedor en serie, de emprendedor en serie a inversor en serie.",
-        "date": "2017-01-13T09:30:00Z",
+        "abstract": "Te invitamos a participar como Mentor en las Aulas, de alumnos de Primaria, ESO y FP, en cualquiera de los más de 40 centros educativos de ...",
+        "abstract_details": "Te invitamos a participar como Mentor en las Aulas, de alumnos de Primaria, ESO y FP, en cualquiera de los más de 40 centros educativos de la Comunidad de Madrid que participan este curso en los programas de Fundación Créate. En esta sesión te explicaremos cómo y contaremos con el testimonio de profesionales expertos en innovación que ya han participado como mentores.\napps que te ayudan a ejercitar tu deportebastones inteligentes para ciegosmuebles ecológicos para escuelas….\n\nSon solo algunos ejemplos de proyectos que los más de 2 000 alumnos de primaria y secundaria han desarrollado otros años. \n\nComo MENTOR, tu rol es ayudarles a dar forma a su proyecto\n\nFundación Créate es una organización sin ánimo de lucro que busca dar respuesta a las necesidades de una sociedad en continuo cambio desde la educación. Desarrolla programas que permitan un nuevo aprendizaje en la escuela, donde los niños y jóvenes aprendan a través de un proyecto propio y puedan ser protagonistas de su propio aprendizaje.",
+        "date": "2017-01-17T19:00:00Z",
         "location": {
             "lat": 40.41249699999999,
             "lng": -3.7182264000000487,
@@ -125,16 +34,185 @@
             "notes": "Auditorium"
         },
         "price": {
-            "details": "Unknown",
-            "isFree": false
+            "details": "estimado",
+            "isFree": true,
+            "isTrusted": false
         },
         "source": {
-            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxU2wyUkFBUww",
+            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxVFNKTkFBNAw",
             "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
             "name": "Campus Madrid",
             "url": "http://campus.co/madrid"
         },
-        "target_url": "http://www.thename.show/madrid/",
-        "title": "TheName SHOW Madrid"
+        "target_url": "https://www.eventbrite.es/e/entradas-mentores-en-las-aulas-30493373501",
+        "title": "Mentores en las Aulas"
+    },
+    {
+        "abstract": "Te invitamos a participar como Mentor en las Aulas, de alumnos de Primaria, ESO y FP, en cualquiera de los más de 40 centros educativos de ...",
+        "abstract_details": "Te invitamos a participar como Mentor en las Aulas, de alumnos de Primaria, ESO y FP, en cualquiera de los más de 40 centros educativos de la Comunidad de Madrid que participan este curso en los programas de Fundación Créate. En esta sesión te explicaremos cómo y contaremos con el testimonio de profesionales expertos en innovación que ya han participado como mentores.\napps que te ayudan a ejercitar tu deportebastones inteligentes para ciegosmuebles ecológicos para escuelas….\n\nSon solo algunos ejemplos de proyectos que los más de 2 000 alumnos de primaria y secundaria han desarrollado otros años. \n\nComo MENTOR, tu rol es ayudarles a dar forma a su proyecto\n\nFundación Créate es una organización sin ánimo de lucro que busca dar respuesta a las necesidades de una sociedad en continuo cambio desde la educación. Desarrolla programas que permitan un nuevo aprendizaje en la escuela, donde los niños y jóvenes aprendan a través de un proyecto propio y puedan ser protagonistas de su propio aprendizaje.",
+        "date": "2017-01-17T19:00:00Z",
+        "location": {
+            "lat": 40.41249699999999,
+            "lng": -3.7182264000000487,
+            "name": "Campus Madrid",
+            "notes": "Auditorium"
+        },
+        "price": {
+            "details": "estimado",
+            "isFree": true,
+            "isTrusted": false
+        },
+        "source": {
+            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxVFNKTkFBNAw",
+            "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
+            "name": "Campus Madrid",
+            "url": "http://campus.co/madrid"
+        },
+        "target_url": "https://www.eventbrite.es/e/entradas-mentores-en-las-aulas-30493373501",
+        "title": "Mentores en las Aulas"
+    },
+    {
+        "abstract": "OpenDaylight User Groups (ODLUG) are regional, self-organized, informal associations that meet globally to discuss OpenDaylight. The ...",
+        "abstract_details": "OpenDaylight User Groups (ODLUG) are regional, self-organized, informal associations that meet globally to discuss OpenDaylight. The participants in these groups share knowledge, recruit and onboard new developers, discuss best practices and technical challenges, as well as create awareness. ODLUG hold meetups, run small hackathons, and host social events.",
+        "date": "2017-01-18T19:30:00Z",
+        "location": {
+            "lat": 40.41249699999999,
+            "lng": -3.7182264000000487,
+            "name": "Campus Madrid",
+            "notes": "Cafe Floor 1"
+        },
+        "price": {
+            "details": "estimado",
+            "isFree": true,
+            "isTrusted": false
+        },
+        "source": {
+            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxVGNQT0FBMAw",
+            "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
+            "name": "Campus Madrid",
+            "url": "http://campus.co/madrid"
+        },
+        "target_url": "https://www.meetup.com/es-ES/OpenDaylight-Madrid-User-Group/",
+        "title": "OpenDaylight Madrid User Group"
+    },
+    {
+        "abstract": "OpenDaylight User Groups (ODLUG) are regional, self-organized, informal associations that meet globally to discuss OpenDaylight. The ...",
+        "abstract_details": "OpenDaylight User Groups (ODLUG) are regional, self-organized, informal associations that meet globally to discuss OpenDaylight. The participants in these groups share knowledge, recruit and onboard new developers, discuss best practices and technical challenges, as well as create awareness. ODLUG hold meetups, run small hackathons, and host social events.",
+        "date": "2017-01-18T19:30:00Z",
+        "location": {
+            "lat": 40.41249699999999,
+            "lng": -3.7182264000000487,
+            "name": "Campus Madrid",
+            "notes": "Cafe Floor 1"
+        },
+        "price": {
+            "details": "estimado",
+            "isFree": true,
+            "isTrusted": false
+        },
+        "source": {
+            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxVGNQT0FBMAw",
+            "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
+            "name": "Campus Madrid",
+            "url": "http://campus.co/madrid"
+        },
+        "target_url": "https://www.meetup.com/es-ES/OpenDaylight-Madrid-User-Group/",
+        "title": "OpenDaylight Madrid User Group"
+    },
+    {
+        "abstract": "OpenDaylight User Groups (ODLUG) are regional, self-organized, informal associations that meet globally to discuss OpenDaylight. The ...",
+        "abstract_details": "OpenDaylight User Groups (ODLUG) are regional, self-organized, informal associations that meet globally to discuss OpenDaylight. The participants in these groups share knowledge, recruit and onboard new developers, discuss best practices and technical challenges, as well as create awareness. ODLUG hold meetups, run small hackathons, and host social events.",
+        "date": "2017-01-18T19:30:00Z",
+        "location": {
+            "lat": 40.41249699999999,
+            "lng": -3.7182264000000487,
+            "name": "Campus Madrid",
+            "notes": "Cafe Floor 1"
+        },
+        "price": {
+            "details": "estimado",
+            "isFree": true,
+            "isTrusted": false
+        },
+        "source": {
+            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxVGNQT0FBMAw",
+            "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
+            "name": "Campus Madrid",
+            "url": "http://campus.co/madrid"
+        },
+        "target_url": "https://www.meetup.com/es-ES/OpenDaylight-Madrid-User-Group/",
+        "title": "OpenDaylight Madrid User Group"
+    },
+    {
+        "abstract": "OpenDaylight User Groups (ODLUG) are regional, self-organized, informal associations that meet globally to discuss OpenDaylight. The ...",
+        "abstract_details": "OpenDaylight User Groups (ODLUG) are regional, self-organized, informal associations that meet globally to discuss OpenDaylight. The participants in these groups share knowledge, recruit and onboard new developers, discuss best practices and technical challenges, as well as create awareness. ODLUG hold meetups, run small hackathons, and host social events.",
+        "date": "2017-01-18T19:30:00Z",
+        "location": {
+            "lat": 40.41249699999999,
+            "lng": -3.7182264000000487,
+            "name": "Campus Madrid",
+            "notes": "Cafe Floor 1"
+        },
+        "price": {
+            "details": "estimado",
+            "isFree": true,
+            "isTrusted": false
+        },
+        "source": {
+            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxVGNQT0FBMAw",
+            "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
+            "name": "Campus Madrid",
+            "url": "http://campus.co/madrid"
+        },
+        "target_url": "https://www.meetup.com/es-ES/OpenDaylight-Madrid-User-Group/",
+        "title": "OpenDaylight Madrid User Group"
+    },
+    {
+        "abstract": "¡¡Comenzamos con fuerza el año!!Este año, para empezar contamos con una crack como Laura Morillo que vendrá a introducirnos kubernetes y la ...",
+        "abstract_details": "¡¡Comenzamos con fuerza el año!!Este año, para empezar contamos con una crack como Laura Morillo que vendrá a introducirnos kubernetes y la gente de ontruck.Docker y Kubernetes por Laura MorilloSoy desarrolladora de Software y siempre voy un paso por detrás en la parte de sistemas. Pero cuando trabajas en un equipo pequeño en una startup necesitas aprender un poco más de todo. En esta charla veremos las diferentes herramientas que Kubernetes nos provee para ayudarnos a crear una infraestructura escalable y cómo integrar nuestro flujo de despliegue continuo.Acerca de LauraDesarrolladora de Software en Seedtag, apasionada de las nuevas tecnologías y de las comunidades que comparten su conocimiento.Ontruck En esta charla OnTruck contará cómo ha desarrollado in-house sus 6 productos en un plazo de 8 meses consiguiendo mover 1.500 camiones, empezando con un equipo de 3 personas hasta las 24 personas actuales. Compartirá consejos sobre los procesos para crear el producto correcto, la organización de los equipos, las herramientas que usan y como lidiar con requisitos de negocio manteniendo la filosofía agile. A presentarnos ontruck vendrán:Javier EscribanoVP de Producto. Previamente fundador y CTO de TouristEye, startup vendida a Lonely Planet.Samuel FuentesCTO. Previamente CTO de Delivery Hero y Valkfleet; startups alemanas valoradas en más de 3.000 millones de euros.",
+        "date": "2017-01-19T19:00:00Z",
+        "location": {
+            "lat": 40.41249699999999,
+            "lng": -3.7182264000000487,
+            "name": "Campus Madrid",
+            "notes": "Cafe Floor 1"
+        },
+        "price": {
+            "details": "estimado",
+            "isFree": true,
+            "isTrusted": false
+        },
+        "source": {
+            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxUnNmSkFBUww",
+            "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
+            "name": "Campus Madrid",
+            "url": "http://campus.co/madrid"
+        },
+        "target_url": "https://betabeers.com/event/betabeers-madrid-71-kubernetes-ontruck-19-enero-2017-4962/",
+        "title": "Betabeers Madrid"
+    },
+    {
+        "abstract": "¡¡Comenzamos con fuerza el año!!Este año, para empezar contamos con una crack como Laura Morillo que vendrá a introducirnos kubernetes y la ...",
+        "abstract_details": "¡¡Comenzamos con fuerza el año!!Este año, para empezar contamos con una crack como Laura Morillo que vendrá a introducirnos kubernetes y la gente de ontruck.Docker y Kubernetes por Laura MorilloSoy desarrolladora de Software y siempre voy un paso por detrás en la parte de sistemas. Pero cuando trabajas en un equipo pequeño en una startup necesitas aprender un poco más de todo. En esta charla veremos las diferentes herramientas que Kubernetes nos provee para ayudarnos a crear una infraestructura escalable y cómo integrar nuestro flujo de despliegue continuo.Acerca de LauraDesarrolladora de Software en Seedtag, apasionada de las nuevas tecnologías y de las comunidades que comparten su conocimiento.Ontruck En esta charla OnTruck contará cómo ha desarrollado in-house sus 6 productos en un plazo de 8 meses consiguiendo mover 1.500 camiones, empezando con un equipo de 3 personas hasta las 24 personas actuales. Compartirá consejos sobre los procesos para crear el producto correcto, la organización de los equipos, las herramientas que usan y como lidiar con requisitos de negocio manteniendo la filosofía agile. A presentarnos ontruck vendrán:Javier EscribanoVP de Producto. Previamente fundador y CTO de TouristEye, startup vendida a Lonely Planet.Samuel FuentesCTO. Previamente CTO de Delivery Hero y Valkfleet; startups alemanas valoradas en más de 3.000 millones de euros.",
+        "date": "2017-01-19T19:00:00Z",
+        "location": {
+            "lat": 40.41249699999999,
+            "lng": -3.7182264000000487,
+            "name": "Campus Madrid",
+            "notes": "Cafe Floor 1"
+        },
+        "price": {
+            "details": "estimado",
+            "isFree": true,
+            "isTrusted": false
+        },
+        "source": {
+            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxUnNmSkFBUww",
+            "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
+            "name": "Campus Madrid",
+            "url": "http://campus.co/madrid"
+        },
+        "target_url": "https://betabeers.com/event/betabeers-madrid-71-kubernetes-ontruck-19-enero-2017-4962/",
+        "title": "Betabeers Madrid"
     }
 ]

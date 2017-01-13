@@ -1,166 +1,5 @@
 [
     {
-        "abstract": "¿Qué estamos apoyando cuando compramos un producto ecológico y de proximidad? ¿Se puede vivir de la agricultura en Madrid? ¿Qué canales existen fuera de las grandes distribuidoras? ¿Es posible un modelo económico justo para productores y consumidores?             Seguir leyendo…\n",
-        "abstract-details": "¿Qué estamos apoyando cuando compramos un producto ecológico y de proximidad? ¿Se puede vivir de la agricultura en Madrid? ¿Qué canales existen fuera de las grandes distribuidoras? ¿Es posible un modelo económico justo para productores y consumidores?             Seguir leyendo…\n",
-        "date": "2017-01-11T17:00:00Z",
-        "location": {
-            "lat": -3.693456,
-            "lng": 40.411321,
-            "name": "MediaLab Prado"
-        },
-        "price": {
-            "details": "estimado",
-            "isFree": true,
-            "isTrusted": false
-        },
-        "source": {
-            "event_url": "http://medialab-prado.es/article/agroecologia-y-nuevos-modelos-economicos-sostenibles-para-el-bien-comun",
-            "logo": "http://blogs.medialab-prado.es/streamlab/wp-content/uploads/sites/28/2016/01/00_logo-medialab-madrid.jpg",
-            "name": "MediaLab Prado",
-            "url": "http://medialab-prado.es/"
-        },
-        "target_url": "http://medialab-prado.es/article/agroecologia-y-nuevos-modelos-economicos-sostenibles-para-el-bien-comun",
-        "title": "Agroecología y nuevos modelos económicos sostenibles para el bien común"
-    },
-    {
-        "abstract": "Proyecto de investigación escénica colaborativa que trabaja la transdisciplinariedad. Orientado a la experimentación reflexiva de los procesos de composición escénica, partimos de códigos no propiamente dramáticos para la elaboración conjunta de un relato polivalente, donde la dramaturgia y la dinámica de la praxis se ven mediadas por la participación de los colaboradores en las sesiones abiertas.Contacto: cerofijezas[arroba]gmail.com  Seguir leyendo…\n",
-        "abstract-details": "Proyecto de investigación escénica colaborativa que trabaja la transdisciplinariedad. Orientado a la experimentación reflexiva de los procesos de composición escénica, partimos de códigos no propiamente dramáticos para la elaboración conjunta de un relato polivalente, donde la dramaturgia y la dinámica de la praxis se ven mediadas por la participación de los colaboradores en las sesiones abiertas.Contacto: cerofijezas[arroba]gmail.com  Seguir leyendo…\n",
-        "date": "2017-01-11T11:00:00Z",
-        "location": {
-            "lat": -3.693456,
-            "lng": 40.411321,
-            "name": "MediaLab Prado"
-        },
-        "price": {
-            "details": "estimado",
-            "isFree": true,
-            "isTrusted": false
-        },
-        "source": {
-            "event_url": "http://medialab-prado.es/article/grupo-transdisciplinar-de-investigacion-escenica-y-lenguaje-contemporaneo",
-            "logo": "http://blogs.medialab-prado.es/streamlab/wp-content/uploads/sites/28/2016/01/00_logo-medialab-madrid.jpg",
-            "name": "MediaLab Prado",
-            "url": "http://medialab-prado.es/"
-        },
-        "target_url": "http://medialab-prado.es/article/grupo-transdisciplinar-de-investigacion-escenica-y-lenguaje-contemporaneo",
-        "title": "Grupo transdisciplinar de investigación escénica y lenguaje contemporáneo"
-    },
-    {
-        "abstract": "Con el apoyo de la Fundación Daniel & Nina Carasso, la Escuela de Oficios Electrosonoros comienza su andadura como proyecto educativo en el ámbito de la música electrónica y el arte sonoro presentando una visita guiada diferente a la exposición \"Escuchar con los ojos\" de la Fundación Juan March. La visita va acompañada de un taller de creación y tiene el objetivo de introducir a quién esté interesado/a en las diferentes formas de trabajar con el sonido de una manera abierta y creativa. Para más información e inscripciones escribir a: electrosonoros@gmail.com  Seguir leyendo…\n",
-        "abstract-details": "Con el apoyo de la Fundación Daniel & Nina Carasso, la Escuela de Oficios Electrosonoros comienza su andadura como proyecto educativo en el ámbito de la música electrónica y el arte sonoro presentando una visita guiada diferente a la exposición \"Escuchar con los ojos\" de la Fundación Juan March. La visita va acompañada de un taller de creación y tiene el objetivo de introducir a quién esté interesado/a en las diferentes formas de trabajar con el sonido de una manera abierta y creativa. Para más información e inscripciones escribir a: electrosonoros@gmail.com  Seguir leyendo…\n",
-        "date": "2017-01-11T17:00:00Z",
-        "location": {
-            "lat": -3.693456,
-            "lng": 40.411321,
-            "name": "MediaLab Prado"
-        },
-        "price": {
-            "details": "estimado",
-            "isFree": true,
-            "isTrusted": false
-        },
-        "source": {
-            "event_url": "http://medialab-prado.es/article/visita-guiada-experimetal-arte-sonoro-espaniol",
-            "logo": "http://blogs.medialab-prado.es/streamlab/wp-content/uploads/sites/28/2016/01/00_logo-medialab-madrid.jpg",
-            "name": "MediaLab Prado",
-            "url": "http://medialab-prado.es/"
-        },
-        "target_url": "http://medialab-prado.es/article/visita-guiada-experimetal-arte-sonoro-espaniol",
-        "title": "¿Te interesa el arte sonoro?"
-    },
-    {
-        "abstract": "Laboratorio Wikimedia es un espacio de aprendizaje y colaboración en torno a los distintos proyectos Wikimedia. Está promovido por Wikimedia España y coordinado por Rubén Ojeda (@rubojeda).TwitterFacebookEs recomendable que cada persona traiga su propio dispositivo, preferiblemente un ordenador portátil.Las sesiones serán semanales o quincenales dependiendo de interés común del grupo que se forme. Máximo 25 personas.Primer día de reunión: miércoles 19 de octubre 2016  Seguir leyendo…\n",
-        "abstract-details": "Laboratorio Wikimedia es un espacio de aprendizaje y colaboración en torno a los distintos proyectos Wikimedia. Está promovido por Wikimedia España y coordinado por Rubén Ojeda (@rubojeda).TwitterFacebookEs recomendable que cada persona traiga su propio dispositivo, preferiblemente un ordenador portátil.Las sesiones serán semanales o quincenales dependiendo de interés común del grupo que se forme. Máximo 25 personas.Primer día de reunión: miércoles 19 de octubre 2016  Seguir leyendo…\n",
-        "date": "2017-01-11T17:30:00Z",
-        "location": {
-            "lat": -3.693456,
-            "lng": 40.411321,
-            "name": "MediaLab Prado"
-        },
-        "price": {
-            "details": "estimado",
-            "isFree": true,
-            "isTrusted": false
-        },
-        "source": {
-            "event_url": "http://medialab-prado.es/article/laboratorio-wikimedia",
-            "logo": "http://blogs.medialab-prado.es/streamlab/wp-content/uploads/sites/28/2016/01/00_logo-medialab-madrid.jpg",
-            "name": "MediaLab Prado",
-            "url": "http://medialab-prado.es/"
-        },
-        "target_url": "http://medialab-prado.es/article/laboratorio-wikimedia",
-        "title": "Laboratorio Wikimedia"
-    },
-    {
-        "abstract": "Michael Birchall, comisario de prácticas públicas de la Tate Liverpool, realizará una ponencia sobre su práctica comisarial y  su experiencia en proyectos basados en las prácticas sociales y  colaborativas. También pondrá un enfoque en las estrategias de la Tate acerca de cómo apoyar y trabajar con propuestas artísticas colaborativas. Ese papel de las instituciones se ha puesto en relieve como tema clave en las jornadas sobre el arte colaborativo en Medialab en marzo 2016 y consideramos relevante darle continuidad aportando perspectivas e ideas de otros países con la charla de Michael Birchall.La ponencia será en inglés sin traducción simultánea. Entrada libre hasta completar aforo.  Seguir leyendo…\n",
-        "abstract-details": "Michael Birchall, comisario de prácticas públicas de la Tate Liverpool, realizará una ponencia sobre su práctica comisarial y  su experiencia en proyectos basados en las prácticas sociales y  colaborativas. También pondrá un enfoque en las estrategias de la Tate acerca de cómo apoyar y trabajar con propuestas artísticas colaborativas. Ese papel de las instituciones se ha puesto en relieve como tema clave en las jornadas sobre el arte colaborativo en Medialab en marzo 2016 y consideramos relevante darle continuidad aportando perspectivas e ideas de otros países con la charla de Michael Birchall.La ponencia será en inglés sin traducción simultánea. Entrada libre hasta completar aforo.  Seguir leyendo…\n",
-        "date": "2017-01-12T19:00:00Z",
-        "location": {
-            "lat": -3.693456,
-            "lng": 40.411321,
-            "name": "MediaLab Prado"
-        },
-        "price": {
-            "details": "estimado",
-            "isFree": true,
-            "isTrusted": false
-        },
-        "source": {
-            "event_url": "http://medialab-prado.es/article/presentacion-de-glosario-imposible",
-            "logo": "http://blogs.medialab-prado.es/streamlab/wp-content/uploads/sites/28/2016/01/00_logo-medialab-madrid.jpg",
-            "name": "MediaLab Prado",
-            "url": "http://medialab-prado.es/"
-        },
-        "target_url": "http://medialab-prado.es/article/presentacion-de-glosario-imposible",
-        "title": "Ponencia de Michael Birchall, comisario de prácticas públicas de la Tate Liverpool"
-    },
-    {
-        "abstract": "Proyecto de investigación escénica colaborativa que trabaja la transdisciplinariedad. Orientado a la experimentación reflexiva de los procesos de composición escénica, partimos de códigos no propiamente dramáticos para la elaboración conjunta de un relato polivalente, donde la dramaturgia y la dinámica de la praxis se ven mediadas por la participación de los colaboradores en las sesiones abiertas.Contacto: cerofijezas[arroba]gmail.com  Seguir leyendo…\n",
-        "abstract-details": "Proyecto de investigación escénica colaborativa que trabaja la transdisciplinariedad. Orientado a la experimentación reflexiva de los procesos de composición escénica, partimos de códigos no propiamente dramáticos para la elaboración conjunta de un relato polivalente, donde la dramaturgia y la dinámica de la praxis se ven mediadas por la participación de los colaboradores en las sesiones abiertas.Contacto: cerofijezas[arroba]gmail.com  Seguir leyendo…\n",
-        "date": "2017-01-12T11:00:00Z",
-        "location": {
-            "lat": -3.693456,
-            "lng": 40.411321,
-            "name": "MediaLab Prado"
-        },
-        "price": {
-            "details": "estimado",
-            "isFree": true,
-            "isTrusted": false
-        },
-        "source": {
-            "event_url": "http://medialab-prado.es/article/grupo-transdisciplinar-de-investigacion-escenica-y-lenguaje-contemporaneo",
-            "logo": "http://blogs.medialab-prado.es/streamlab/wp-content/uploads/sites/28/2016/01/00_logo-medialab-madrid.jpg",
-            "name": "MediaLab Prado",
-            "url": "http://medialab-prado.es/"
-        },
-        "target_url": "http://medialab-prado.es/article/grupo-transdisciplinar-de-investigacion-escenica-y-lenguaje-contemporaneo",
-        "title": "Grupo transdisciplinar de investigación escénica y lenguaje contemporáneo"
-    },
-    {
-        "abstract": "Un grupo de jóvenes de la Asociación La Kalle promueve este espacio de trabajo para cacharrear con ordenadores y portátiles, aprendiendo hardware y software desde la práctica colaborativa. Sesiones abiertas a cualquier persona que quiera participar, aprender, colaborar. ¿Tienes un ordenador que ya no usas? ¡Tráetelo! Seguir leyendo…\n",
-        "abstract-details": "Un grupo de jóvenes de la Asociación La Kalle promueve este espacio de trabajo para cacharrear con ordenadores y portátiles, aprendiendo hardware y software desde la práctica colaborativa. Sesiones abiertas a cualquier persona que quiera participar, aprender, colaborar. ¿Tienes un ordenador que ya no usas? ¡Tráetelo! Seguir leyendo…\n",
-        "date": "2017-01-13T16:00:00Z",
-        "location": {
-            "lat": -3.693456,
-            "lng": 40.411321,
-            "name": "MediaLab Prado"
-        },
-        "price": {
-            "details": "estimado",
-            "isFree": true,
-            "isTrusted": false
-        },
-        "source": {
-            "event_url": "http://medialab-prado.es/article/cacharreando-con-jovenes",
-            "logo": "http://blogs.medialab-prado.es/streamlab/wp-content/uploads/sites/28/2016/01/00_logo-medialab-madrid.jpg",
-            "name": "MediaLab Prado",
-            "url": "http://medialab-prado.es/"
-        },
-        "target_url": "http://medialab-prado.es/article/cacharreando-con-jovenes",
-        "title": "Cacharreando: Talleres de Hardware y Software"
-    },
-    {
         "abstract": "CoderDojo es una iniciativa internacional surgida en 2011 en Irlanda con el objetivo de enseñar a niñas, niños y jóvenes a programar. En estos años se ha extendido y ahora mismo CoderDojo es una red de centros por todo el mundo. En la actualidad existen centenares de clubs en más de de 50 países.En CoderDojo se potencia el software libre y se trabaja con herramientas de programación libres. Algunas de las cosas que se suelen aprender son: Scratch, App Inventor, Python, Minetest, Processing y Sonic Pi. ATENCIÓN: ¡BUSCAMOS MENTORES!Este curso se divide en dos tandas con inscripciones independientes (asignación de plaza por estricto orden de inscripción y revisable según asistencia): Otoño-invierno: Octubre 2016 - febrero 2017. Primavera-verano: Marzo - junio 2017. Convocatoria cerrada  Seguir leyendo…\n",
         "abstract-details": "CoderDojo es una iniciativa internacional surgida en 2011 en Irlanda con el objetivo de enseñar a niñas, niños y jóvenes a programar. En estos años se ha extendido y ahora mismo CoderDojo es una red de centros por todo el mundo. En la actualidad existen centenares de clubs en más de de 50 países.En CoderDojo se potencia el software libre y se trabaja con herramientas de programación libres. Algunas de las cosas que se suelen aprender son: Scratch, App Inventor, Python, Minetest, Processing y Sonic Pi. ATENCIÓN: ¡BUSCAMOS MENTORES!Este curso se divide en dos tandas con inscripciones independientes (asignación de plaza por estricto orden de inscripción y revisable según asistencia): Otoño-invierno: Octubre 2016 - febrero 2017. Primavera-verano: Marzo - junio 2017. Convocatoria cerrada  Seguir leyendo…\n",
         "date": "2017-01-14T17:00:00Z",
@@ -299,6 +138,29 @@
         "title": "Conferencia: Cooperación y obra abierta"
     },
     {
+        "abstract": "Si eres profe o responsable de un grupo de niños o jóvenes y quieres incorporar en clase dinámicas de diseño participativo de proyectos con un impacto real en el modelo de gobernanza de Madrid te acompañamos en el proceso para hacerlo realidad a través de la plataforma decide madrid.            Seguir leyendo…\n",
+        "abstract-details": "Si eres profe o responsable de un grupo de niños o jóvenes y quieres incorporar en clase dinámicas de diseño participativo de proyectos con un impacto real en el modelo de gobernanza de Madrid te acompañamos en el proceso para hacerlo realidad a través de la plataforma decide madrid.            Seguir leyendo…\n",
+        "date": "2017-01-17T16:30:00Z",
+        "location": {
+            "lat": -3.693456,
+            "lng": 40.411321,
+            "name": "MediaLab Prado"
+        },
+        "price": {
+            "details": "estimado",
+            "isFree": true,
+            "isTrusted": false
+        },
+        "source": {
+            "event_url": "http://medialab-prado.es/article/gatos-en-el-cole",
+            "logo": "http://blogs.medialab-prado.es/streamlab/wp-content/uploads/sites/28/2016/01/00_logo-medialab-madrid.jpg",
+            "name": "MediaLab Prado",
+            "url": "http://medialab-prado.es/"
+        },
+        "target_url": "http://medialab-prado.es/article/gatos-en-el-cole",
+        "title": "Si te sientes gato, decide Madrid con tu clase"
+    },
+    {
         "abstract": "Aulablog (@aulablog) es espacio de trabajo sobre educación en el que docentes de toda España interesados en la mejora de la realidad educativa del aula se juntan mensualmente para plantear soluciones a problemáticas comunes.  Seguir leyendo…\n",
         "abstract-details": "Aulablog (@aulablog) es espacio de trabajo sobre educación en el que docentes de toda España interesados en la mejora de la realidad educativa del aula se juntan mensualmente para plantear soluciones a problemáticas comunes.  Seguir leyendo…\n",
         "date": "2017-01-17T17:30:00Z",
@@ -388,6 +250,167 @@
             "url": "http://medialab-prado.es/"
         },
         "target_url": "http://medialab-prado.es/article/si-te-sientes-gato",
-        "title": "Si Te Sientes Gato"
+        "title": "Si Te Sientes Gato, Decide Madrid"
+    },
+    {
+        "abstract": "GNOME Hispano (@gnomehispano) es un grupo que quiere construir una comunidad de desarrolladores, traductores, diseñadores, usuarios, etc. en nuestro idioma que colaboren de forma regular con el escritorio libre GNOME.Si queréis contactar con este grupo, podéis uniros a la Lista de Correo GNOME Hispano. Seguir leyendo…\n",
+        "abstract-details": "GNOME Hispano (@gnomehispano) es un grupo que quiere construir una comunidad de desarrolladores, traductores, diseñadores, usuarios, etc. en nuestro idioma que colaboren de forma regular con el escritorio libre GNOME.Si queréis contactar con este grupo, podéis uniros a la Lista de Correo GNOME Hispano. Seguir leyendo…\n",
+        "date": "2017-01-18T18:30:00Z",
+        "location": {
+            "lat": -3.693456,
+            "lng": 40.411321,
+            "name": "MediaLab Prado"
+        },
+        "price": {
+            "details": "estimado",
+            "isFree": true,
+            "isTrusted": false
+        },
+        "source": {
+            "event_url": "http://medialab-prado.es/article/gnome-hispano",
+            "logo": "http://blogs.medialab-prado.es/streamlab/wp-content/uploads/sites/28/2016/01/00_logo-medialab-madrid.jpg",
+            "name": "MediaLab Prado",
+            "url": "http://medialab-prado.es/"
+        },
+        "target_url": "http://medialab-prado.es/article/gnome-hispano",
+        "title": "GNOME Hispano"
+    },
+    {
+        "abstract": "Proyecto de investigación escénica colaborativa que trabaja la transdisciplinariedad. Orientado a la experimentación reflexiva de los procesos de composición escénica, partimos de códigos no propiamente dramáticos para la elaboración conjunta de un relato polivalente, donde la dramaturgia y la dinámica de la praxis se ven mediadas por la participación de los colaboradores en las sesiones abiertas.Contacto: cerofijezas[arroba]gmail.com  Seguir leyendo…\n",
+        "abstract-details": "Proyecto de investigación escénica colaborativa que trabaja la transdisciplinariedad. Orientado a la experimentación reflexiva de los procesos de composición escénica, partimos de códigos no propiamente dramáticos para la elaboración conjunta de un relato polivalente, donde la dramaturgia y la dinámica de la praxis se ven mediadas por la participación de los colaboradores en las sesiones abiertas.Contacto: cerofijezas[arroba]gmail.com  Seguir leyendo…\n",
+        "date": "2017-01-18T11:00:00Z",
+        "location": {
+            "lat": -3.693456,
+            "lng": 40.411321,
+            "name": "MediaLab Prado"
+        },
+        "price": {
+            "details": "estimado",
+            "isFree": true,
+            "isTrusted": false
+        },
+        "source": {
+            "event_url": "http://medialab-prado.es/article/grupo-transdisciplinar-de-investigacion-escenica-y-lenguaje-contemporaneo",
+            "logo": "http://blogs.medialab-prado.es/streamlab/wp-content/uploads/sites/28/2016/01/00_logo-medialab-madrid.jpg",
+            "name": "MediaLab Prado",
+            "url": "http://medialab-prado.es/"
+        },
+        "target_url": "http://medialab-prado.es/article/grupo-transdisciplinar-de-investigacion-escenica-y-lenguaje-contemporaneo",
+        "title": "Grupo transdisciplinar de investigación escénica y lenguaje contemporáneo"
+    },
+    {
+        "abstract": "7 emociones, 3 visiones es un desarrollo conjunto de la asociación \"historias que TRANSforman” y de la sociedad limitada “organizaciones con espíritu y corazón” que colaboran en el desarrollo del liderazgo colaborativo y en el desarrollo positivo de personas, grupos y organizaciones, tanto en entornos sociales (educación, salud) como en entornos corporativos.Jornadas organizadas por Mikel Bilbao Garay30 plazas. Inscripción previa  Seguir leyendo…\n",
+        "abstract-details": "7 emociones, 3 visiones es un desarrollo conjunto de la asociación \"historias que TRANSforman” y de la sociedad limitada “organizaciones con espíritu y corazón” que colaboran en el desarrollo del liderazgo colaborativo y en el desarrollo positivo de personas, grupos y organizaciones, tanto en entornos sociales (educación, salud) como en entornos corporativos.Jornadas organizadas por Mikel Bilbao Garay30 plazas. Inscripción previa  Seguir leyendo…\n",
+        "date": "2017-01-18T18:00:00Z",
+        "location": {
+            "lat": -3.693456,
+            "lng": 40.411321,
+            "name": "MediaLab Prado"
+        },
+        "price": {
+            "details": "estimado",
+            "isFree": true,
+            "isTrusted": false
+        },
+        "source": {
+            "event_url": "http://medialab-prado.es/article/7-emociones-3-visiones",
+            "logo": "http://blogs.medialab-prado.es/streamlab/wp-content/uploads/sites/28/2016/01/00_logo-medialab-madrid.jpg",
+            "name": "MediaLab Prado",
+            "url": "http://medialab-prado.es/"
+        },
+        "target_url": "http://medialab-prado.es/article/7-emociones-3-visiones",
+        "title": "7 emociones, 3 visiones. Empezando por...la visión diurna."
+    },
+    {
+        "abstract": "Este grupo de trabajo quiere servir como punto de encuentro a personas interesadas en software libre para audiovisual el cual ha tenido un gran desarrollo en los últimos tiempos.Existen programas para vídeo, animación 2D y 3D, sonido, etc. soportados por comunidadesestables y muy activas que forman artistas, desarrolladores y makers.            Seguir leyendo…\n",
+        "abstract-details": "Este grupo de trabajo quiere servir como punto de encuentro a personas interesadas en software libre para audiovisual el cual ha tenido un gran desarrollo en los últimos tiempos.Existen programas para vídeo, animación 2D y 3D, sonido, etc. soportados por comunidadesestables y muy activas que forman artistas, desarrolladores y makers.            Seguir leyendo…\n",
+        "date": "2017-01-19T17:00:00Z",
+        "location": {
+            "lat": -3.693456,
+            "lng": 40.411321,
+            "name": "MediaLab Prado"
+        },
+        "price": {
+            "details": "estimado",
+            "isFree": true,
+            "isTrusted": false
+        },
+        "source": {
+            "event_url": "http://medialab-prado.es/article/avfloss",
+            "logo": "http://blogs.medialab-prado.es/streamlab/wp-content/uploads/sites/28/2016/01/00_logo-medialab-madrid.jpg",
+            "name": "MediaLab Prado",
+            "url": "http://medialab-prado.es/"
+        },
+        "target_url": "http://medialab-prado.es/article/avfloss",
+        "title": "AVfloss"
+    },
+    {
+        "abstract": "Proyecto de investigación escénica colaborativa que trabaja la transdisciplinariedad. Orientado a la experimentación reflexiva de los procesos de composición escénica, partimos de códigos no propiamente dramáticos para la elaboración conjunta de un relato polivalente, donde la dramaturgia y la dinámica de la praxis se ven mediadas por la participación de los colaboradores en las sesiones abiertas.Contacto: cerofijezas[arroba]gmail.com  Seguir leyendo…\n",
+        "abstract-details": "Proyecto de investigación escénica colaborativa que trabaja la transdisciplinariedad. Orientado a la experimentación reflexiva de los procesos de composición escénica, partimos de códigos no propiamente dramáticos para la elaboración conjunta de un relato polivalente, donde la dramaturgia y la dinámica de la praxis se ven mediadas por la participación de los colaboradores en las sesiones abiertas.Contacto: cerofijezas[arroba]gmail.com  Seguir leyendo…\n",
+        "date": "2017-01-19T11:00:00Z",
+        "location": {
+            "lat": -3.693456,
+            "lng": 40.411321,
+            "name": "MediaLab Prado"
+        },
+        "price": {
+            "details": "estimado",
+            "isFree": true,
+            "isTrusted": false
+        },
+        "source": {
+            "event_url": "http://medialab-prado.es/article/grupo-transdisciplinar-de-investigacion-escenica-y-lenguaje-contemporaneo",
+            "logo": "http://blogs.medialab-prado.es/streamlab/wp-content/uploads/sites/28/2016/01/00_logo-medialab-madrid.jpg",
+            "name": "MediaLab Prado",
+            "url": "http://medialab-prado.es/"
+        },
+        "target_url": "http://medialab-prado.es/article/grupo-transdisciplinar-de-investigacion-escenica-y-lenguaje-contemporaneo",
+        "title": "Grupo transdisciplinar de investigación escénica y lenguaje contemporáneo"
+    },
+    {
+        "abstract": "Un grupo de jóvenes de la Asociación La Kalle promueve este espacio de trabajo para cacharrear con ordenadores y portátiles, aprendiendo hardware y software desde la práctica colaborativa. Sesiones abiertas a cualquier persona que quiera participar, aprender, colaborar. ¿Tienes un ordenador que ya no usas? ¡Tráetelo! Seguir leyendo…\n",
+        "abstract-details": "Un grupo de jóvenes de la Asociación La Kalle promueve este espacio de trabajo para cacharrear con ordenadores y portátiles, aprendiendo hardware y software desde la práctica colaborativa. Sesiones abiertas a cualquier persona que quiera participar, aprender, colaborar. ¿Tienes un ordenador que ya no usas? ¡Tráetelo! Seguir leyendo…\n",
+        "date": "2017-01-20T16:00:00Z",
+        "location": {
+            "lat": -3.693456,
+            "lng": 40.411321,
+            "name": "MediaLab Prado"
+        },
+        "price": {
+            "details": "estimado",
+            "isFree": true,
+            "isTrusted": false
+        },
+        "source": {
+            "event_url": "http://medialab-prado.es/article/cacharreando-con-jovenes",
+            "logo": "http://blogs.medialab-prado.es/streamlab/wp-content/uploads/sites/28/2016/01/00_logo-medialab-madrid.jpg",
+            "name": "MediaLab Prado",
+            "url": "http://medialab-prado.es/"
+        },
+        "target_url": "http://medialab-prado.es/article/cacharreando-con-jovenes",
+        "title": "Cacharreando: Talleres de Hardware y Software"
+    },
+    {
+        "abstract": "La octava edición del Global Game Jam es un evento mundial alrededor de la creatividad y la creación de videojuegos. Tras el éxito de las siete ediciones anteriores, este año volverá a tener lugar simultáneamente en cientos de sedes en decenas de países, que acogerán a equipos de jóvenes que trabajarán para crear un videojuego completo en un fin de semana. Todos los participantes estarán sujetos a las mismas restricciones sobre el tema del juego a desarrollar, que se darán a conocer al comienzo del encuentro. Seguir leyendo…\n",
+        "abstract-details": "La octava edición del Global Game Jam es un evento mundial alrededor de la creatividad y la creación de videojuegos. Tras el éxito de las siete ediciones anteriores, este año volverá a tener lugar simultáneamente en cientos de sedes en decenas de países, que acogerán a equipos de jóvenes que trabajarán para crear un videojuego completo en un fin de semana. Todos los participantes estarán sujetos a las mismas restricciones sobre el tema del juego a desarrollar, que se darán a conocer al comienzo del encuentro. Seguir leyendo…\n",
+        "date": "2017-01-20T15:00:00Z",
+        "location": {
+            "lat": -3.693456,
+            "lng": 40.411321,
+            "name": "MediaLab Prado"
+        },
+        "price": {
+            "details": "estimado",
+            "isFree": true,
+            "isTrusted": false
+        },
+        "source": {
+            "event_url": "http://medialab-prado.es/article/global-game-jam-2017",
+            "logo": "http://blogs.medialab-prado.es/streamlab/wp-content/uploads/sites/28/2016/01/00_logo-medialab-madrid.jpg",
+            "name": "MediaLab Prado",
+            "url": "http://medialab-prado.es/"
+        },
+        "target_url": "http://medialab-prado.es/article/global-game-jam-2017",
+        "title": "Global Game Jam 2017"
     }
 ]

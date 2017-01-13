@@ -1,8 +1,32 @@
 [
     {
+        "abstract": "Aprende a crear tu Página Web\nCharla informativa sobre el curso de creación de páginas web con wordpress, en dicha charla podrás conocer todo el programa del curso así como las ventajas de usar este programa y puedes resolver todas tus dudas al  respecto.\nCurso de diseño web práctico y presencial dirigido a que crees tu propia página web a la vez que aprendes a utilizar plantillas de WordPress y sus funciones más importantes.\nAprende a crear tu propia web durante el curso y tendrás la experienci",
+        "abstract_details": "Aprende a crear tu Página Web\nCharla informativa sobre el curso de creación de páginas web con wordpress, en dicha charla podrás conocer todo el programa del curso así como las ventajas de usar este programa y puedes resolver todas tus dudas al  respecto.\nCurso de diseño web práctico y presencial dirigido a que crees tu propia página web a la vez que aprendes a utilizar plantillas de WordPress y sus funciones más importantes.\nAprende a crear tu propia web durante el curso y tendrás la experiencia para hacer muchas más. WordPress es el gestor de contenidos más utilizado en todo el mundo y el más demandado por las empresas para crear páginas web.\nLa gran mayoría de empresas usan esta plataforma.\nTotalmente Práctico\nAprenderás a usar tu propio Hosting desde el primer día. Comprarás una plantilla y aprenderás a crear tu página web al mismo tiempo que la instalas y la configuras a la medida de tu proyecto.En el aprenderás a crear páginas web desde cero. Sabrás cómo hacer una página web desde la instalación hasta la publicación de la misma.\nPuedes ampliar conocimientos con el curso wordpress avanzado para creación tiendas online, añadir contenidos de calidad etc.\nDiferentes horarios\nNuestros cursos son de 8 clases presenciales de 2 horas cada una. Tenemos horarios diferentes: mañana y tarde.\nRecuperarás la inversión\nEl curso es rentable en muchos sentidos: al terminar la formación habrás creado tu propia página web y podrás crear muchas más. Sabrás editarlas y configurarlas a la perfección tu mismo, no como si encargaras que te la hiciera otro. Y sobre todo podrás empezar a trabajar.\nCurso con certificación\nPlazas limitadas\n \nAcademia Aluche, Centro de Educación y Estudio E y E \nC/ Quero 39\nTlfno 917194469 www.centroeye.com\ninfo@centroeye.com\n \nSíguenos en las redes sociales \n\nhttps://www.facebook.com/centroeye\nhttps://twitter.com/Centro_eye",
+        "date": "2017-01-16T05:00:00Z",
+        "location": {
+            "lat": 40.39131849999999,
+            "lng": -3.7606336000000056,
+            "name": "Academia Aluche. Centro de educación y estudios E y E, Madrid",
+            "notes": false
+        },
+        "price": {
+            "details": false,
+            "isFree": true,
+            "isTrusted": true
+        },
+        "source": {
+            "event_url": "https://www.eventbrite.es/e/entradas-charla-curso-wordpress-creacion-paginas-web-31089585788",
+            "logo": "https://eventbrite-s3.s3.amazonaws.com/marketing/landingpages/shared/images/eb-logo.png",
+            "name": "Evenbrite",
+            "url": "https://www.eventbrite.es"
+        },
+        "target_url": "https://www.eventbrite.es/e/entradas-charla-curso-wordpress-creacion-paginas-web-31089585788",
+        "title": "CHARLA CURSO WORDPRESS CREACION PAGINAS WEB"
+    },
+    {
         "abstract": "Are you working on an exciting tech product and are interested in joining of the TechHub community? We'd love to meet you - come visit us at Campus Madrid and see what being a TechHub member is all about!\n \nOur team will make you a tea/coffee, show you the TechHub space, and talk to you about:\n\nMembership structure and costs, and what the best membership combination is for you and your team\nWhat’s included in the membership and how we support our members through events, community initiatives and",
         "abstract_details": "Are you working on an exciting tech product and are interested in joining of the TechHub community? We'd love to meet you - come visit us at Campus Madrid and see what being a TechHub member is all about!\n \nOur team will make you a tea/coffee, show you the TechHub space, and talk to you about:\n\nMembership structure and costs, and what the best membership combination is for you and your team\nWhat’s included in the membership and how we support our members through events, community initiatives and our international support network (connecting members to potential collaborators, partners, employees and investors)\nThe TechHub application criteria and process (who we accept, what information you need to give and how long it takes to process applications)\nAnswer any other questions you have about how we can help your startup or how you can collaborate with TechHub\n\n\nYou're also welcome to bring your colleagues - please make sure they register for the tour via this Eventbrite page by forwarding them the link ;) If you are running late or need to cancel, please email us on membership.madrid@techhub.com\n¡Hasta pronto!",
-        "date": "2017-01-11T11:00:00Z",
+        "date": "2017-01-18T11:00:00Z",
         "location": {
             "lat": 40.41263300000001,
             "lng": -3.718321899999978,
@@ -11,61 +35,64 @@
         },
         "price": {
             "details": false,
-            "isFree": true
+            "isFree": true,
+            "isTrusted": true
         },
         "source": {
-            "event_url": "https://www.eventbrite.es/e/entradas-visit-techhub-madrid-30461181213",
+            "event_url": "https://www.eventbrite.es/e/entradas-visit-techhub-madrid-30461182216",
             "logo": "https://eventbrite-s3.s3.amazonaws.com/marketing/landingpages/shared/images/eb-logo.png",
             "name": "Evenbrite",
             "url": "https://www.eventbrite.es"
         },
-        "target_url": "https://www.eventbrite.es/e/entradas-visit-techhub-madrid-30461181213",
+        "target_url": "https://www.eventbrite.es/e/entradas-visit-techhub-madrid-30461182216",
         "title": "Visit TechHub Madrid"
     },
     {
-        "abstract": "Dear data lovers! These days of festivities seem to be finally wearing off and your usual routing starts to take over soon… And your usual routine includes, of course, attending a Databeers event! So, lest you have the withdrawal syndrome, we are back!\n\nThis time we have a Databeers Branded Event organized jointly with Telefónica, who provides the content and the venue & beers for your sheer enjoyment of their data stories. We will meet at 19:00 at the Ágora Wayra in the Telefónica building at C",
-        "abstract_details": "Dear data lovers! These days of festivities seem to be finally wearing off and your usual routing starts to take over soon… And your usual routine includes, of course, attending a Databeers event! So, lest you have the withdrawal syndrome, we are back!\n\nThis time we have a Databeers Branded Event organized jointly with Telefónica, who provides the content and the venue & beers for your sheer enjoyment of their data stories. We will meet at 19:00 at the Ágora Wayra in the Telefónica building at Calle Gran Vía 28 planta 8ª (entrance is in calle Valverde 2). Important! Please note that Telefónica requires attendees to indicate their national IDs when reserving the ticket and to show their IDs at the entrance (so we’ll ask for it in the Eventbrite form).\n\nPlease register here for the event!\n\nOur data speakers lineup is as follows:\n\nPedro López Fernández, Lead Data Scientist - Drivies (Telefónica I+D), title TBD\nJavier Carro Calabor, (Data Analyst - LUCA) - Commuter Traffic: Can Big Data solve the problem?\nCarlos Olmos & Alberto Santos, Urban Data Analytics, title TBD\nJuan Luis Cano, Synergic Partners, @astrojuanlu, \"Kitt, esquiva a ese peatón”\nTomás Morales, Synergic Partners, title TBD\n\nSpread the word, be data and bring your friends, because as you know the more the merrier!",
-        "date": "2017-01-12T07:00:00Z",
+        "abstract": "Empieza una nueva edición de Technovation, el programa de tecnología y emprendimiento en el que chicas de 10 a 18 años crean una app que resuelve un problema social. Cada año, Technovation invita a equipos de niñas y adolescentes de todo el mundo a aprender y aplicar las competencias que son necesarias para resolver problemas reales a través de la tecnología, siendo líderes e innovadoras.\nEstos equipos identifican un problema, crean una app para resolverlo, programan la app presentan su plan de ",
+        "abstract_details": "Empieza una nueva edición de Technovation, el programa de tecnología y emprendimiento en el que chicas de 10 a 18 años crean una app que resuelve un problema social. Cada año, Technovation invita a equipos de niñas y adolescentes de todo el mundo a aprender y aplicar las competencias que son necesarias para resolver problemas reales a través de la tecnología, siendo líderes e innovadoras.\nEstos equipos identifican un problema, crean una app para resolverlo, programan la app presentan su plan de negocio a expertos y lanzan la app al mercado – todo en 3 meses y sin experiencia previa. Las inscripciones están abiertas ahora para esta edición que empieza en enero y acaba con la presentación online del proyecto el 26 de abril. \nÚnete a nosotros si eres una joven que quiere conocer el programa o simplemente pasar una tarde aprendiendo el proceso de creación de una app. También te esperamos si quieres ser mentor o mentora.",
+        "date": "2017-01-19T06:30:00Z",
         "location": {
-            "lat": 40.4204889,
-            "lng": -3.702173499999958,
-            "name": "Ágora Wayra (Edificio Telefónica, planta 8), Madrid",
+            "lat": 40.4121601,
+            "lng": -3.718060400000013,
+            "name": "Campus Madrid, Madrid",
             "notes": false
         },
         "price": {
             "details": false,
-            "isFree": true
+            "isFree": true,
+            "isTrusted": true
         },
         "source": {
-            "event_url": "https://www.eventbrite.es/e/entradas-databeers-branded-event-telefonica-30903885353",
+            "event_url": "https://www.eventbrite.es/e/entradas-lanzamiento-de-technovation-taller-de-apps-para-ninas-de-10-a-18-anos-29299356163",
             "logo": "https://eventbrite-s3.s3.amazonaws.com/marketing/landingpages/shared/images/eb-logo.png",
             "name": "Evenbrite",
             "url": "https://www.eventbrite.es"
         },
-        "target_url": "https://www.eventbrite.es/e/entradas-databeers-branded-event-telefonica-30903885353",
-        "title": "Databeers Branded Event - Telefónica"
+        "target_url": "https://www.eventbrite.es/e/entradas-lanzamiento-de-technovation-taller-de-apps-para-ninas-de-10-a-18-anos-29299356163",
+        "title": "Lanzamiento de Technovation - Taller de Apps para niñas de 10 a 18 años"
     },
     {
-        "abstract": "Resumen\n\nEste curso ofrece una introducción avanzada a tres estilos de programación soportados y promovidos por la programación funcional: la programación genérica, la programación aplicativa y la programación monádica. El curso también introduce el papel que juegan las álgebras en la programación funcional, y los dos estilos de programación algebraica principales: basados en type classes y basados en F-algebras, transformaciones naturales, tipos algebraicos de datos generalizados, etc. Durante ",
-        "abstract_details": "Resumen\n\nEste curso ofrece una introducción avanzada a tres estilos de programación soportados y promovidos por la programación funcional: la programación genérica, la programación aplicativa y la programación monádica. El curso también introduce el papel que juegan las álgebras en la programación funcional, y los dos estilos de programación algebraica principales: basados en type classes y basados en F-algebras, transformaciones naturales, tipos algebraicos de datos generalizados, etc. Durante el curso utilizaremos Scala y su fantástico ecosistema de librerías para la programación funcional, concretamente, shapeless y las librerías de type classes scalaz y cats. Con una menor relevancia, en el curso también se hará mención a la librería de pruebas Scalacheck. Para cada uno de estos tres estilos de programación, se describirán los problemas más relevantes para los que están pensados, sus abstracciones constituyentes y el soporte que ofrecen para ellos las librerías del ecosistema de Scala.\n\nObjetivos\n\nEncuadrar los tres estilos de programación estudiados durante el curso como parte del catálogo de técnicas de modularidad proporcionadas por la programación funcional\nEntender los patrones de diseño utilizados por Cats y Scalaz en la implementación de la signatura, leyes, operaciones derivadas, instancias y sintaxis de las type classes incluidas en dichas librerías.\nInstanciar las type classes monádicas más comunes (MonadState, MonadError, etc.) con los transformadores de mónadas correspondientes (StateT, EitherT, etc.), y entender cómo funcionan dichos transformadores.\nEntender el papel que desempeñan las algebras en la programación funcionaln como especificaciones de DSLs, y las distintas formas de representarlas: con tipos algebraicos de datos (F-Algebras) y mediante type classes (Ojbect-algebras).\nUtilizar tipos algebraicos de datos generalizados, transformaciones naturales y Free monads para diseñar DSLs, y saber cuándo utilizar estas representaciones en lugar de las basadas en Church encodings y álgebras de objetos.\nEntender las diferencias entre los estilos aplicativo y monádico (es decir, imperativo), sus principales aplicaciones y el soporte que ofrecen scalaz y cats para ellos\nEntender el concepto de representación libre (\"free structures\") y su aplicación al diseño de lenguajes aplicativos y monádicos\nEntender el papel de las listas heterogéneas (HList) y los coproductos para abstraer la forma particular de los tipos algebraicos de datos (ADTs), y poder de esa forma implementar algoritmos genéricos que trabajen a ese nivel de abstracción (por ejemplo, para derivar automáticamente type classes). ¡Todo ello utilizando shapeless!\nEntender la arquitectura interna de shapeless, cats y scalaz, así como las técnicas de Scala más avanzadas utilizadas en su diseño\n¡Aprender más programación funcional por uno mismo!\n\nTemario\n\nType class libraries: Scalaz & Cats\n\nScalaz & Cats overview\nType classes: Monad, MonadState, MonadError, etc.\nMonad transformers: StateT, EitherT, etc.\n\n\nAlgebras and functional programming\n\nF-algebras and object-algebras\nGADTs and natural transformations\nFree structures: free monoids and free monads\n\n\nApplicative programming\n\nApplicative functors\nTraversables\nFree applicatives\n\n\nDatatype generic programming\n\nShapeless architecture\nHList, Coproduct and Fix\nAutomatic type class derivation\n\n\n\nAudiencia\nEste curso está especialmente dirigido a ti si:\n\nProgramadores de Scala con conocimientos intermedios de programación funcional, deseosos de mejorar su conocimiento de este paradigma y poder utilizar shapeless, scalaz, cats, y otras librerías igualmente avanzadas del ecosistema de Scala, en su código de producción\nProgramadores con un conocimiento profundo de programación funcional, con ganas de saber cómo se aplican dichos conocimientos con Scala y su ecosistema de librerías\n\nMás información en ... \nhttp://www.hablapps.com/index.html#functional-advanced-es",
-        "date": "2017-01-13T04:00:00Z",
+        "abstract": "Seminario eMadrid sobre \"Pensamiento Computacional\"\nSeminario gratuito. Toda la información del evento está disponible en la web de la la red eMadrid.\nPrograma\n\n\n\n\n15:00 - 15:35: Pensamiento Computacional Unplugged para niños: Enseñanza de la computación sin el protagonista. Christian Brackmann. Federal Institute of Education, Science and Technology Farroupilha (IFFAR) / Federal University of Rio Grande do Sul (UFRGS).\n\n\n15:35 - 16:10: El Pensamiento computacional como una herramienta transversa",
+        "abstract_details": "Seminario eMadrid sobre \"Pensamiento Computacional\"\nSeminario gratuito. Toda la información del evento está disponible en la web de la la red eMadrid.\nPrograma\n\n\n\n\n15:00 - 15:35: Pensamiento Computacional Unplugged para niños: Enseñanza de la computación sin el protagonista. Christian Brackmann. Federal Institute of Education, Science and Technology Farroupilha (IFFAR) / Federal University of Rio Grande do Sul (UFRGS).\n\n\n15:35 - 16:10: El Pensamiento computacional como una herramienta transversal en los centros educativos. Julio Rodríguez Borges. Sesa Sistemas.\n\n\n16:10 - 16:45: Robótica en las aulas de la Comunidad de Madrid a través de la asignatura Tecnología, Programación y Robótica. David Cervera Olivares, Subdirector General de Programas de Innovación en la Consejería de Educación, Juventud y Deporte de la Comunidad de Madrid,\n\n\n16:45 - 17:05: El repositorio de proyectos Scratch: nuevas oportunidades de investigación y su impacto en la educación. Jesús Moreno León. Programamos.\n\n\n17:05 - 17:30: Entorno docente con Arduino y Python para Educación Robótica en Secundaria. José María Cañas. URJC.",
+        "date": "2017-01-20T03:00:00Z",
         "location": {
-            "lat": 40.3543998,
-            "lng": -3.7462984999999662,
-            "name": "Parque Científico Universidad Carlos III de Madrid, Leganés, Madrid",
+            "lat": 40.2867615,
+            "lng": -3.821852799999988,
+            "name": "Universidad Rey Juan Carlos, Fuenlabrada",
             "notes": false
         },
         "price": {
-            "details": "275 € – 550 €",
-            "isFree": false
+            "details": false,
+            "isFree": true,
+            "isTrusted": true
         },
         "source": {
-            "event_url": "https://www.eventbrite.es/e/entradas-programacion-funcional-avanzada-con-scala-2a-ed-29668373905",
+            "event_url": "https://www.eventbrite.es/e/entradas-seminario-emadrid-sobre-pensamiento-computacional-30217726032",
             "logo": "https://eventbrite-s3.s3.amazonaws.com/marketing/landingpages/shared/images/eb-logo.png",
             "name": "Evenbrite",
             "url": "https://www.eventbrite.es"
         },
-        "target_url": "https://www.eventbrite.es/e/entradas-programacion-funcional-avanzada-con-scala-2a-ed-29668373905",
-        "title": "Programación funcional avanzada con Scala (2ª ed.)"
+        "target_url": "https://www.eventbrite.es/e/entradas-seminario-emadrid-sobre-pensamiento-computacional-30217726032",
+        "title": "Seminario eMadrid sobre \"Pensamiento Computacional\""
     }
 ]
