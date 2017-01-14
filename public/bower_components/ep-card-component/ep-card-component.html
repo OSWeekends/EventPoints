@@ -1,0 +1,75 @@
+<html><head><link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../iron-icon/iron-icon.html">
+<link rel="import" href="../iron-icons/hardware-icons.html">
+
+
+
+</head><body><dom-module id="ep-card-component">
+  <template>
+    <style>
+      :host {
+        display: block;
+        background: #262626;
+        color: #fff;
+      }
+      .description{
+        padding: 10px;
+      }
+      .description p{
+        color: #5c5c5c;
+      }
+      .actions{
+        display: flex;
+        flex-direction: row;
+      }
+      .detail{
+        background: #5c5c5c;
+        color: #fff;
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: flex-start;
+      }
+      .link{
+        background: #a42551;
+        display: flex;
+        align-items: center;
+        flex: 1;
+        justify-content: center;
+        cursor: pointer;
+      }
+      .link:hover{
+        background: #ab013c;
+      }
+      .center{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        flex:1;
+      }
+    </style>
+    <div class="description">
+      <h3>{{title}}</h3>
+      <p>{{description}}</p>
+    </div>
+    <div class="actions">
+      <div class="detail">
+        <div class="center">
+           <iron-icon icon="alarm"></iron-icon>
+           <p>{{hour}}</p>
+        </div>
+        <div class="center">
+          <iron-icon icon="euro-symbol"></iron-icon>
+          <p>{{price}}</p>
+        </div>
+      </div>
+      <div class="link" on-tap="goLink">
+        <p>{{textLink}}</p>
+        <iron-icon icon="arrow-forward"></iron-icon>
+      </div>
+    </div>
+  </template>
+
+  <script>Polymer({is:"ep-card-component",properties:{title:{type:String,value:"title"},description:{type:String,value:"description"},information:{type:String},hour:{type:String,value:"hour"},price:{type:String,value:"FREE"},textLink:{type:String,value:"text"},date:{type:String},source:{type:Object},eventUrl:{type:String},submitUrl:{type:String},location:{type:Object}},goLink:function(){this.fire("goLDetail",{title:this.title,information:this.information,source:this.source,submitUrl:this.submitUrl,description:this.description,location:this.location,hour:this.hour,price:this.price,date:this.date})}});</script>
+</dom-module>
+</body></html>
