@@ -1,0 +1,125 @@
+<!--
+@license
+Copyright (c) 2016 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/ep-card-component/ep-card-component.html">
+<link rel="import" href="../bower_components/iron-ajax/iron-ajax.html">
+<link rel="import" href="shared-styles.html">
+
+<dom-module id="my-view1">
+  <template>
+    <style include="shared-styles">
+      :host {
+        display: block;
+      }
+      .eventCard{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+      }
+      ep-card-component{
+        width: 100%;
+      }
+      .date{
+        background: #a42551;
+        min-width: 12%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-bottom: solid 2px #000;
+      }
+    </style>
+    <iron-ajax id="eventsAjax"
+      auto
+      url="http://eventpoints-155009.appspot-preview.com/api/events"
+      handle-as="json"
+      on-response="handleResponse"></iron-ajax>
+
+    <template is="dom-repeat" items="{{events}}" index-as="index">
+      <div class="eventCard">
+        <div class="date">
+          <div class="day">
+            {{getDay(item.date)}}
+          </div>
+          <div class="month">
+            {{getMonth(item.date)}}
+          </div>
+        </div>
+        <ep-card-component
+          title="{{item.title}}"
+          description="{{item.abstract}}"
+          hour="{{getHour(item.date)}}"
+          price="{{getPrice(item.price.detail)}}"
+          text-link="VER DETALLES"
+          date="{{getFullDate(item.date)}}"
+          information="{{item.abstract_details}}"
+          source="{{item.source}}"
+          submit-url="{{item.target_url}}"
+          location="{{item.location}}"
+        ></ep-card-component>
+      </div>
+
+    </template>
+  </template>
+  <script>
+    Polymer({
+      is: 'my-view1',
+      properties: {
+        events: {
+          type: Array,
+          value:[]
+        },
+        month:{
+          type: Array,
+          value: ['ENE', 'FEB', 'MAR', 'ABR', 'MAY', 'JUN', 'JUL', 'AGO', 'SEP', 'OCT', 'NOV', 'DIC']
+        }
+      },
+      handleResponse: function() {
+        console.log(this.$.eventsAjax.lastResponse);
+        this.set('events',this.$.eventsAjax.lastResponse);
+      },
+      getHour: function(date) {
+          var dateList = date.split('T');
+          return dateList[1].replace(':00Z','');
+      },
+      getPrice: function(price){
+        if(price){
+          return price;
+        }
+        else{
+          return 'FREE'
+        }
+      },
+      getDay: function(dateAndHour) {
+        var date = dateAndHour.split('T')[0];
+        var dateList = date.split('-');
+        var day = dateList[2];
+        return day;
+
+      },
+      getMonth: function(dateAndHour) {
+        var date = dateAndHour.split('T')[0];
+        var dateList = date.split('-');
+        var month = this.month[parseInt(dateList[1]-1)];
+        return month;
+      },
+      getFullDate: function(dateAndHour) {
+        var date = dateAndHour.split('T')[0];
+        var dateList = date.split('-');
+        var month = this.month[parseInt(dateList[1]-1)];
+        var day = dateList[2];
+
+        return day+' de '+month;
+      }
+    });
+  </script>
+</dom-module>
