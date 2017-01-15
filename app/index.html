@@ -15,7 +15,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <meta name="generator" content="Polymer Starter Kit">
     <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
 
-    <title>My App</title>
+    <title>Event pount</title>
     <meta name="description" content="My App description">
 
     <link rel="icon" href="/images/favicon.ico">
@@ -85,13 +85,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           onload();
         }
       })();
-
-      // Load pre-caching Service Worker
-      if ('serviceWorker' in navigator) {
-        window.addEventListener('load', function() {
-          navigator.serviceWorker.register('/service-worker.js');
-        });
-      }
     </script>
 
     <link rel="import" href="/src/my-app.html">
@@ -108,6 +101,5 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   </head>
   <body>
     <my-app></my-app>
-    <!-- Built with love using Polymer Starter Kit -->
   </body>
 </html>

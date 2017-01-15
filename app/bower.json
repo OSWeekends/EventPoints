@@ -1,7 +1,7 @@
 {
-  "name": "polymer-starter-kit",
+  "name": "EventPoint",
   "authors": [
-    "The Polymer Authors"
+    "osWeeekend"
   ],
   "license": "https://polymer.github.io/LICENSE.txt",
   "dependencies": {
