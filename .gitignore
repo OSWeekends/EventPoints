@@ -44,3 +44,6 @@ config.js
 
 #polymer Components
 app/bower_components
+
+# Mac files
+.DS_Store
