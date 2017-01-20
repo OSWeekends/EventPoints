@@ -63,8 +63,8 @@
   "dependencies": {
     "firebase": "3.0.5",
     "lodash": "4.17.4",
-    "pillars": "0.3.7",
-    "scheduled": "0.4.5",
+    "pillars": "*",
+    "scheduled": "*",
     "uuid": "3.0.1"
   }
 }
