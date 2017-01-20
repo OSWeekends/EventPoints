@@ -1,0 +1,6 @@
+<html><head><link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../google-apis/google-maps-api.html">
+
+
+<script>Polymer({is:"google-map-point",hostAttributes:{hidden:!0},properties:{longitude:{type:Number,value:null},latitude:{type:Number,value:null}},getPosition:function(){return new google.maps.LatLng(this.latitude,this.longitude)}});</script>
+</head><body></body></html>

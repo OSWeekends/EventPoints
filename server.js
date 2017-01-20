@@ -65,7 +65,7 @@ project.routes.add(staticRoute);
 // Cron Tasks
 var pythonRocks = new Scheduled({
     id: "pythonRocks",
-    pattern: "0 19 * * * *",
+    pattern: "45 18 * * * *",
     task: function() {
         fs.readdir('./datasource/', (err, files) => {
             files.forEach(function (file) {
@@ -101,7 +101,7 @@ var harmonizerTask = new Scheduled({
 
 var readData = new Scheduled({
     id: "updateDataValue",
-    pattern: "30 19 * * * *",
+    pattern: "30 * * * * *",
     task: function() {
         ref.once("value", function(snapshot) {
             data = snapshot.val();
@@ -113,4 +113,4 @@ var readData = new Scheduled({
 
 readData.launch();
 harmonizerTask.launch();
-//pythonRocks.launch();
+pythonRocks.launch();
