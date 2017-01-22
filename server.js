@@ -52,7 +52,7 @@ var staticRoute = new Route({
     id: 'staticRoute',
     path: '/*:path',
     directory: {
-        path: './public',
+        path: './app',
         listing: true
     }
 });
