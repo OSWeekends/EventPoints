@@ -5,7 +5,7 @@ var _ = require("lodash"),
 module.exports = function(firebase) {
     var arrayEventos = [];
     var db = firebase.database();
-    var ref = db.ref("events_current");
+    var ref = db.ref("events");
     fs.readdir('./datasource/output', (err, files) => {
         files.forEach(function(file){
             if (/.json/.test(file)) {
@@ -40,7 +40,7 @@ module.exports = function(firebase) {
         // Just in case the review is needed
         fs.writeFile('./final.json', JSON.stringify(arrayEventos, null, 4), function(err) {
             if (!err) {
-                console.log('.output/final.json -- Actualizado!');
+                console.log('./final.json -- Actualizado!');
             } else {
                 console.log('ERROR FATAL!! Al guardar ./final.json');
                 throw err;

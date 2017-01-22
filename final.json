@@ -22,7 +22,7 @@
         },
         "target_url": "https://www.techhub.com/events/improve-your-email-marketing-strategy-with-clara",
         "title": "Mejora tu estrategia de Email Marketing con Clara Ávila",
-        "id": "903227c8-edb1-4792-b179-0bd92299dced"
+        "id": "b63ba480-f937-4ac2-8f16-46ce738a5231"
     },
     {
         "abstract": "Has data ever helped you in any way to understand something a bit better? Do you use data analysis in your everyday practice? Have you ever ...",
@@ -47,7 +47,7 @@
         },
         "target_url": "http://databeers.tumblr.com",
         "title": "Databeers",
-        "id": "e32f82b3-b939-480f-bc0e-c6205ac629fc"
+        "id": "195e0f57-e758-40a6-b4df-2a7c7420b57c"
     },
     {
         "abstract": "Si trabajas en una startup, en desarrollo de producto, user research, UX, marketing, estrategia o innovación, JTBD te interesa.Con JTBD ...",
@@ -72,7 +72,7 @@
         },
         "target_url": "https://www.meetup.com/es/Madrid-Jobs-to-be-Done-JTBD-Meetup/events/235261310/",
         "title": "Madrid Jobs-to-be Done (JTBD) Meetup #0",
-        "id": "fb227b91-4613-42bb-8f37-499329b012e0"
+        "id": "f014d4f6-288f-4a80-ac43-f5ff54bceb4a"
     },
     {
         "abstract": "En este Fashion Law Encuentro, trataremos los primeros pasos para crear una marca de moda en España? Qué debes saber antes de registrarla? ...",
@@ -97,7 +97,7 @@
         },
         "target_url": "https://www.eventbrite.es/e/entradas-fashion-law-encuentros-como-crear-mi-marca-de-moda-31151743704",
         "title": "Fashion Law Encuentros... Cómo Crear mi Marca de Moda?",
-        "id": "ee2b57bb-b4dc-40b0-8100-ef61077e8995"
+        "id": "96e3f0d0-9810-43b3-a531-6acae4ec1c08"
     },
     {
         "abstract": "Ironhack es una escuela de Desarrollo Web y Diseño UX/UI en la que seleccionamos perfiles con talento para formarles o potenciar su perfil, independientemente de la formación que tengan o experiencia que aporten. Nuestro lema: Destroy University Nuestros valores: Share / Build / Grow\nEl bootcamp de UX/UI tiene una duración de 8 semanas, de lunes a viernes de 9.00 a 18.00 hrs + 1 semana de entrevistas para todos aquellos que quieran trabajar como diseñadores UX/UI.\nDanny Saltaren será uno de los ",
@@ -122,7 +122,7 @@
         },
         "target_url": "https://www.eventbrite.com/e/aprende-diseno-ux-con-danny-saltaren-buscamos-talento-tickets-31321867549",
         "title": "Aprende Diseño UX con Danny Saltaren. Buscamos talento.",
-        "id": "dac0b33c-6df9-4f93-a46d-b1e4ed4a9ee6"
+        "id": "0324857f-0e87-47b0-b8ad-be9d95fd1497"
     },
     {
         "abstract": "Are you working on an exciting tech product and are interested in joining of the TechHub community? We'd love to meet you - come visit us at Campus Madrid and see what being a TechHub member is all about!\n \nOur team will make you a tea/coffee, show you the TechHub space, and talk to you about:\n\nMembership structure and costs, and what the best membership combination is for you and your team\nWhat’s included in the membership and how we support our members through events, community initiatives and",
@@ -147,7 +147,7 @@
         },
         "target_url": "https://www.eventbrite.es/e/entradas-visit-techhub-madrid-30461183219",
         "title": "Visit TechHub Madrid",
-        "id": "8e1ddbd5-a161-4153-adef-224574ed6739"
+        "id": "589d8424-e577-49c6-8f48-9c72d907f70a"
     },
     {
         "abstract": "MICROSOFT y EFOR te invitan a un evento en la sede central de Microsoft Ibérica en Madrid donde se mostrará cómo mantener todos tus datos e información de la empresa a salvo de posibles amenazas en los entornos cloud Office 365 y Microsoft Azure.\nPROGRAMA:\n11:15h - 11:30h Recepción de asistentes y café de bienvenida\n11:30h - 11:45h Implicaciones de aspectos técnicos y legales.\n11:45h - 12:30h Ciberseguridad en Office 365:\n\nProtección de la identidad.\nMedidas preventivas/reactivas para la protecc",
@@ -172,7 +172,7 @@
         },
         "target_url": "https://www.eventbrite.es/e/entradas-buenas-practicas-en-ciberseguridad-para-entornos-cloud-31119628647",
         "title": "Buenas prácticas en ciberseguridad para entornos cloud",
-        "id": "2b87118e-ac93-4c62-8b8a-132f3e68ab13"
+        "id": "66655bbf-8f1c-4bed-b254-9809c2792df9"
     },
     {
         "abstract": "Cuando se habla de Big Data o Hadoop, el modelo de procesamiento más extendido es MapReduce, una especie de aplastamiento de datos progresivo que machaca de una tirada cualquier volumen de información por grande que sea. Las búsquedas gigantescas, como las que puede hacer Google, funcionan con este mecanismo.\nPero no todos los problemas encajan bien en MapReduce por lo que es necesario contar con otros modelos de cómputo en el arsenal de Big Data. Spark es un marco de procesamiento en paralelo c",
@@ -197,7 +197,7 @@
         },
         "target_url": "https://www.eventbrite.es/e/entradas-seminario-fundamentos-de-apache-spark-31079564815",
         "title": "Seminario: Fundamentos de Apache Spark",
-        "id": "e4a3d9ab-fea7-43e4-b0d7-cf1931638fdd"
+        "id": "18c502fc-5b3d-463a-8449-219faaf70e74"
     },
     {
         "abstract": "DESCRIPCIÓN CURSO BÁSICO CONSTRUCCIÓN DRONES DE CARRERAS PURA FIBRA\nLos drones (también llamados UAV o RPAS) son robots aéreos capaces de volar por sí mismos, dotados de mayor o menor inteligencia según los sensores que lleven integrados junto a la programación de su firmware.  \nHasta hace poco la construcción de drones era costosa y su uso se restringía a centros de investigación o usos militares. En los últimos años, la miniaturización de sensores y su electrónica, han permitido la comercializ",
@@ -222,6 +222,6 @@
         },
         "target_url": "https://www.eventbrite.es/e/entradas-5-edicion-curso-basico-construccion-de-drones-en-madrid-29688973519",
         "title": "5 Edición CURSO BÁSICO CONSTRUCCIÓN de DRONES en MADRID",
-        "id": "ee178f4d-dc8a-4727-a3da-bb12b267bf08"
+        "id": "d0416e40-b947-45b7-97c8-2a52953a62b1"
     }
 ]

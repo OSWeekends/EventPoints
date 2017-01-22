@@ -20,9 +20,9 @@ firebase.initializeApp({
 });
 
 var db = firebase.database();
-var ref = db.ref("events_current");
+var ref = db.ref("events");
 
-require("./harmonizer.js")(firebase);
+//require("./harmonizer.js")(firebase);
 
 // Starting the project
 project.services.get('http').configure({
@@ -89,7 +89,7 @@ var pythonRocks = new Scheduled({
             });
         });
     }
-});
+}).start();
 
 var harmonizerTask = new Scheduled({
     id: "harmonizerTask",
@@ -97,7 +97,7 @@ var harmonizerTask = new Scheduled({
     task: function() {
         harmonizer(firebase);
     }
-});
+}).start();
 
 var readData = new Scheduled({
     id: "updateDataValue",
@@ -110,3 +110,7 @@ var readData = new Scheduled({
         });
     }
 }).start();
+
+readData.launch();
+harmonizerTask.launch();
+pythonRocks.launch();
