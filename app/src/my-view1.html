@@ -27,6 +27,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       ep-card-component{
         width: 100%;
       }
+      .events{
+        display: flex;
+        flex-direction: column;
+      }
       .date{
         background: #a42551;
         min-width: 12%;
@@ -43,31 +47,35 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       url="http://eventpoints-155009.appspot-preview.com/api/events"
       handle-as="json"
       on-response="handleResponse"></iron-ajax>
-
-    <template is="dom-repeat" items="{{events}}" index-as="index">
-      <div class="eventCard">
-        <div class="date">
-          <div class="day">
-            {{getDay(item.date)}}
+    <template is="dom-repeat" items="{{calendar}}" as="days" index-as="month">
+      <template is="dom-repeat" items="{{daysNotEmpty}}" as="dayNotEmpty" index-as="day">
+        <div class="eventCard">
+          <div class="date">
+            <div class="day">
+              {{getDayGroupEvents(dayNotEmpty)}}
+            </div>
+            <div class="month">
+              {{getMonthGroupEvents(dayNotEmpty)}}
+            </div>
           </div>
-          <div class="month">
-            {{getMonth(item.date)}}
-          </div>
+          <div class="events">
+        <template is="dom-repeat" items="{{dayNotEmpty}}">
+            <ep-card-component
+              title="{{item.title}}"
+              description="{{item.abstract}}"
+              hour="{{getHour(item.date)}}"
+              price="{{getPrice(item.price.detail)}}"
+              text-link="VER DETALLES"
+              date="{{getFullDate(item.date)}}"
+              information="{{item.abstract_details}}"
+              source="{{item.source}}"
+              submit-url="{{item.target_url}}"
+              location="{{item.location}}"
+            ></ep-card-component>
+          </template>
         </div>
-        <ep-card-component
-          title="{{item.title}}"
-          description="{{item.abstract}}"
-          hour="{{getHour(item.date)}}"
-          price="{{getPrice(item.price.detail)}}"
-          text-link="VER DETALLES"
-          date="{{getFullDate(item.date)}}"
-          information="{{item.abstract_details}}"
-          source="{{item.source}}"
-          submit-url="{{item.target_url}}"
-          location="{{item.location}}"
-        ></ep-card-component>
       </div>
-
+    </template>
     </template>
   </template>
   <script>
@@ -76,11 +84,33 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       properties: {
         events: {
           type: Array,
-          value:[]
+          observer: 'groupByDay'
         },
         month:{
           type: Array,
           value: ['ENE', 'FEB', 'MAR', 'ABR', 'MAY', 'JUN', 'JUL', 'AGO', 'SEP', 'OCT', 'NOV', 'DIC']
+        },
+        calendar: {
+          type: Array,
+          value: []
+        },
+        day: {
+          type: Array,
+          observer: 'getEvents'
+        },
+        daysNotEmpty: {
+          type: Array,
+          value: []
+        }
+      },
+      ready: function() {
+        this.calendar = new Array();
+        this.calendar[0] = new Array();
+        this.calendar [0][0] = new Array
+        for ( var i = 0; i < 12; i++ ) {
+          for (var j = 0; j < 31; j++){
+              this.calendar[i][j] = new Array();
+          }
         }
       },
       handleResponse: function() {
@@ -104,7 +134,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         var dateList = date.split('-');
         var day = dateList[2];
         return day;
-
       },
       getMonth: function(dateAndHour) {
         var date = dateAndHour.split('T')[0];
@@ -117,8 +146,35 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         var dateList = date.split('-');
         var month = this.month[parseInt(dateList[1]-1)];
         var day = dateList[2];
-
         return day+' de '+month;
+      },
+      groupByDay: function() {
+          this.events.map(function(event){
+            var day = this.getDay(event.date);
+            var month =this.month.indexOf(this.getMonth(event.date));
+            //this.calendar[month][day].push(event);
+            var addCalendar = 'calendar.' + month + '.' + day;
+            this.push (addCalendar, event);
+          }.bind(this));
+          console.log(this.calendar);
+          this.set('day', this.calendar[0])
+      },
+      getEvents: function(days) {
+          var daysNotEmpty =
+          days.filter(function(day){
+            if(day.length != 0 || typeof day === 'Object'){
+              return day;
+            }
+          });
+          this.set('daysNotEmpty', daysNotEmpty);
+      },
+      getDayGroupEvents: function(dayNotEmpty) {
+        var event = dayNotEmpty[0];
+        return this.getDay(event.date);
+      },
+      getMonthGroupEvents: function(dayNotEmpty) {
+        var event = dayNotEmpty[0];
+        return this.getMonth(event.date);
       }
     });
   </script>
