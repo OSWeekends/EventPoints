@@ -1,32 +1,8 @@
 [
     {
-        "abstract": "Este meetup mensual busca juntarnos en un mismo espacio para que las ideas fluyan. Tendremos la oportunidad de aprender unos de otros y ...",
-        "abstract_details": "Este meetup mensual busca juntarnos en un mismo espacio para que las ideas fluyan. Tendremos la oportunidad de aprender unos de otros y descubrir nuevas tecnologías. También habrá lugar para microtalleres y presentaciones de proyectos de código abierto en los que estéis contribuyendo o desarrollando. La única condición es que lo que hagamos en este espacio sea Código abierto y sin ánimo de lucro.¡Todo el mundo es bienvenido! Programadores, diseñadores, estudiantes, entusiastas, curiosos... coged vuestro portátil y uniros a participar.",
-        "date": "2017-01-14T10:30:00Z",
-        "location": {
-            "lat": 40.41249699999999,
-            "lng": -3.7182264000000487,
-            "name": "Campus Madrid",
-            "notes": "Cafe Floor 1"
-        },
-        "price": {
-            "details": "estimado",
-            "isFree": true,
-            "isTrusted": false
-        },
-        "source": {
-            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxVFRLS0FBNAw",
-            "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
-            "name": "Campus Madrid",
-            "url": "http://campus.co/madrid"
-        },
-        "target_url": "https://www.meetup.com/es-ES/Open-Source-Weekends/events/236190563/",
-        "title": "Open Source Weekends: Reunión de Enero"
-    },
-    {
-        "abstract": "Te invitamos a participar como Mentor en las Aulas, de alumnos de Primaria, ESO y FP, en cualquiera de los más de 40 centros educativos de ...",
-        "abstract_details": "Te invitamos a participar como Mentor en las Aulas, de alumnos de Primaria, ESO y FP, en cualquiera de los más de 40 centros educativos de la Comunidad de Madrid que participan este curso en los programas de Fundación Créate. En esta sesión te explicaremos cómo y contaremos con el testimonio de profesionales expertos en innovación que ya han participado como mentores.\napps que te ayudan a ejercitar tu deportebastones inteligentes para ciegosmuebles ecológicos para escuelas….\n\nSon solo algunos ejemplos de proyectos que los más de 2 000 alumnos de primaria y secundaria han desarrollado otros años. \n\nComo MENTOR, tu rol es ayudarles a dar forma a su proyecto\n\nFundación Créate es una organización sin ánimo de lucro que busca dar respuesta a las necesidades de una sociedad en continuo cambio desde la educación. Desarrolla programas que permitan un nuevo aprendizaje en la escuela, donde los niños y jóvenes aprendan a través de un proyecto propio y puedan ser protagonistas de su propio aprendizaje.",
-        "date": "2017-01-17T19:00:00Z",
+        "abstract": "El email marketing es uno de los canales más potentes de adquisición de clientes. Por ello, TechHub lanza este Expert Talk con Clara Ávila, ...",
+        "abstract_details": "El email marketing es uno de los canales más potentes de adquisición de clientes. Por ello, TechHub lanza este Expert Talk con Clara Ávila, responsable de contenido online en Save The Children, con experiencia en The Cocktail y autora del blog claraavilac. En él se profundizará en las distintas estrategias de marketing de contenidos y cómo obtener los mejores resultados.\n\nAgenda:- Email marketing - presente y futuro- Inbound marketing y categorías de contenido- Planificación de contenidos y automatización- Cómo preparar una campaña: contenidos del mensaje, prototipado- Cómo conseguir nuevos suscriptores- Analítica y KPIs- Best Practices",
+        "date": "2017-01-24T19:00:00Z",
         "location": {
             "lat": 40.41249699999999,
             "lng": -3.7182264000000487,
@@ -39,18 +15,18 @@
             "isTrusted": false
         },
         "source": {
-            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxVFNKTkFBNAw",
+            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxVHFhZUFBQww",
             "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
             "name": "Campus Madrid",
             "url": "http://campus.co/madrid"
         },
-        "target_url": "https://www.eventbrite.es/e/entradas-mentores-en-las-aulas-30493373501",
-        "title": "Mentores en las Aulas"
+        "target_url": "https://www.techhub.com/events/improve-your-email-marketing-strategy-with-clara",
+        "title": "Mejora tu estrategia de Email Marketing con Clara Ávila"
     },
     {
-        "abstract": "Te invitamos a participar como Mentor en las Aulas, de alumnos de Primaria, ESO y FP, en cualquiera de los más de 40 centros educativos de ...",
-        "abstract_details": "Te invitamos a participar como Mentor en las Aulas, de alumnos de Primaria, ESO y FP, en cualquiera de los más de 40 centros educativos de la Comunidad de Madrid que participan este curso en los programas de Fundación Créate. En esta sesión te explicaremos cómo y contaremos con el testimonio de profesionales expertos en innovación que ya han participado como mentores.\napps que te ayudan a ejercitar tu deportebastones inteligentes para ciegosmuebles ecológicos para escuelas….\n\nSon solo algunos ejemplos de proyectos que los más de 2 000 alumnos de primaria y secundaria han desarrollado otros años. \n\nComo MENTOR, tu rol es ayudarles a dar forma a su proyecto\n\nFundación Créate es una organización sin ánimo de lucro que busca dar respuesta a las necesidades de una sociedad en continuo cambio desde la educación. Desarrolla programas que permitan un nuevo aprendizaje en la escuela, donde los niños y jóvenes aprendan a través de un proyecto propio y puedan ser protagonistas de su propio aprendizaje.",
-        "date": "2017-01-17T19:00:00Z",
+        "abstract": "Has data ever helped you in any way to understand something a bit better? Do you use data analysis in your everyday practice? Have you ever ...",
+        "abstract_details": "Has data ever helped you in any way to understand something a bit better? Do you use data analysis in your everyday practice? Have you ever built a service built on data? Do you have any kind of artistic project based on data? Are you obsessed with data at any level? And finally, do you like beer? The boom of big data is only an extensive continuation of a classic field of data analysis, and we want to discuss about this with beers and interested people in Madrid.",
+        "date": "2017-01-25T19:00:00Z",
         "location": {
             "lat": 40.41249699999999,
             "lng": -3.7182264000000487,
@@ -63,23 +39,23 @@
             "isTrusted": false
         },
         "source": {
-            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxVFNKTkFBNAw",
+            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAyNUw4MUFBRQw",
             "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
             "name": "Campus Madrid",
             "url": "http://campus.co/madrid"
         },
-        "target_url": "https://www.eventbrite.es/e/entradas-mentores-en-las-aulas-30493373501",
-        "title": "Mentores en las Aulas"
+        "target_url": "http://databeers.tumblr.com",
+        "title": "Databeers"
     },
     {
-        "abstract": "OpenDaylight User Groups (ODLUG) are regional, self-organized, informal associations that meet globally to discuss OpenDaylight. The ...",
-        "abstract_details": "OpenDaylight User Groups (ODLUG) are regional, self-organized, informal associations that meet globally to discuss OpenDaylight. The participants in these groups share knowledge, recruit and onboard new developers, discuss best practices and technical challenges, as well as create awareness. ODLUG hold meetups, run small hackathons, and host social events.",
-        "date": "2017-01-18T19:30:00Z",
+        "abstract": "Has data ever helped you in any way to understand something a bit better? Do you use data analysis in your everyday practice? Have you ever ...",
+        "abstract_details": "Has data ever helped you in any way to understand something a bit better? Do you use data analysis in your everyday practice? Have you ever built a service built on data? Do you have any kind of artistic project based on data? Are you obsessed with data at any level? And finally, do you like beer? The boom of big data is only an extensive continuation of a classic field of data analysis, and we want to discuss about this with beers and interested people in Madrid.",
+        "date": "2017-01-25T19:00:00Z",
         "location": {
             "lat": 40.41249699999999,
             "lng": -3.7182264000000487,
             "name": "Campus Madrid",
-            "notes": "Cafe Floor 1"
+            "notes": "Auditorium"
         },
         "price": {
             "details": "estimado",
@@ -87,23 +63,23 @@
             "isTrusted": false
         },
         "source": {
-            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxVGNQT0FBMAw",
+            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAyNUw4MUFBRQw",
             "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
             "name": "Campus Madrid",
             "url": "http://campus.co/madrid"
         },
-        "target_url": "https://www.meetup.com/es-ES/OpenDaylight-Madrid-User-Group/",
-        "title": "OpenDaylight Madrid User Group"
+        "target_url": "http://databeers.tumblr.com",
+        "title": "Databeers"
     },
     {
-        "abstract": "OpenDaylight User Groups (ODLUG) are regional, self-organized, informal associations that meet globally to discuss OpenDaylight. The ...",
-        "abstract_details": "OpenDaylight User Groups (ODLUG) are regional, self-organized, informal associations that meet globally to discuss OpenDaylight. The participants in these groups share knowledge, recruit and onboard new developers, discuss best practices and technical challenges, as well as create awareness. ODLUG hold meetups, run small hackathons, and host social events.",
-        "date": "2017-01-18T19:30:00Z",
+        "abstract": "Si trabajas en una startup, en desarrollo de producto, user research, UX, marketing, estrategia o innovación, JTBD te interesa.Con JTBD ...",
+        "abstract_details": "Si trabajas en una startup, en desarrollo de producto, user research, UX, marketing, estrategia o innovación, JTBD te interesa.Con JTBD podrás diseñar mejor tus productos, mejorar su posicionamiento en el mercado y refinar el mensaje para atraer y convertir nuevos clientes.El formato de nuestros Meetup combina charlas para que aprendas nuevas técnicas con pequeños ejercicios en grupo para que las pongas en práctica. Está dirigido a practicantes de JTBD y a aquellos que quieran aprender el modelo.JTBD es un conjunto de principios que te permitirán descubrir y entender la intersección entre clientes, sus motivaciones y los productos que usan. Esos descubrimientos (o insigths) te permitirán innovar mejor. Job-to-be-done es una barrera (o struggle) que alguien tiene para mejorar su vida. El JTBD tiene dos elementos: la barrera (o struggle) y cómo las cosas cambian cuando la barrera desaparece.Principios del JTBD:- Los clientes no quieren productos o lo que hacen. Quieren mejorar ayuda para mejorar su vida (por ejemplo, progresar)- Es el cliente el que define quiénes son los competidores y usan el progreso como criterio.- Cuando los clientes empiezan a usar una solución para su JTBD, la reemplazan (hacen \"switch\") por una ya existente.- Las soluciones nacen y desaparecen mientras que los JTBD perduran.- El progreso demuestra el valor mientras que el contraste lo pone en valor.Cómo te puede ayudar y dónde aplicarlo:- Entender la barrera de un cliente nos ayudar a posicionar nuestra solución en el mercado.- Te puede ayudar en la búsqueda de nuevas funcionalidades.- Te puede ayudar en la creación de la propuesta de valor para tus clientes y los mensajes que la acompañan.- Entender mejor quienes compiten con tu solución y cómo animarles a cambiar a la tuya.- Ayudar a identificar funcionalidades innecesarias ahorrando recursos.",
+        "date": "2017-01-26T18:00:00Z",
         "location": {
             "lat": 40.41249699999999,
             "lng": -3.7182264000000487,
             "name": "Campus Madrid",
-            "notes": "Cafe Floor 1"
+            "notes": "Classroom"
         },
         "price": {
             "details": "estimado",
@@ -111,23 +87,23 @@
             "isTrusted": false
         },
         "source": {
-            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxVGNQT0FBMAw",
+            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxU3pZbkFBSww",
             "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
             "name": "Campus Madrid",
             "url": "http://campus.co/madrid"
         },
-        "target_url": "https://www.meetup.com/es-ES/OpenDaylight-Madrid-User-Group/",
-        "title": "OpenDaylight Madrid User Group"
+        "target_url": "https://www.meetup.com/es/Madrid-Jobs-to-be-Done-JTBD-Meetup/events/235261310/",
+        "title": "Madrid Jobs-to-be Done (JTBD) Meetup #0"
     },
     {
-        "abstract": "OpenDaylight User Groups (ODLUG) are regional, self-organized, informal associations that meet globally to discuss OpenDaylight. The ...",
-        "abstract_details": "OpenDaylight User Groups (ODLUG) are regional, self-organized, informal associations that meet globally to discuss OpenDaylight. The participants in these groups share knowledge, recruit and onboard new developers, discuss best practices and technical challenges, as well as create awareness. ODLUG hold meetups, run small hackathons, and host social events.",
-        "date": "2017-01-18T19:30:00Z",
+        "abstract": "En este Fashion Law Encuentro, trataremos los primeros pasos para crear una marca de moda en España? Qué debes saber antes de registrarla? ...",
+        "abstract_details": "En este Fashion Law Encuentro, trataremos los primeros pasos para crear una marca de moda en España? Qué debes saber antes de registrarla? Qué precio tiene? Una vez registrada, cómo aportar valor a la marca?",
+        "date": "2017-01-27T18:00:00Z",
         "location": {
             "lat": 40.41249699999999,
             "lng": -3.7182264000000487,
             "name": "Campus Madrid",
-            "notes": "Cafe Floor 1"
+            "notes": "Classroom"
         },
         "price": {
             "details": "estimado",
@@ -135,23 +111,23 @@
             "isTrusted": false
         },
         "source": {
-            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxVGNQT0FBMAw",
+            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxVGM2M0FBQww",
             "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
             "name": "Campus Madrid",
             "url": "http://campus.co/madrid"
         },
-        "target_url": "https://www.meetup.com/es-ES/OpenDaylight-Madrid-User-Group/",
-        "title": "OpenDaylight Madrid User Group"
+        "target_url": "https://www.eventbrite.es/e/entradas-fashion-law-encuentros-como-crear-mi-marca-de-moda-31151743704",
+        "title": "Fashion Law Encuentros... Cómo Crear mi Marca de Moda?"
     },
     {
-        "abstract": "OpenDaylight User Groups (ODLUG) are regional, self-organized, informal associations that meet globally to discuss OpenDaylight. The ...",
-        "abstract_details": "OpenDaylight User Groups (ODLUG) are regional, self-organized, informal associations that meet globally to discuss OpenDaylight. The participants in these groups share knowledge, recruit and onboard new developers, discuss best practices and technical challenges, as well as create awareness. ODLUG hold meetups, run small hackathons, and host social events.",
-        "date": "2017-01-18T19:30:00Z",
+        "abstract": "En este Fashion Law Encuentro, trataremos los primeros pasos para crear una marca de moda en España? Qué debes saber antes de registrarla? ...",
+        "abstract_details": "En este Fashion Law Encuentro, trataremos los primeros pasos para crear una marca de moda en España? Qué debes saber antes de registrarla? Qué precio tiene? Una vez registrada, cómo aportar valor a la marca?",
+        "date": "2017-01-27T18:00:00Z",
         "location": {
             "lat": 40.41249699999999,
             "lng": -3.7182264000000487,
             "name": "Campus Madrid",
-            "notes": "Cafe Floor 1"
+            "notes": "Classroom"
         },
         "price": {
             "details": "estimado",
@@ -159,60 +135,12 @@
             "isTrusted": false
         },
         "source": {
-            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxVGNQT0FBMAw",
+            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxVGM2M0FBQww",
             "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
             "name": "Campus Madrid",
             "url": "http://campus.co/madrid"
         },
-        "target_url": "https://www.meetup.com/es-ES/OpenDaylight-Madrid-User-Group/",
-        "title": "OpenDaylight Madrid User Group"
-    },
-    {
-        "abstract": "¡¡Comenzamos con fuerza el año!!Este año, para empezar contamos con una crack como Laura Morillo que vendrá a introducirnos kubernetes y la ...",
-        "abstract_details": "¡¡Comenzamos con fuerza el año!!Este año, para empezar contamos con una crack como Laura Morillo que vendrá a introducirnos kubernetes y la gente de ontruck.Docker y Kubernetes por Laura MorilloSoy desarrolladora de Software y siempre voy un paso por detrás en la parte de sistemas. Pero cuando trabajas en un equipo pequeño en una startup necesitas aprender un poco más de todo. En esta charla veremos las diferentes herramientas que Kubernetes nos provee para ayudarnos a crear una infraestructura escalable y cómo integrar nuestro flujo de despliegue continuo.Acerca de LauraDesarrolladora de Software en Seedtag, apasionada de las nuevas tecnologías y de las comunidades que comparten su conocimiento.Ontruck En esta charla OnTruck contará cómo ha desarrollado in-house sus 6 productos en un plazo de 8 meses consiguiendo mover 1.500 camiones, empezando con un equipo de 3 personas hasta las 24 personas actuales. Compartirá consejos sobre los procesos para crear el producto correcto, la organización de los equipos, las herramientas que usan y como lidiar con requisitos de negocio manteniendo la filosofía agile. A presentarnos ontruck vendrán:Javier EscribanoVP de Producto. Previamente fundador y CTO de TouristEye, startup vendida a Lonely Planet.Samuel FuentesCTO. Previamente CTO de Delivery Hero y Valkfleet; startups alemanas valoradas en más de 3.000 millones de euros.",
-        "date": "2017-01-19T19:00:00Z",
-        "location": {
-            "lat": 40.41249699999999,
-            "lng": -3.7182264000000487,
-            "name": "Campus Madrid",
-            "notes": "Cafe Floor 1"
-        },
-        "price": {
-            "details": "estimado",
-            "isFree": true,
-            "isTrusted": false
-        },
-        "source": {
-            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxUnNmSkFBUww",
-            "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
-            "name": "Campus Madrid",
-            "url": "http://campus.co/madrid"
-        },
-        "target_url": "https://betabeers.com/event/betabeers-madrid-71-kubernetes-ontruck-19-enero-2017-4962/",
-        "title": "Betabeers Madrid"
-    },
-    {
-        "abstract": "¡¡Comenzamos con fuerza el año!!Este año, para empezar contamos con una crack como Laura Morillo que vendrá a introducirnos kubernetes y la ...",
-        "abstract_details": "¡¡Comenzamos con fuerza el año!!Este año, para empezar contamos con una crack como Laura Morillo que vendrá a introducirnos kubernetes y la gente de ontruck.Docker y Kubernetes por Laura MorilloSoy desarrolladora de Software y siempre voy un paso por detrás en la parte de sistemas. Pero cuando trabajas en un equipo pequeño en una startup necesitas aprender un poco más de todo. En esta charla veremos las diferentes herramientas que Kubernetes nos provee para ayudarnos a crear una infraestructura escalable y cómo integrar nuestro flujo de despliegue continuo.Acerca de LauraDesarrolladora de Software en Seedtag, apasionada de las nuevas tecnologías y de las comunidades que comparten su conocimiento.Ontruck En esta charla OnTruck contará cómo ha desarrollado in-house sus 6 productos en un plazo de 8 meses consiguiendo mover 1.500 camiones, empezando con un equipo de 3 personas hasta las 24 personas actuales. Compartirá consejos sobre los procesos para crear el producto correcto, la organización de los equipos, las herramientas que usan y como lidiar con requisitos de negocio manteniendo la filosofía agile. A presentarnos ontruck vendrán:Javier EscribanoVP de Producto. Previamente fundador y CTO de TouristEye, startup vendida a Lonely Planet.Samuel FuentesCTO. Previamente CTO de Delivery Hero y Valkfleet; startups alemanas valoradas en más de 3.000 millones de euros.",
-        "date": "2017-01-19T19:00:00Z",
-        "location": {
-            "lat": 40.41249699999999,
-            "lng": -3.7182264000000487,
-            "name": "Campus Madrid",
-            "notes": "Cafe Floor 1"
-        },
-        "price": {
-            "details": "estimado",
-            "isFree": true,
-            "isTrusted": false
-        },
-        "source": {
-            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxUnNmSkFBUww",
-            "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
-            "name": "Campus Madrid",
-            "url": "http://campus.co/madrid"
-        },
-        "target_url": "https://betabeers.com/event/betabeers-madrid-71-kubernetes-ontruck-19-enero-2017-4962/",
-        "title": "Betabeers Madrid"
+        "target_url": "https://www.eventbrite.es/e/entradas-fashion-law-encuentros-como-crear-mi-marca-de-moda-31151743704",
+        "title": "Fashion Law Encuentros... Cómo Crear mi Marca de Moda?"
     }
 ]

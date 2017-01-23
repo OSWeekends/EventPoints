@@ -22,7 +22,7 @@ firebase.initializeApp({
 var db = firebase.database();
 var ref = db.ref("events");
 
-require("./harmonizer.js")(firebase);
+//require("./harmonizer.js")(firebase);
 
 // Starting the project
 project.services.get('http').configure({
@@ -52,7 +52,7 @@ var staticRoute = new Route({
     id: 'staticRoute',
     path: '/*:path',
     directory: {
-        path: './public',
+        path: './app',
         listing: true
     }
 });
