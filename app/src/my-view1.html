@@ -31,6 +31,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       .events{
         display: flex;
         flex-direction: column;
+        width: 100%;
       }
       .date{
         background: #a42551;
@@ -107,9 +108,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       ready: function() {
         this.calendar = new Array();
         this.calendar[0] = new Array();
-        this.calendar [0][0] = new Array
+        this.calendar [0][0] = new Array();
         for ( var i = 0; i < 12; i++ ) {
-          for (var j = 0; j < 31; j++){
+          for (var j = 0; j <= 31; j++){
               this.calendar[i][j] = new Array();
           }
         }
@@ -153,6 +154,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           this.events.map(function(event){
             var day = this.getDay(event.date);
             var month =this.month.indexOf(this.getMonth(event.date));
+            console.log(month, day);
             //this.calendar[month][day].push(event);
             var addCalendar = 'calendar.' + month + '.' + day;
             this.push (addCalendar, event);
