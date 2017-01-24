@@ -12,11 +12,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="generator" content="Polymer Starter Kit">
+    <meta name="eventsPoint" content="EventsPoints">
     <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
 
-    <title>Event pount</title>
-    <meta name="description" content="My App description">
+    <title>Event points</title>
+    <meta name="description" content="app with all events where play events">
 
     <link rel="icon" href="/images/favicon.ico">
 
@@ -24,27 +24,27 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <link rel="manifest" href="/manifest.json">
 
     <!-- See https://goo.gl/qRE0vM -->
-    <meta name="theme-color" content="#3f51b5">
+    <meta name="theme-color" content="#a42551">
 
     <!-- Add to homescreen for Chrome on Android. Fallback for manifest.json -->
     <meta name="mobile-web-app-capable" content="yes">
-    <meta name="application-name" content="My App">
+    <meta name="application-name" content="EventPoint">
 
     <!-- Add to homescreen for Safari on iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="My App">
+    <meta name="apple-mobile-web-app-title" content="EventPoint">
 
     <!-- Homescreen icons -->
-    <link rel="apple-touch-icon" href="/images/manifest/icon-48x48.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/images/manifest/icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="96x96" href="/images/manifest/icon-96x96.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/images/manifest/icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="192x192" href="/images/manifest/icon-192x192.png">
+    <link rel="apple-touch-icon" href="/images/manifest/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="16x16" href="/images/manifest/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="32x32" href="/images/manifest/favicon-32z32.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="/images/icon-192x192.png">
+    <link rel="apple-touch-icon" sizes="512x512" href="/images/icon-512x512.png">
 
     <!-- Tile icon for Windows 8 (144x144 + tile color) -->
-    <meta name="msapplication-TileImage" content="/images/manifest/icon-144x144.png">
-    <meta name="msapplication-TileColor" content="#3f51b5">
+    <meta name="msapplication-TileImage" content="/images/icon.png">
+    <meta name="msapplication-TileColor" content="#a42551">
     <meta name="msapplication-tap-highlight" content="no">
 
     <script>
@@ -92,7 +92,14 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <style>
       body {
         margin: 0;
-        font-family: 'Roboto', 'Noto', sans-serif;
+        src:  url('./fonts/EventPoints.eot');
+        src:  url('f./onts/EventPoints.eot') format('embedded-opentype'),
+          url('./fonts/EventPoints.ttf') format('truetype'),
+          url('./fonts/EventPoints.woff') format('woff'),
+          url('./fonts/EventPoints.svg') format('svg');
+        font-weight: normal;
+        font-family: 'EventPoints';
+        font-style: normal;
         line-height: 1.5;
         min-height: 100vh;
         background-color: #eeeeee;
