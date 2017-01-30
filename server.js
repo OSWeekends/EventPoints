@@ -1,28 +1,16 @@
 var exec = require('child_process').exec,
     fs = require('fs'),
     project = require('pillars'),
-    firebase = require('firebase'),
     Scheduled = require("scheduled"),
+    GDB = require("goblindb"),
     config = require('./config'),
     harmonizer = require("./harmonizer.js");
 
+// Goblin Setup
+var goblinDB = GDB();
+
 // Bring data from datasources
-var data = [];
-
-// Firebase setup
-firebase.initializeApp({
-    serviceAccount: {
-        projectId: config.firebase.project_id,
-        clientEmail: config.firebase.client_email,
-        privateKey: config.firebase.private_key
-    },
-    databaseURL: "https://" + config.firebase.project_id + ".firebaseio.com"
-});
-
-var db = firebase.database();
-var ref = db.ref("events");
-
-//require("./harmonizer.js")(firebase);
+var data = goblinDB.get("events");
 
 // Starting the project
 project.services.get('http').configure({
@@ -67,26 +55,30 @@ var pythonRocks = new Scheduled({
     id: "pythonRocks",
     pattern: "45 18 * * * *",
     task: function() {
-        fs.readdir('./datasource/', (err, files) => {
-            files.forEach(function (file) {
-                if (/.py/.test(file)) {
-                    console.log(`---- Proceso hijo de ${file} Iniciado! ------`);
-                    exec('cd datasource && python3 ' + file, function(error, stdout, stderr) {
-                        console.log(`---- Proceso hijo de ${file} terminado! -----`);
-                        if (stdout) {
-                            console.log('stdout: ' + stdout);
-                        }
-
-                        if (stderr) {
-                            console.log('stderr: ' + stderr);
-                        }
-
-                        if (error) {
-                            console.log('exec error: ' + error);
-                        }
-                    });
-                }
-            });
+        fs.readdir('./datasource/', function (err, files) {
+            if(err){
+                console.log("ERROR reading ./datasource/:", err);
+            } else {
+                files.forEach(function (file) {
+                    if (/.py/.test(file)) {
+                        console.log(`---- Proceso hijo de ${file} Iniciado! ------`);
+                        exec('cd datasource && python3 ' + file, function(error, stdout, stderr) {
+                            console.log(`---- Proceso hijo de ${file} terminado! -----`);
+                            if (stdout) {
+                                console.log('stdout: ' + stdout);
+                            }
+    
+                            if (stderr) {
+                                console.log('stderr: ' + stderr);
+                            }
+    
+                            if (error) {
+                                console.log('exec error: ' + error);
+                            }
+                        });
+                    }
+                });
+            }
         });
     }
 }).start();
@@ -95,22 +87,14 @@ var harmonizerTask = new Scheduled({
     id: "harmonizerTask",
     pattern: "15 19 * * * *",
     task: function() {
-        harmonizer(firebase);
+        harmonizer(goblinDB);
     }
 }).start();
 
-var readData = new Scheduled({
-    id: "updateDataValue",
-    pattern: "30 * * * * *",
-    task: function() {
-        ref.once("value", function(snapshot) {
-            data = snapshot.val();
-        }, function(errorObject) {
-            console.log("Error:", errorObject);
-        });
-    }
-}).start();
 
-readData.launch();
+goblinDB.on('change', function(){
+    data = goblinDB.get("events");
+});
+
 harmonizerTask.launch();
 pythonRocks.launch();

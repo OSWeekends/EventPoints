@@ -61,7 +61,7 @@
   },
   "homepage": "https://github.com/OSWeekends/calendario#readme",
   "dependencies": {
-    "firebase": "3.0.5",
+    "goblindb": "0.0.4",
     "lodash": "4.17.4",
     "pillars": "*",
     "scheduled": "*",
