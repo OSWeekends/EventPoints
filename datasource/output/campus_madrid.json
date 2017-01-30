@@ -1,8 +1,200 @@
 [
     {
-        "abstract": "El email marketing es uno de los canales más potentes de adquisición de clientes. Por ello, TechHub lanza este Expert Talk con Clara Ávila, ...",
-        "abstract_details": "El email marketing es uno de los canales más potentes de adquisición de clientes. Por ello, TechHub lanza este Expert Talk con Clara Ávila, responsable de contenido online en Save The Children, con experiencia en The Cocktail y autora del blog claraavilac. En él se profundizará en las distintas estrategias de marketing de contenidos y cómo obtener los mejores resultados.\n\nAgenda:- Email marketing - presente y futuro- Inbound marketing y categorías de contenido- Planificación de contenidos y automatización- Cómo preparar una campaña: contenidos del mensaje, prototipado- Cómo conseguir nuevos suscriptores- Analítica y KPIs- Best Practices",
-        "date": "2017-01-24T19:00:00Z",
+        "abstract": "¡Feliz año nuevo Ladies! Empezamos el 2017 con muchos buenos própositos y nos ponemos manos a la obra... ¡este mes la invitada especial ...",
+        "abstract_details": "¡Feliz año nuevo Ladies!\n\nEmpezamos el 2017 con muchos buenos própositos y nos ponemos manos a la obra... ¡este mes la invitada especial eres tú!\n\nVamos a revisar el camino que hemos recorrido en estos dos años y medio (¡Wow) y a dónde queremos llegar, compartiremos los temas que más nos inquietan en el día día de nuestra profesión y cómo queremos tratarlos, decidiremos los talleres que vamos a organizar!Así que no dejes escapar esta ocasión de hacer el Ladies that UX aún más grande :)",
+        "date": "2017-01-31T20:00:00Z",
+        "location": {
+            "lat": 40.41249699999999,
+            "lng": -3.7182264000000487,
+            "name": "Campus Madrid",
+            "notes": "Cafe Floor 1"
+        },
+        "price": {
+            "details": "estimado",
+            "isFree": true,
+            "isTrusted": false
+        },
+        "source": {
+            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxUnVhM0FBQww",
+            "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
+            "name": "Campus Madrid",
+            "url": "http://campus.co/madrid"
+        },
+        "target_url": "https://www.eventbrite.es/e/entradas-ladies-that-ux-para-un-2017-de-ladies-31348065909",
+        "title": "Ladies that UX"
+    },
+    {
+        "abstract": "¡Bienvenidos a la primera edición de Growth Hacking Talks! “Las tácticas de growth hacking están pensadas para startups que necesitan sacar ...",
+        "abstract_details": "¡Bienvenidos a la primera edición de Growth Hacking Talks! \n\n“Las tácticas de growth hacking están pensadas para startups que necesitan sacar el máximo provecho de la mínima inversión posible\"\n\nEn esta edición, 2 emprendedores contarán la experiencia que han tenido para hacer crecer sus propias startups.\n\nEs un evento abierto, donde el principal objetivo es conocer y compartir de primera mano los conocimientos adquiridos durante sus aventuras empresariales.\n\nDescubriremos algunas herramientas que usan en su día a día, cuales han sido sus mayores errores y aciertos, como plantean cada acción que proponen y muchas cosas más.\n\nPrograma\n\n•  19:30   Apertura de puertas  •  19:45    Introducción a Growth Hacking Madrid  •  20:00  \"Cómo ganar miles de usuarios con cero inversión, principales herramientas de Growth\", Sergio Campano  •  20:30   \"Un día en la vida de un growth hacker\", Val Muñoz •  21:00   Networking con cervezas ",
+        "date": "2017-02-01T19:30:00Z",
+        "location": {
+            "lat": 40.41249699999999,
+            "lng": -3.7182264000000487,
+            "name": "Campus Madrid",
+            "notes": "Cafe Floor 1"
+        },
+        "price": {
+            "details": "estimado",
+            "isFree": true,
+            "isTrusted": false
+        },
+        "source": {
+            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxVHB4Z0FBQww",
+            "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
+            "name": "Campus Madrid",
+            "url": "http://campus.co/madrid"
+        },
+        "target_url": "https://www.meetup.com/es-ES/GrowthHackingMadrid/",
+        "title": "Growth Hacking Talks"
+    },
+    {
+        "abstract": "¡Bienvenidos a la primera edición de Growth Hacking Talks! “Las tácticas de growth hacking están pensadas para startups que necesitan sacar ...",
+        "abstract_details": "¡Bienvenidos a la primera edición de Growth Hacking Talks! \n\n“Las tácticas de growth hacking están pensadas para startups que necesitan sacar el máximo provecho de la mínima inversión posible\"\n\nEn esta edición, 2 emprendedores contarán la experiencia que han tenido para hacer crecer sus propias startups.\n\nEs un evento abierto, donde el principal objetivo es conocer y compartir de primera mano los conocimientos adquiridos durante sus aventuras empresariales.\n\nDescubriremos algunas herramientas que usan en su día a día, cuales han sido sus mayores errores y aciertos, como plantean cada acción que proponen y muchas cosas más.\n\nPrograma\n\n•  19:30   Apertura de puertas  •  19:45    Introducción a Growth Hacking Madrid  •  20:00  \"Cómo ganar miles de usuarios con cero inversión, principales herramientas de Growth\", Sergio Campano  •  20:30   \"Un día en la vida de un growth hacker\", Val Muñoz •  21:00   Networking con cervezas ",
+        "date": "2017-02-01T19:30:00Z",
+        "location": {
+            "lat": 40.41249699999999,
+            "lng": -3.7182264000000487,
+            "name": "Campus Madrid",
+            "notes": "Cafe Floor 1"
+        },
+        "price": {
+            "details": "estimado",
+            "isFree": true,
+            "isTrusted": false
+        },
+        "source": {
+            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxVHB4Z0FBQww",
+            "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
+            "name": "Campus Madrid",
+            "url": "http://campus.co/madrid"
+        },
+        "target_url": "https://www.meetup.com/es-ES/GrowthHackingMadrid/",
+        "title": "Growth Hacking Talks"
+    },
+    {
+        "abstract": "¡Bienvenidos a la primera edición de Growth Hacking Talks! “Las tácticas de growth hacking están pensadas para startups que necesitan sacar ...",
+        "abstract_details": "¡Bienvenidos a la primera edición de Growth Hacking Talks! \n\n“Las tácticas de growth hacking están pensadas para startups que necesitan sacar el máximo provecho de la mínima inversión posible\"\n\nEn esta edición, 2 emprendedores contarán la experiencia que han tenido para hacer crecer sus propias startups.\n\nEs un evento abierto, donde el principal objetivo es conocer y compartir de primera mano los conocimientos adquiridos durante sus aventuras empresariales.\n\nDescubriremos algunas herramientas que usan en su día a día, cuales han sido sus mayores errores y aciertos, como plantean cada acción que proponen y muchas cosas más.\n\nPrograma\n\n•  19:30   Apertura de puertas  •  19:45    Introducción a Growth Hacking Madrid  •  20:00  \"Cómo ganar miles de usuarios con cero inversión, principales herramientas de Growth\", Sergio Campano  •  20:30   \"Un día en la vida de un growth hacker\", Val Muñoz •  21:00   Networking con cervezas ",
+        "date": "2017-02-01T19:30:00Z",
+        "location": {
+            "lat": 40.41249699999999,
+            "lng": -3.7182264000000487,
+            "name": "Campus Madrid",
+            "notes": "Cafe Floor 1"
+        },
+        "price": {
+            "details": "estimado",
+            "isFree": true,
+            "isTrusted": false
+        },
+        "source": {
+            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxVHB4Z0FBQww",
+            "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
+            "name": "Campus Madrid",
+            "url": "http://campus.co/madrid"
+        },
+        "target_url": "https://www.meetup.com/es-ES/GrowthHackingMadrid/",
+        "title": "Growth Hacking Talks"
+    },
+    {
+        "abstract": "¡Bienvenidos a la primera edición de Growth Hacking Talks! “Las tácticas de growth hacking están pensadas para startups que necesitan sacar ...",
+        "abstract_details": "¡Bienvenidos a la primera edición de Growth Hacking Talks! \n\n“Las tácticas de growth hacking están pensadas para startups que necesitan sacar el máximo provecho de la mínima inversión posible\"\n\nEn esta edición, 2 emprendedores contarán la experiencia que han tenido para hacer crecer sus propias startups.\n\nEs un evento abierto, donde el principal objetivo es conocer y compartir de primera mano los conocimientos adquiridos durante sus aventuras empresariales.\n\nDescubriremos algunas herramientas que usan en su día a día, cuales han sido sus mayores errores y aciertos, como plantean cada acción que proponen y muchas cosas más.\n\nPrograma\n\n•  19:30   Apertura de puertas  •  19:45    Introducción a Growth Hacking Madrid  •  20:00  \"Cómo ganar miles de usuarios con cero inversión, principales herramientas de Growth\", Sergio Campano  •  20:30   \"Un día en la vida de un growth hacker\", Val Muñoz •  21:00   Networking con cervezas ",
+        "date": "2017-02-01T19:30:00Z",
+        "location": {
+            "lat": 40.41249699999999,
+            "lng": -3.7182264000000487,
+            "name": "Campus Madrid",
+            "notes": "Cafe Floor 1"
+        },
+        "price": {
+            "details": "estimado",
+            "isFree": true,
+            "isTrusted": false
+        },
+        "source": {
+            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxVHB4Z0FBQww",
+            "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
+            "name": "Campus Madrid",
+            "url": "http://campus.co/madrid"
+        },
+        "target_url": "https://www.meetup.com/es-ES/GrowthHackingMadrid/",
+        "title": "Growth Hacking Talks"
+    },
+    {
+        "abstract": "En este evento analizaremos, a través de dos reconocidos profesionales en el mundo del Big Data y Hacking Ético, la importancia de una ...",
+        "abstract_details": "En este evento analizaremos, a través de dos reconocidos profesionales en el mundo del Big Data y Hacking Ético, la importancia de una buena gestión, análisis y protección de los datos para que las compañías tengan éxito en la toma de decisiones futuras. Presentaremos casos de éxito en los que un buen análisis de datos a gran escala ha posibilitado tomar de decisiones exitosas para profesionales y empresas. Por otro lado también mostraremos la importancia cada vez mayor de ciberseguridad en las empresas y como ésta pueda afectar y hacer perder millones de euros cada año a empresas de todo el mundo. \nEl evento va dirigido a emprendedores, startup y profesionales con inquietudes y necesidades en la tecnología de datos y la seguridad informática.Agenda:\n19:00 -  Hackeando el presente (Caso Real). http://blog.elevenpaths.com/2016/08/abuso-de-alias-de-gmail-para-la.html20:00- Prediciendo el futuro. (Caso Real) . Mejorando los insights de mi negocio, incorporando los datos públicos.Sobre los speakers:a). Miguel Ángel de Castro SimónDirector y Profesor Máster en Seguridad Informática y Hacking Ético de CONSULTA INTERNATIONAL SCHOOL &amp; UNIVERSIDAD ISABEL I. Actualmente Cyber Threat Analyst (Technical) en Eleven Paths empresa filial de Telefónica centrada en la innovación en productos de seguridad a través de desarrollos propios y alianzas con los principales fabricantes y organizaciones en la industria, la cual dirige Chema Alonso experto de seguridad reconocido en todo el mundo, y que presenta de forma habitual su experiencia y conocimientos en las conferencias más prestigiosas, como por ejemplo BlackHat. Senior Security Auditor (Pentester/Hacker Ético) en TIS (Telefónica Ingeniería Seguridad), también ha realizado muchos trabajos de consultoría y auditoría en el campo de la seguridad informática de manera independiente.Profesor del área de Seguridad Informática y Hacking Ético en  varias universidades y escuelas de negocios prestigiosas de España.b). Jesús Pedro Cristóbal AsoreyDirector y Profesor Máster Big Data &amp; Business Analytics de CONSULTA INTERNATIONAL SCHOOL &amp; UNIVERSIDAD ISABEL I. Experto en nuevas tecnologías, especialmente Business Intelligence. Qlikview y Qlik Sense. IT &amp; BI Expert, Qlikview y Qlik Sense Gurú. Lecturer &amp; Teacher in IT and BI. Profesor de asignaturas relacionadas con las nuevas tecnologías y el Business Intelligence en  varias escuelas de negocios prestigiosas de España. ",
+        "date": "2017-02-02T19:00:00Z",
+        "location": {
+            "lat": 40.41249699999999,
+            "lng": -3.7182264000000487,
+            "name": "Campus Madrid",
+            "notes": "Cafe Floor 1"
+        },
+        "price": {
+            "details": "estimado",
+            "isFree": true,
+            "isTrusted": false
+        },
+        "source": {
+            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxVEdsNkFBRww",
+            "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
+            "name": "Campus Madrid",
+            "url": "http://campus.co/madrid"
+        },
+        "target_url": "http://consultaeducation.com/hackeando-presente-prediciendo-futuro/",
+        "title": "Hackeando el presente. Prediciendo el futuro"
+    },
+    {
+        "abstract": "En este evento analizaremos, a través de dos reconocidos profesionales en el mundo del Big Data y Hacking Ético, la importancia de una ...",
+        "abstract_details": "En este evento analizaremos, a través de dos reconocidos profesionales en el mundo del Big Data y Hacking Ético, la importancia de una buena gestión, análisis y protección de los datos para que las compañías tengan éxito en la toma de decisiones futuras. Presentaremos casos de éxito en los que un buen análisis de datos a gran escala ha posibilitado tomar de decisiones exitosas para profesionales y empresas. Por otro lado también mostraremos la importancia cada vez mayor de ciberseguridad en las empresas y como ésta pueda afectar y hacer perder millones de euros cada año a empresas de todo el mundo. \nEl evento va dirigido a emprendedores, startup y profesionales con inquietudes y necesidades en la tecnología de datos y la seguridad informática.Agenda:\n19:00 -  Hackeando el presente (Caso Real). http://blog.elevenpaths.com/2016/08/abuso-de-alias-de-gmail-para-la.html20:00- Prediciendo el futuro. (Caso Real) . Mejorando los insights de mi negocio, incorporando los datos públicos.Sobre los speakers:a). Miguel Ángel de Castro SimónDirector y Profesor Máster en Seguridad Informática y Hacking Ético de CONSULTA INTERNATIONAL SCHOOL &amp; UNIVERSIDAD ISABEL I. Actualmente Cyber Threat Analyst (Technical) en Eleven Paths empresa filial de Telefónica centrada en la innovación en productos de seguridad a través de desarrollos propios y alianzas con los principales fabricantes y organizaciones en la industria, la cual dirige Chema Alonso experto de seguridad reconocido en todo el mundo, y que presenta de forma habitual su experiencia y conocimientos en las conferencias más prestigiosas, como por ejemplo BlackHat. Senior Security Auditor (Pentester/Hacker Ético) en TIS (Telefónica Ingeniería Seguridad), también ha realizado muchos trabajos de consultoría y auditoría en el campo de la seguridad informática de manera independiente.Profesor del área de Seguridad Informática y Hacking Ético en  varias universidades y escuelas de negocios prestigiosas de España.b). Jesús Pedro Cristóbal AsoreyDirector y Profesor Máster Big Data &amp; Business Analytics de CONSULTA INTERNATIONAL SCHOOL &amp; UNIVERSIDAD ISABEL I. Experto en nuevas tecnologías, especialmente Business Intelligence. Qlikview y Qlik Sense. IT &amp; BI Expert, Qlikview y Qlik Sense Gurú. Lecturer &amp; Teacher in IT and BI. Profesor de asignaturas relacionadas con las nuevas tecnologías y el Business Intelligence en  varias escuelas de negocios prestigiosas de España. ",
+        "date": "2017-02-02T19:00:00Z",
+        "location": {
+            "lat": 40.41249699999999,
+            "lng": -3.7182264000000487,
+            "name": "Campus Madrid",
+            "notes": "Cafe Floor 1"
+        },
+        "price": {
+            "details": "estimado",
+            "isFree": true,
+            "isTrusted": false
+        },
+        "source": {
+            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxVEdsNkFBRww",
+            "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
+            "name": "Campus Madrid",
+            "url": "http://campus.co/madrid"
+        },
+        "target_url": "http://consultaeducation.com/hackeando-presente-prediciendo-futuro/",
+        "title": "Hackeando el presente. Prediciendo el futuro"
+    },
+    {
+        "abstract": "En este evento analizaremos, a través de dos reconocidos profesionales en el mundo del Big Data y Hacking Ético, la importancia de una ...",
+        "abstract_details": "En este evento analizaremos, a través de dos reconocidos profesionales en el mundo del Big Data y Hacking Ético, la importancia de una buena gestión, análisis y protección de los datos para que las compañías tengan éxito en la toma de decisiones futuras. Presentaremos casos de éxito en los que un buen análisis de datos a gran escala ha posibilitado tomar de decisiones exitosas para profesionales y empresas. Por otro lado también mostraremos la importancia cada vez mayor de ciberseguridad en las empresas y como ésta pueda afectar y hacer perder millones de euros cada año a empresas de todo el mundo. \nEl evento va dirigido a emprendedores, startup y profesionales con inquietudes y necesidades en la tecnología de datos y la seguridad informática.Agenda:\n19:00 -  Hackeando el presente (Caso Real). http://blog.elevenpaths.com/2016/08/abuso-de-alias-de-gmail-para-la.html20:00- Prediciendo el futuro. (Caso Real) . Mejorando los insights de mi negocio, incorporando los datos públicos.Sobre los speakers:a). Miguel Ángel de Castro SimónDirector y Profesor Máster en Seguridad Informática y Hacking Ético de CONSULTA INTERNATIONAL SCHOOL &amp; UNIVERSIDAD ISABEL I. Actualmente Cyber Threat Analyst (Technical) en Eleven Paths empresa filial de Telefónica centrada en la innovación en productos de seguridad a través de desarrollos propios y alianzas con los principales fabricantes y organizaciones en la industria, la cual dirige Chema Alonso experto de seguridad reconocido en todo el mundo, y que presenta de forma habitual su experiencia y conocimientos en las conferencias más prestigiosas, como por ejemplo BlackHat. Senior Security Auditor (Pentester/Hacker Ético) en TIS (Telefónica Ingeniería Seguridad), también ha realizado muchos trabajos de consultoría y auditoría en el campo de la seguridad informática de manera independiente.Profesor del área de Seguridad Informática y Hacking Ético en  varias universidades y escuelas de negocios prestigiosas de España.b). Jesús Pedro Cristóbal AsoreyDirector y Profesor Máster Big Data &amp; Business Analytics de CONSULTA INTERNATIONAL SCHOOL &amp; UNIVERSIDAD ISABEL I. Experto en nuevas tecnologías, especialmente Business Intelligence. Qlikview y Qlik Sense. IT &amp; BI Expert, Qlikview y Qlik Sense Gurú. Lecturer &amp; Teacher in IT and BI. Profesor de asignaturas relacionadas con las nuevas tecnologías y el Business Intelligence en  varias escuelas de negocios prestigiosas de España. ",
+        "date": "2017-02-02T19:00:00Z",
+        "location": {
+            "lat": 40.41249699999999,
+            "lng": -3.7182264000000487,
+            "name": "Campus Madrid",
+            "notes": "Cafe Floor 1"
+        },
+        "price": {
+            "details": "estimado",
+            "isFree": true,
+            "isTrusted": false
+        },
+        "source": {
+            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxVEdsNkFBRww",
+            "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
+            "name": "Campus Madrid",
+            "url": "http://campus.co/madrid"
+        },
+        "target_url": "http://consultaeducation.com/hackeando-presente-prediciendo-futuro/",
+        "title": "Hackeando el presente. Prediciendo el futuro"
+    },
+    {
+        "abstract": "Campeonato nacional del reto de VEX IQ organizado por la Academia A.R.C.E. en colaboración con la Asociación de Robótica de Competición ...",
+        "abstract_details": "Campeonato nacional del reto de VEX IQ organizado por la Academia A.R.C.E. en colaboración con la Asociación de Robótica de Competición Española (A.R.C.E.). Este campeonato además es el evento que da acceso a los dos ganadores del premio de Excelencia al Campeonato del Mundo, que se celebra el Louisville (EE.UU.) del 23 al 25 de abril 2017. Este año se entregará un premio de excelencia a equipos compuestos únicamente por alumnos de primaria y otro a equipos compuestos por alumnos de hasta 2º de la ESO.",
+        "date": "2017-02-03T16:30:00Z",
         "location": {
             "lat": 40.41249699999999,
             "lng": -3.7182264000000487,
@@ -15,18 +207,18 @@
             "isTrusted": false
         },
         "source": {
-            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxVHFhZUFBQww",
+            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxVDBvaUFBQww",
             "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
             "name": "Campus Madrid",
             "url": "http://campus.co/madrid"
         },
-        "target_url": "https://www.techhub.com/events/improve-your-email-marketing-strategy-with-clara",
-        "title": "Mejora tu estrategia de Email Marketing con Clara Ávila"
+        "target_url": "https://www.eventbrite.es/e/entradas-arcebot-2016-17-campeonato-de-espana-de-robotica-vex-iq-31133777968",
+        "title": "A.R.C.E.Bot VEX IQ 2016-17"
     },
     {
-        "abstract": "Has data ever helped you in any way to understand something a bit better? Do you use data analysis in your everyday practice? Have you ever ...",
-        "abstract_details": "Has data ever helped you in any way to understand something a bit better? Do you use data analysis in your everyday practice? Have you ever built a service built on data? Do you have any kind of artistic project based on data? Are you obsessed with data at any level? And finally, do you like beer? The boom of big data is only an extensive continuation of a classic field of data analysis, and we want to discuss about this with beers and interested people in Madrid.",
-        "date": "2017-01-25T19:00:00Z",
+        "abstract": "Campeonato nacional del reto de VEX IQ organizado por la Academia A.R.C.E. en colaboración con la Asociación de Robótica de Competición ...",
+        "abstract_details": "Campeonato nacional del reto de VEX IQ organizado por la Academia A.R.C.E. en colaboración con la Asociación de Robótica de Competición Española (A.R.C.E.). Este campeonato además es el evento que da acceso a los dos ganadores del premio de Excelencia al Campeonato del Mundo, que se celebra el Louisville (EE.UU.) del 23 al 25 de abril 2017. Este año se entregará un premio de excelencia a equipos compuestos únicamente por alumnos de primaria y otro a equipos compuestos por alumnos de hasta 2º de la ESO.",
+        "date": "2017-02-03T16:30:00Z",
         "location": {
             "lat": 40.41249699999999,
             "lng": -3.7182264000000487,
@@ -39,18 +231,18 @@
             "isTrusted": false
         },
         "source": {
-            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAyNUw4MUFBRQw",
+            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxVDBvaUFBQww",
             "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
             "name": "Campus Madrid",
             "url": "http://campus.co/madrid"
         },
-        "target_url": "http://databeers.tumblr.com",
-        "title": "Databeers"
+        "target_url": "https://www.eventbrite.es/e/entradas-arcebot-2016-17-campeonato-de-espana-de-robotica-vex-iq-31133777968",
+        "title": "A.R.C.E.Bot VEX IQ 2016-17"
     },
     {
-        "abstract": "Has data ever helped you in any way to understand something a bit better? Do you use data analysis in your everyday practice? Have you ever ...",
-        "abstract_details": "Has data ever helped you in any way to understand something a bit better? Do you use data analysis in your everyday practice? Have you ever built a service built on data? Do you have any kind of artistic project based on data? Are you obsessed with data at any level? And finally, do you like beer? The boom of big data is only an extensive continuation of a classic field of data analysis, and we want to discuss about this with beers and interested people in Madrid.",
-        "date": "2017-01-25T19:00:00Z",
+        "abstract": "Campeonato nacional del reto de VEX IQ organizado por la Academia A.R.C.E. en colaboración con la Asociación de Robótica de Competición ...",
+        "abstract_details": "Campeonato nacional del reto de VEX IQ organizado por la Academia A.R.C.E. en colaboración con la Asociación de Robótica de Competición Española (A.R.C.E.). Este campeonato además es el evento que da acceso a los dos ganadores del premio de Excelencia al Campeonato del Mundo, que se celebra el Louisville (EE.UU.) del 23 al 25 de abril 2017. Este año se entregará un premio de excelencia a equipos compuestos únicamente por alumnos de primaria y otro a equipos compuestos por alumnos de hasta 2º de la ESO.",
+        "date": "2017-02-04T15:45:00Z",
         "location": {
             "lat": 40.41249699999999,
             "lng": -3.7182264000000487,
@@ -63,23 +255,23 @@
             "isTrusted": false
         },
         "source": {
-            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAyNUw4MUFBRQw",
+            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxVTAwakFBQww",
             "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
             "name": "Campus Madrid",
             "url": "http://campus.co/madrid"
         },
-        "target_url": "http://databeers.tumblr.com",
-        "title": "Databeers"
+        "target_url": "https://www.eventbrite.es/e/entradas-arcebot-2016-17-campeonato-de-espana-de-robotica-vex-iq-31133777968",
+        "title": "A.R.C.E.Bot VEX IQ 2016-17"
     },
     {
-        "abstract": "Si trabajas en una startup, en desarrollo de producto, user research, UX, marketing, estrategia o innovación, JTBD te interesa.Con JTBD ...",
-        "abstract_details": "Si trabajas en una startup, en desarrollo de producto, user research, UX, marketing, estrategia o innovación, JTBD te interesa.Con JTBD podrás diseñar mejor tus productos, mejorar su posicionamiento en el mercado y refinar el mensaje para atraer y convertir nuevos clientes.El formato de nuestros Meetup combina charlas para que aprendas nuevas técnicas con pequeños ejercicios en grupo para que las pongas en práctica. Está dirigido a practicantes de JTBD y a aquellos que quieran aprender el modelo.JTBD es un conjunto de principios que te permitirán descubrir y entender la intersección entre clientes, sus motivaciones y los productos que usan. Esos descubrimientos (o insigths) te permitirán innovar mejor. Job-to-be-done es una barrera (o struggle) que alguien tiene para mejorar su vida. El JTBD tiene dos elementos: la barrera (o struggle) y cómo las cosas cambian cuando la barrera desaparece.Principios del JTBD:- Los clientes no quieren productos o lo que hacen. Quieren mejorar ayuda para mejorar su vida (por ejemplo, progresar)- Es el cliente el que define quiénes son los competidores y usan el progreso como criterio.- Cuando los clientes empiezan a usar una solución para su JTBD, la reemplazan (hacen \"switch\") por una ya existente.- Las soluciones nacen y desaparecen mientras que los JTBD perduran.- El progreso demuestra el valor mientras que el contraste lo pone en valor.Cómo te puede ayudar y dónde aplicarlo:- Entender la barrera de un cliente nos ayudar a posicionar nuestra solución en el mercado.- Te puede ayudar en la búsqueda de nuevas funcionalidades.- Te puede ayudar en la creación de la propuesta de valor para tus clientes y los mensajes que la acompañan.- Entender mejor quienes compiten con tu solución y cómo animarles a cambiar a la tuya.- Ayudar a identificar funcionalidades innecesarias ahorrando recursos.",
-        "date": "2017-01-26T18:00:00Z",
+        "abstract": "Campeonato nacional del reto de VEX IQ organizado por la Academia A.R.C.E. en colaboración con la Asociación de Robótica de Competición ...",
+        "abstract_details": "Campeonato nacional del reto de VEX IQ organizado por la Academia A.R.C.E. en colaboración con la Asociación de Robótica de Competición Española (A.R.C.E.). Este campeonato además es el evento que da acceso a los dos ganadores del premio de Excelencia al Campeonato del Mundo, que se celebra el Louisville (EE.UU.) del 23 al 25 de abril 2017. Este año se entregará un premio de excelencia a equipos compuestos únicamente por alumnos de primaria y otro a equipos compuestos por alumnos de hasta 2º de la ESO.",
+        "date": "2017-02-04T15:45:00Z",
         "location": {
             "lat": 40.41249699999999,
             "lng": -3.7182264000000487,
             "name": "Campus Madrid",
-            "notes": "Classroom"
+            "notes": "Auditorium"
         },
         "price": {
             "details": "estimado",
@@ -87,23 +279,23 @@
             "isTrusted": false
         },
         "source": {
-            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxU3pZbkFBSww",
+            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxVTAwakFBQww",
             "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
             "name": "Campus Madrid",
             "url": "http://campus.co/madrid"
         },
-        "target_url": "https://www.meetup.com/es/Madrid-Jobs-to-be-Done-JTBD-Meetup/events/235261310/",
-        "title": "Madrid Jobs-to-be Done (JTBD) Meetup #0"
+        "target_url": "https://www.eventbrite.es/e/entradas-arcebot-2016-17-campeonato-de-espana-de-robotica-vex-iq-31133777968",
+        "title": "A.R.C.E.Bot VEX IQ 2016-17"
     },
     {
-        "abstract": "En este Fashion Law Encuentro, trataremos los primeros pasos para crear una marca de moda en España? Qué debes saber antes de registrarla? ...",
-        "abstract_details": "En este Fashion Law Encuentro, trataremos los primeros pasos para crear una marca de moda en España? Qué debes saber antes de registrarla? Qué precio tiene? Una vez registrada, cómo aportar valor a la marca?",
-        "date": "2017-01-27T18:00:00Z",
+        "abstract": "El seminario durará 3 horas, hablaremos de Node.js (qué es, su ecosistema, etc), MongoDB (qué es, diferencias con SQL, haremos pruebas en ...",
+        "abstract_details": "El seminario durará 3 horas, hablaremos de Node.js (qué es, su ecosistema, etc), MongoDB (qué es, diferencias con SQL, haremos pruebas en vivo de millones de collections y mediremos velocidad, índices geo espaciales, etc.) y terminaremos viendo algunas ejemplos de apps completas (Angular, React, Node.js + MongoDB, y un ejemplo de como desarrollar PokemonGo).",
+        "date": "2017-02-06T17:00:00Z",
         "location": {
             "lat": 40.41249699999999,
             "lng": -3.7182264000000487,
             "name": "Campus Madrid",
-            "notes": "Classroom"
+            "notes": "Auditorium"
         },
         "price": {
             "details": "estimado",
@@ -111,36 +303,12 @@
             "isTrusted": false
         },
         "source": {
-            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxVGM2M0FBQww",
+            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxVTEybUFBQww",
             "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
             "name": "Campus Madrid",
             "url": "http://campus.co/madrid"
         },
-        "target_url": "https://www.eventbrite.es/e/entradas-fashion-law-encuentros-como-crear-mi-marca-de-moda-31151743704",
-        "title": "Fashion Law Encuentros... Cómo Crear mi Marca de Moda?"
-    },
-    {
-        "abstract": "En este Fashion Law Encuentro, trataremos los primeros pasos para crear una marca de moda en España? Qué debes saber antes de registrarla? ...",
-        "abstract_details": "En este Fashion Law Encuentro, trataremos los primeros pasos para crear una marca de moda en España? Qué debes saber antes de registrarla? Qué precio tiene? Una vez registrada, cómo aportar valor a la marca?",
-        "date": "2017-01-27T18:00:00Z",
-        "location": {
-            "lat": 40.41249699999999,
-            "lng": -3.7182264000000487,
-            "name": "Campus Madrid",
-            "notes": "Classroom"
-        },
-        "price": {
-            "details": "estimado",
-            "isFree": true,
-            "isTrusted": false
-        },
-        "source": {
-            "event_url": "https://www.campus.co/madrid/en/events/ag1zfmd3ZWItY2FtcHVzcj8LEgZDYW1wdXMiBFJvb3QMCxIGQ2FtcHVzIgZtYWRyaWQMCxIFRXZlbnQiEmExOWowMDAwMDAxVGM2M0FBQww",
-            "logo": "http://tetuanvalley.com/wp-content/uploads/2016/03/opengraph-768x403.jpg",
-            "name": "Campus Madrid",
-            "url": "http://campus.co/madrid"
-        },
-        "target_url": "https://www.eventbrite.es/e/entradas-fashion-law-encuentros-como-crear-mi-marca-de-moda-31151743704",
-        "title": "Fashion Law Encuentros... Cómo Crear mi Marca de Moda?"
+        "target_url": "https://www.meetup.com/es-ES/Node-js-Madrid/events/237066735/",
+        "title": "Seminario de Node.js y MongoDB"
     }
 ]

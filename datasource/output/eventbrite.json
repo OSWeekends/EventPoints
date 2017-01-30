@@ -1,32 +1,8 @@
 [
     {
-        "abstract": "Ironhack es una escuela de Desarrollo Web y Diseño UX/UI en la que seleccionamos perfiles con talento para formarles o potenciar su perfil, independientemente de la formación que tengan o experiencia que aporten. Nuestro lema: Destroy University Nuestros valores: Share / Build / Grow\nEl bootcamp de UX/UI tiene una duración de 8 semanas, de lunes a viernes de 9.00 a 18.00 hrs + 1 semana de entrevistas para todos aquellos que quieran trabajar como diseñadores UX/UI.\nDanny Saltaren será uno de los ",
-        "abstract_details": "Ironhack es una escuela de Desarrollo Web y Diseño UX/UI en la que seleccionamos perfiles con talento para formarles o potenciar su perfil, independientemente de la formación que tengan o experiencia que aporten. Nuestro lema: Destroy University Nuestros valores: Share / Build / Grow\nEl bootcamp de UX/UI tiene una duración de 8 semanas, de lunes a viernes de 9.00 a 18.00 hrs + 1 semana de entrevistas para todos aquellos que quieran trabajar como diseñadores UX/UI.\nDanny Saltaren será uno de los profesores http://dsaltaren.com/\n¿Temario? Os dejo los bloques, y en la url el detallado: https://s3.amazonaws.com/ironhack-miami/UX+UI+Design+Bootcamp/Curriculum-Compressed.pdf\n\nIntroducción al Design Thinking \nUser Research \nInformation Architecture (IA) \nVisual Design\nInteraction Design (IxD) \nUser Interface Design (UI) \nWireframing & Prototyping \nResponsive Web Design \nApp Design (iOS & Android) \nUser Testing \nDevelopment Handoff \nFront-End Web Development\n\nRealmente, nunca sabrás que es Ironhack hasta que no lo experimentes...\nEl próximo bootcamp de Diseño UX/UI comienza el 30 de enero en Madrid. Realizaremos las últimas entrevistas de acceso el próximo martes 24 de enero: de 10.00 a 13.00 hrs y de 14.00 hrs a 18.00 hrs en nuestro campus de Núñez de Balboa, 120, CINK Emprende.\nApúntate, te esperamos :)\nIronhack Team",
-        "date": "2017-01-24T10:00:00Z",
-        "location": {
-            "lat": 40.4351996,
-            "lng": -3.6813399999999774,
-            "name": "Ironhack, Madrid",
-            "notes": false
-        },
-        "price": {
-            "details": false,
-            "isFree": true,
-            "isTrusted": true
-        },
-        "source": {
-            "event_url": "https://www.eventbrite.com/e/aprende-diseno-ux-con-danny-saltaren-buscamos-talento-tickets-31321867549",
-            "logo": "https://eventbrite-s3.s3.amazonaws.com/marketing/landingpages/shared/images/eb-logo.png",
-            "name": "Evenbrite",
-            "url": "https://www.eventbrite.es"
-        },
-        "target_url": "https://www.eventbrite.com/e/aprende-diseno-ux-con-danny-saltaren-buscamos-talento-tickets-31321867549",
-        "title": "Aprende Diseño UX con Danny Saltaren. Buscamos talento."
-    },
-    {
         "abstract": "Are you working on an exciting tech product and are interested in joining of the TechHub community? We'd love to meet you - come visit us at Campus Madrid and see what being a TechHub member is all about!\n \nOur team will make you a tea/coffee, show you the TechHub space, and talk to you about:\n\nMembership structure and costs, and what the best membership combination is for you and your team\nWhat’s included in the membership and how we support our members through events, community initiatives and",
         "abstract_details": "Are you working on an exciting tech product and are interested in joining of the TechHub community? We'd love to meet you - come visit us at Campus Madrid and see what being a TechHub member is all about!\n \nOur team will make you a tea/coffee, show you the TechHub space, and talk to you about:\n\nMembership structure and costs, and what the best membership combination is for you and your team\nWhat’s included in the membership and how we support our members through events, community initiatives and our international support network (connecting members to potential collaborators, partners, employees and investors)\nThe TechHub application criteria and process (who we accept, what information you need to give and how long it takes to process applications)\nAnswer any other questions you have about how we can help your startup or how you can collaborate with TechHub\n\n\nYou're also welcome to bring your colleagues - please make sure they register for the tour via this Eventbrite page by forwarding them the link ;) If you are running late or need to cancel, please email us on membership.madrid@techhub.com\n¡Hasta pronto!",
-        "date": "2017-01-25T11:00:00Z",
+        "date": "2017-02-01T11:00:00Z",
         "location": {
             "lat": 40.41263300000001,
             "lng": -3.718321899999978,
@@ -39,22 +15,22 @@
             "isTrusted": true
         },
         "source": {
-            "event_url": "https://www.eventbrite.es/e/entradas-visit-techhub-madrid-30461183219",
+            "event_url": "https://www.eventbrite.es/e/entradas-visit-techhub-madrid-30461100973",
             "logo": "https://eventbrite-s3.s3.amazonaws.com/marketing/landingpages/shared/images/eb-logo.png",
             "name": "Evenbrite",
             "url": "https://www.eventbrite.es"
         },
-        "target_url": "https://www.eventbrite.es/e/entradas-visit-techhub-madrid-30461183219",
+        "target_url": "https://www.eventbrite.es/e/entradas-visit-techhub-madrid-30461100973",
         "title": "Visit TechHub Madrid"
     },
     {
-        "abstract": "MICROSOFT y EFOR te invitan a un evento en la sede central de Microsoft Ibérica en Madrid donde se mostrará cómo mantener todos tus datos e información de la empresa a salvo de posibles amenazas en los entornos cloud Office 365 y Microsoft Azure.\nPROGRAMA:\n11:15h - 11:30h Recepción de asistentes y café de bienvenida\n11:30h - 11:45h Implicaciones de aspectos técnicos y legales.\n11:45h - 12:30h Ciberseguridad en Office 365:\n\nProtección de la identidad.\nMedidas preventivas/reactivas para la protecc",
-        "abstract_details": "MICROSOFT y EFOR te invitan a un evento en la sede central de Microsoft Ibérica en Madrid donde se mostrará cómo mantener todos tus datos e información de la empresa a salvo de posibles amenazas en los entornos cloud Office 365 y Microsoft Azure.\nPROGRAMA:\n11:15h - 11:30h Recepción de asistentes y café de bienvenida\n11:30h - 11:45h Implicaciones de aspectos técnicos y legales.\n11:45h - 12:30h Ciberseguridad en Office 365:\n\nProtección de la identidad.\nMedidas preventivas/reactivas para la protección de información.\nEncriptación de correo electrónico.\n\n12:30h - 13:30h Ciberseguridad en entornos de Azure:\n\nMedidas técnicas de protección: Security center, fireworks, aislamiento de entornos... etc.\nPermisos granulares, control y trazabilidad de acciones.\nMedidas técnicas protección.\n\n13:30h - 14:00h Aperitivo + Networking",
-        "date": "2017-01-26T11:00:00Z",
+        "abstract": "Women in Data Science - Madrid\n\nSynergic Partners, de la mano de Carme Artigas, WiDS Ambassador de Madrid, es el organizador de la conferencia “Women in Data Science” en colaboración con la Universidad de Stanford. Esta jornada es un punto de encuentro para mujeres del mundo académico, negocio e investigación para compartir experiencias y nuevas tendencias en la disciplina Data Science.\nEl evento forma parte de una iniciativa global que surge en la Universidad Stanford y que hoy en día tiene lug",
+        "abstract_details": "Women in Data Science - Madrid\n\nSynergic Partners, de la mano de Carme Artigas, WiDS Ambassador de Madrid, es el organizador de la conferencia “Women in Data Science” en colaboración con la Universidad de Stanford. Esta jornada es un punto de encuentro para mujeres del mundo académico, negocio e investigación para compartir experiencias y nuevas tendencias en la disciplina Data Science.\nEl evento forma parte de una iniciativa global que surge en la Universidad Stanford y que hoy en día tiene lugar en más de 50 ciudades distintas, donde lo que se busca es apoyar a las mujeres en el campo tecnológico.\nLa conferencia tiene lugar el día 3 de febrero de 9:30 a 14:00 en el auditorio Ágora Wayra, Edificio de Telefónica (C/ Gran Vía 28, entrada por C/ Valverde, 2).",
+        "date": "2017-02-03T09:00:00Z",
         "location": {
-            "lat": 40.419503,
-            "lng": -3.8012419000000364,
-            "name": "Microsoft Madrid, Madrid",
+            "lat": 40.4204889,
+            "lng": -3.702173499999958,
+            "name": "Auditorio Ágora Wayra, Madrid",
             "notes": false
         },
         "price": {
@@ -63,22 +39,22 @@
             "isTrusted": true
         },
         "source": {
-            "event_url": "https://www.eventbrite.es/e/entradas-buenas-practicas-en-ciberseguridad-para-entornos-cloud-31119628647",
+            "event_url": "https://www.eventbrite.es/e/entradas-women-in-data-science-wids-2017-madrid-31096139390",
             "logo": "https://eventbrite-s3.s3.amazonaws.com/marketing/landingpages/shared/images/eb-logo.png",
             "name": "Evenbrite",
             "url": "https://www.eventbrite.es"
         },
-        "target_url": "https://www.eventbrite.es/e/entradas-buenas-practicas-en-ciberseguridad-para-entornos-cloud-31119628647",
-        "title": "Buenas prácticas en ciberseguridad para entornos cloud"
+        "target_url": "https://www.eventbrite.es/e/entradas-women-in-data-science-wids-2017-madrid-31096139390",
+        "title": "Women in Data Science (WiDS) 2017 - Madrid"
     },
     {
-        "abstract": "Cuando se habla de Big Data o Hadoop, el modelo de procesamiento más extendido es MapReduce, una especie de aplastamiento de datos progresivo que machaca de una tirada cualquier volumen de información por grande que sea. Las búsquedas gigantescas, como las que puede hacer Google, funcionan con este mecanismo.\nPero no todos los problemas encajan bien en MapReduce por lo que es necesario contar con otros modelos de cómputo en el arsenal de Big Data. Spark es un marco de procesamiento en paralelo c",
-        "abstract_details": "Cuando se habla de Big Data o Hadoop, el modelo de procesamiento más extendido es MapReduce, una especie de aplastamiento de datos progresivo que machaca de una tirada cualquier volumen de información por grande que sea. Las búsquedas gigantescas, como las que puede hacer Google, funcionan con este mecanismo.\nPero no todos los problemas encajan bien en MapReduce por lo que es necesario contar con otros modelos de cómputo en el arsenal de Big Data. Spark es un marco de procesamiento en paralelo con un enfoque totalmente distinto al de MapReduce.\nAunque puede convivir y apoyarse en algunos elementos de Hadoop, como el sistema de almacenamiento HDFS, Spark es un animal completamente distinto. En lugar de aplastar los datos, Spark puede efectuar ejecuciones iterativas sobre la información repartida en el cluster, lo que puede ser más adecuado, por ejemplo, para algoritmos de aprendizaje automático.\nEn este seminario gratuito de hora y media vas a ver cómo funciona Spark, cuáles son las diferencias más importantes con MapReduce y de qué forma se comunica con otros componentes, como Yarn, HDFS o bases de datos como Cassandra. Esto te servirá para comprender mejor las opciones que hay en proyectos de Big Data.\nRequisitos:\nEste seminario es de acceso gratuito, aunque para controlar el aforo del local es necesario inscribirse previamente. No es necesario haber acudido a actividades anteriores o posteriores. Puedes llevar material de papelería para tomar notas, aunque los asistentes recibirán una copia de la presentación utilizada en la actividad.",
-        "date": "2017-01-27T07:00:00Z",
+        "abstract": "Campeonato nacional del reto de VEX IQ organizado por la Academia A.R.C.E. en colaboración con la Asociación de Robótica de Competición Española (A.R.C.E.). Este campeonato además es el evento que da acceso a los dos ganadores del premio de Excelencia al Campeonato del Mundo, que se celebra el Louisville (EE.UU.) del 23 al 25 de abril 2017. Este año se entregará un premio de excelencia a equipos compuestos únicamente por alumnos de primaria y otro a equipos compuestos por alumnos de hasta 2º de ",
+        "abstract_details": "Campeonato nacional del reto de VEX IQ organizado por la Academia A.R.C.E. en colaboración con la Asociación de Robótica de Competición Española (A.R.C.E.). Este campeonato además es el evento que da acceso a los dos ganadores del premio de Excelencia al Campeonato del Mundo, que se celebra el Louisville (EE.UU.) del 23 al 25 de abril 2017. Este año se entregará un premio de excelencia a equipos compuestos únicamente por alumnos de primaria y otro a equipos compuestos por alumnos de hasta 2º de la ESO.",
+        "date": "2017-02-04T03:45:00Z",
         "location": {
-            "lat": 40.4050094,
-            "lng": -3.7105117999999493,
-            "name": "MeetingPlace Embajadores, Madrid",
+            "lat": 40.4129396,
+            "lng": -3.7179217000000335,
+            "name": "Campus Madrid, Madrid",
             "notes": false
         },
         "price": {
@@ -87,36 +63,12 @@
             "isTrusted": true
         },
         "source": {
-            "event_url": "https://www.eventbrite.es/e/entradas-seminario-fundamentos-de-apache-spark-31079564815",
+            "event_url": "https://www.eventbrite.es/e/entradas-arcebot-2016-17-campeonato-de-espana-de-robotica-vex-iq-31133782983",
             "logo": "https://eventbrite-s3.s3.amazonaws.com/marketing/landingpages/shared/images/eb-logo.png",
             "name": "Evenbrite",
             "url": "https://www.eventbrite.es"
         },
-        "target_url": "https://www.eventbrite.es/e/entradas-seminario-fundamentos-de-apache-spark-31079564815",
-        "title": "Seminario: Fundamentos de Apache Spark"
-    },
-    {
-        "abstract": "DESCRIPCIÓN CURSO BÁSICO CONSTRUCCIÓN DRONES DE CARRERAS PURA FIBRA\nLos drones (también llamados UAV o RPAS) son robots aéreos capaces de volar por sí mismos, dotados de mayor o menor inteligencia según los sensores que lleven integrados junto a la programación de su firmware.  \nHasta hace poco la construcción de drones era costosa y su uso se restringía a centros de investigación o usos militares. En los últimos años, la miniaturización de sensores y su electrónica, han permitido la comercializ",
-        "abstract_details": "DESCRIPCIÓN CURSO BÁSICO CONSTRUCCIÓN DRONES DE CARRERAS PURA FIBRA\nLos drones (también llamados UAV o RPAS) son robots aéreos capaces de volar por sí mismos, dotados de mayor o menor inteligencia según los sensores que lleven integrados junto a la programación de su firmware.  \nHasta hace poco la construcción de drones era costosa y su uso se restringía a centros de investigación o usos militares. En los últimos años, la miniaturización de sensores y su electrónica, han permitido la comercialización, diversificación y popularización de varios modelos a precio asequible. Sus aplicaciones civiles son múltiples: competición en carreras, juego, grabación de videos, transporte de mercancías, topografía, vigilancia, control de cultivos e incendios, educación… El interés en este tipo de robots es enorme actualmente y se están explorando activamente las posibilidades reales de nuevas aplicaciones.\n\n\n1)\t Descripción del KIT drone Pura Fibra que montaremos en el curso:\nEl KIT drone tipo de carreras Pura Fibra, permite montar un multirrotor tamaño 250mm entre motores basado en Arduino (Multiwii), Flip 32 o NAZE 32, que se ensambla muy fácilmente. Incorpora un sistema de vuelo con cuatro hélices, motores brushless 2400KV y variadores o ESC de 12 Amperios. Además de los actuadores, la controladora de vuelo que utilizamos está dotada del firmware y de 11 sensores: 3 acelerómetros, 3 inclinómetros, 3 magnetómetros, 1 sensor de presión y un termómetro, que le proporcionan la capacidad de estabilizarse en un punto (si todas las cargas están bien centradas), a diferencia de los aviones de ala fija. \nEl multicóptero se pilota mediante emisora de radiocontrol (no incluida en el precio del curso pero os dejamos una para aprender a calibrar, programar y volar). La inteligencia y funcionalidad reside en su software, basado en Arduino y código libre programado en C++ (en caso de utilizar el autopiloto Multiwii).\n\n2)\t Objetivos: ¿Que se lleva el alumno? \nEn este curso, vamos a construir, calibrar y programar un drone de fibra de carbono tipo de carreras desde cero, que aprenderemos a operar de forma seguro y bajo la legislación vigente.\nAl finalizar el curso, el alumno será capaz de calibrar, programar, volar y reparar completamente su drone, comprar de forma inteligente nuevos componentes para mejorar sus prestaciones, o construirse otro de mayor tamaño para utilizar en múltiples aplicaciones de uso personal.\n \n3)\t Contenidos:\n\n\nIntroducción e historia de los drones.\n\n\nComponentes básicos y tipologías de drones.\n\n\nCapacidades técnicas y límites (payloads, autonomía…)\n\n\nFuerzas actuantes sobre el vehículo en vuelo.\n\n\nMecanismo de sustentación y vuelo. Principios de vuelo.\n\n\nMecánica de vuelo.\n\n\nCentrado/equilibrio de cargas en el diseño de un multirotor.\n\n\nSistemas de telecomunicaciones: radio, frecuencias, wifi. bluetooth, 4G\n\n\nListado de componentes, características y compatibilidades entre sí.\n\n\nMotores eléctricos.\n\n\nControladoras de vuelo.\n\n\nEnsamblaje de componentes.\n\n\nSoldadura de la electrónica.\n\n\nDistintas posibilidades de hardware, controladoras de vuelo y firmwares.\n\n\nPlataformas open source versus plataformas cerradas e inaccesibles.\n\n\nProgramación del Arduino. Multiwii. Explicaremos qué hace el código y haremos ligeros cambios en la programación según hardware instalado.\n\n\nConfiguración Estación de control en tierra (PC, Tablet o Smartphone). Calibración de los acelerómetros y magnetómetros, canales auxiliares, modos de vuelo.\n\n\nConfiguración emisora de radiocontrol.\n\n\nConfiguración Bluetooth.\n\n\nSeguridad en la carga, equilibrado y manejo de baterías LiPo (Litio – Polimero)\n\n\nLegislación vigente.\n\n\nMedidas de seguridad.\n\n\nTécnicas y Modos de vuelo: APP's, Emisora, Estación de Control.\n\n\nClase de vuelo con emisora según espacio disponible y climatología.\n\n\nFuturas ampliaciones y posibilidades de nuestro drone escalable.\n\n\nDónde comprar drones, componentes y recambios.\n\n\n \nConsultar el siguiente link para mayor descripción del curso:\nhttp://www.deflydrone.com/taller-3-montaje-dron-carreras\n\n\n4)\t Precio:\n El coste del curso intensivo (12 horas en 3 días) son 325€.\nSi se viene acompañado +99€ que podéis pagar en el mismo curso.\nEmisora de radiocontrol 2,4 Ghz 6 canales a parte.\n\n5)\t Lo que el precio del curso incluye:\nEl precio del curso incluye todos los componentes para montar y volar un drone (incluida batería de LiPo y cargador de baterías), excepto la emisora de radiocontrol, que os dejamos en el curso para aprender a conectarla, calibrarla y volar el drone en la sesión del domingo.\nEl curso incluye también 8 horas de clase teórica y práctica donde montaremos nuestro drone, y una sesión de 4 horas donde aprenderemos a volar el drone de forma segura y en lugar adaptado para ello según legislación vigente.\nEn el siguiente link se describe el material incluido.\nhttp://www.deflydrone.com/drone-carreras-fibra-de-carbono-fpv\n\n\n6)\t Dónde.\nComplejo Deportivo Parla Este - Centro Supera\nAv. de los Planetas, 42\n28983 Parla, Madrid\n\n7)   A quién va dirigido.\nJóvenes a partir de 15 años o acompañados de un adulto, universitarios, adultos amantes de las nuevas tecnologías, aviación, aeromodelismo, electrónica, que les guste construir y entender cómo funcionan estos aparatos tan actuales… \nNo son necesarios conocimientos previos de electrónica, robótica, programación o vuelo. Sólo necesitarás tu ordenador portátil, smartphone y ganas de volar.\n \n8)\t Desarrollo preciso del curso intensivo. Calendario e inscripción\nPARTE I:\nSábado de 10:00 – 14:00\n\n\nIntroducción y reparto de los materiales.\n\n\nEnsamblaje del frame y componentes con su correspondiente descripción teórica.\n\n\nCalibración de los ESC.\n\n\nPARTE II\nSábado de 16:00 – 20:00 \n\n\nDescripción y calibración de la emisora de Radiocontrol.\n\n\nComprobación de motores.\n\n\nDescripción y programación del firmware para flashear la placa.\n\n\nDescripción de distintas estaciones de control para PC, Tablet y Smartphone.\n\n\nCalibración y lectura de sensores.\n\n\nÚltimos test.\n\n\nPARTE III\nDomingo 10:00 – 13:00\n\n\nSesión de vuelo en zona indoor.\n\n\n\nMás información de este y otros cursos organizados por DEFLYdrone, contactar a info@deflydrone.com",
-        "date": "2017-01-28T10:00:00Z",
-        "location": {
-            "lat": 40.2460736,
-            "lng": -3.772590799999989,
-            "name": "Centro Supera, MADRID",
-            "notes": false
-        },
-        "price": {
-            "details": "335 €",
-            "isFree": false,
-            "isTrusted": true
-        },
-        "source": {
-            "event_url": "https://www.eventbrite.es/e/entradas-5-edicion-curso-basico-construccion-de-drones-en-madrid-29688973519",
-            "logo": "https://eventbrite-s3.s3.amazonaws.com/marketing/landingpages/shared/images/eb-logo.png",
-            "name": "Evenbrite",
-            "url": "https://www.eventbrite.es"
-        },
-        "target_url": "https://www.eventbrite.es/e/entradas-5-edicion-curso-basico-construccion-de-drones-en-madrid-29688973519",
-        "title": "5 Edición CURSO BÁSICO CONSTRUCCIÓN de DRONES en MADRID"
+        "target_url": "https://www.eventbrite.es/e/entradas-arcebot-2016-17-campeonato-de-espana-de-robotica-vex-iq-31133782983",
+        "title": "A.R.C.E.Bot 2016-17 Campeonato de España de Robótica VEX IQ"
     }
 ]
