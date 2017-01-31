@@ -35,3 +35,15 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+# Ideas
+ideas
+
+# Config Setup
+config.js
+
+#polymer Components
+app/bower_components
+
+# Mac files
+.DS_Store

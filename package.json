@@ -1,0 +1,70 @@
+{
+  "name": "eventopoints",
+  "version": "0.1.0",
+  "description": "Proyecto EventPoints de Open Source Weekends",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "react-start": "react-scripts start",
+    "react-build": "react-scripts build",
+    "react-test": "react-scripts test --env=jsdom"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OSWeekends/EventPoints.git"
+  },
+  "keywords": [
+    "calendar",
+    "osw",
+    "events",
+    "madrid"
+  ],
+  "author": "Open Source Weekends",
+  "contributors": [
+    {
+      "name": "Ulises Gascón",
+      "url": "https://github.com/ulisesGascon"
+    },
+    {
+      "name": "Jose Manuel Gallego Chamorro",
+      "url": "https://github.com/Josheriff"
+    },
+    {
+      "name": "Ignacio Villanueva",
+      "url": "https://github.com/ignaciodenuevo"
+    },
+    {
+      "name": "Laetitia Carquet",
+      "url": "https://github.com/carquet"
+    },
+    {
+      "name": "Jose Miguel Bejarano",
+      "url": "https://github.com/xDae"
+    },
+    {
+      "name": "Sergio Gordo",
+      "url": "https://github.com/sergormo"
+    },
+    {
+      "name": "Leyla Vieira",
+      "url": "https://github.com/LeylaVieira"
+    },
+    {
+      "name": "Borja Godoy",
+      "url": "https://github.com/Borjagodoy"
+    }
+  ],
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/OSWeekends/calendario/issues"
+  },
+  "homepage": "https://github.com/OSWeekends/calendario#readme",
+  "dependencies": {
+    "firebase": "3.0.5",
+    "lodash": "4.17.4",
+    "pillars": "*",
+    "scheduled": "*",
+    "uuid": "3.0.1"
+  }
+}
