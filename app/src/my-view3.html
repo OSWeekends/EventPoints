@@ -25,12 +25,12 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         width: 100%;
       }
       google-maps{
-        position: relative;
+
       }
     </style>
-    <google-map latitude="{{location.lat}}" longitude="{{location.lng}}" min-zoom="9" max-zoom="11"
+    <google-map latitude="{{location.lat}}" longitude="{{location.lng}}" min-zoom="11" max-zoom="11"
               language="es" api-key="AIzaSyArOI4pJZBCvTkzpdFWNcP3yD3xnsUSqN8">
-              <google-map-marker latitude="{{location.lat}}" longitude="{{location.lng}}">
+              <google-map-marker latitude="{{location.lat}}" longitude="{{location.lng}}" draggable="true" drag-events>
     </google-map-marker>
   </google-map>
   </template>
