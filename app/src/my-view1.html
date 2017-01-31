@@ -106,17 +106,15 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         }
       },
       ready: function() {
-        this.calendar = new Array();
-        this.calendar[0] = new Array();
-        this.calendar [0][0] = new Array();
+        this.calendar = [];
         for ( var i = 0; i < 12; i++ ) {
+          this.calendar[i]=[];
           for (var j = 0; j <= 31; j++){
-              this.calendar[i][j] = new Array();
+              this.calendar[i][j] = [];
           }
         }
       },
       handleResponse: function() {
-        console.log(this.$.eventsAjax.lastResponse);
         this.set('events',this.$.eventsAjax.lastResponse);
       },
       getHour: function(date) {
@@ -152,14 +150,12 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       },
       groupByDay: function() {
           this.events.map(function(event){
-            var day = this.getDay(event.date);
+            var day = parseInt(this.getDay(event.date));
             var month =this.month.indexOf(this.getMonth(event.date));
-            console.log(month, day);
             //this.calendar[month][day].push(event);
             var addCalendar = 'calendar.' + month + '.' + day;
             this.push (addCalendar, event);
           }.bind(this));
-          console.log(this.calendar);
           this.set('day', this.calendar[0])
       },
       getEvents: function(days) {
