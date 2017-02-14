@@ -16,7 +16,7 @@ eventList = []
 
 if request.getcode() == 200:
     request = request.read()
-    soup = BeautifulSoup(request, "html5lib")
+    soup = BeautifulSoup(request, "html.parser")
     
     events = soup.findAll("div", { "class" : "search-date-group"})
 
@@ -33,8 +33,7 @@ if request.getcode() == 200:
                     "url": "https://www.eventbrite.es"
                 }
             }
-            
-            eventSoup = BeautifulSoup(event.decode_contents(formatter="html"), "html5lib")
+            eventSoup = BeautifulSoup(event.decode_contents(formatter="html"), "html.parser")
             date = eventSoup.find("time", {"class": "list-card__date"})
             title = eventSoup.find("div", {"class": "list-card__title"})
             location = eventSoup.find("div", {"class": "list-card__venue"})
@@ -56,7 +55,7 @@ if request.getcode() == 200:
                     
                     print("Estado actual:", currentEvent["source"]["event_url"])
                     
-                    currentEventSoup = BeautifulSoup(requestCurrentEvent, "html5lib")
+                    currentEventSoup = BeautifulSoup(requestCurrentEvent, "html.parser")
                     priceRaw = currentEventSoup.find("div", {"class": "js-display-price"})
                     abstractDetails = currentEventSoup.find("div", {"class": "js-xd-read-more-contents"})
                     locationDetails = currentEventSoup.find("a", {"class", "js-view-map-link"})
