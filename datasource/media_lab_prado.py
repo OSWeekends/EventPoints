@@ -10,6 +10,7 @@ import json
 date = (time.strftime("%y-%m-%d"))
 
 
+
 eventsList = []
 one_by_oneevent = []
 jsonfinal = []
@@ -21,16 +22,16 @@ for day in range(0,7):
 	date = (oneday + dt.timedelta(days=1)).strftime("%y-%m-%d")
 
 
-	url = "http://medialab-prado.es/events/" + date
-	request = urlopen(url)
-	if request.getcode() == 200:
-		request = request.read()
-		soup = BeautifulSoup(request, "html.parser")
-		pageevents = soup.find("ul", { "class" : "lista"})
-		if pageevents:
-			eventsList.append(pageevents)
-	else:
-		print("Error con la petición.")
+url = "http://medialab-prado.es/events/" + date
+request = urlopen(url)
+if request.getcode() == 200:
+	request = request.read()
+	soup = BeautifulSoup(request, "html.parser")
+	pageevents = soup.find("ul", { "class" : "lista"})
+	if pageevents:
+		eventsList.append(pageevents)
+else:
+	print("Error con la petición.")
 
 
 #iterate through all the event on one page
@@ -63,9 +64,15 @@ for one_event in one_by_oneevent:
 	abstract = eventSoup.find("blockquote",{"class": "entradilla"})
 	if abstract and title and dateannounced and event_url:
 		currentEvent["title"] = title.text.strip()
-		date = dateannounced.text.strip().replace(' ', '')[:-8]
+		date = dateannounced.text.strip().replace(' ', '')
+		if len(date) > 10 :
+			date = date[:-8]
+		else:
+			date = date + '00:00'
+
 		date = dt.datetime.strptime(date, "%d.%m.%Y%H:%M")
 		date = date.isoformat()
+
 		currentEvent["date"] =  str(date).replace(" ", "T") + "Z"
 		currentEvent["target_url"] = event_url['href']
 		currentEvent["source"]["event_url"] = event_url['href']
@@ -73,6 +80,7 @@ for one_event in one_by_oneevent:
 		currentEvent["abstract-details"] = abstract.text
 	
 	jsonfinal.append(currentEvent)
+print (jsonfinal)
 
 text_file = open("output/media-lab-prado.json", "w")
 print("Guardado... en medialab.json")
