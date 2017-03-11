@@ -49,31 +49,30 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       url="../api/events"
       handle-as="json"
       on-response="handleResponse"></iron-ajax>
-    <template is="dom-repeat" items="{{calendar}}" as="days" index-as="month">
       <template is="dom-repeat" items="{{daysNotEmpty}}" as="dayNotEmpty" index-as="day">
+        <template is="dom-repeat" items="{{dayNotEmpty}}" index-as="index">
         <div class="eventCard">
           <div class="date">
             <div class="day">
-              {{getDayGroupEvents(dayNotEmpty)}}
+              {{getDayGroupEvents(item)}}
             </div>
             <div class="month">
-              {{getMonthGroupEvents(dayNotEmpty)}}
+              {{getMonthGroupEvents(item)}}
             </div>
           </div>
           <div class="events">
-        <template is="dom-repeat" items="{{dayNotEmpty}}">
-            <ep-card-component
-              title="{{item.title}}"
-              description="{{item.abstract}}"
-              hour="{{getHour(item.date)}}"
-              price="{{getPrice(item.price.detail)}}"
-              text-link="VER DETALLES"
-              date="{{getFullDate(item.date)}}"
-              information="{{item.abstract_details}}"
-              source="{{item.source}}"
-              submit-url="{{item.target_url}}"
-              location="{{item.location}}"
-            ></ep-card-component>
+        <template is="dom-repeat" items="{{item}}">
+          <ep-card-component
+            title="{{item.title}}"
+            description="{{item.abstract}}"
+            hour="{{getHour(item.date)}}"
+            text-link="VER DETALLES"
+            date="{{getFullDate(item.date)}}"
+            information="{{item.abstract_details}}"
+            source="{{item.source}}"
+            submit-url="{{item.target_url}}"
+            location="{{item.location}}"
+          ></ep-card-component>
           </template>
         </div>
       </div>
@@ -130,8 +129,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         }
       },
       getDay: function(dateAndHour) {
-        var date = dateAndHour.split('T')[0];
-        var dateList = date.split('-');
+        var date = dateAndHour.split('T');
+        var dateList = date[0].split('-');
         var day = dateList[2];
         return day;
       },
@@ -156,6 +155,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             var addCalendar = 'calendar.' + month + '.' + day;
             this.push (addCalendar, event);
           }.bind(this));
+          this.calendar.map(function(month){
+            this.getEvents(month)
+          }.bind(this))
           this.set('day', this.calendar[0])
       },
       getEvents: function(days) {
@@ -165,15 +167,16 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
               return day;
             }
           });
-          this.set('daysNotEmpty', daysNotEmpty);
+          daysNotEmpty.length > 0 ? this.push('daysNotEmpty', daysNotEmpty) : '';
+          console.log(this.daysNotEmpty);
       },
       getDayGroupEvents: function(dayNotEmpty) {
-        var event = dayNotEmpty[0];
-        return this.getDay(event.date);
+        var event = dayNotEmpty;
+        return this.getDay(event[0].date);
       },
       getMonthGroupEvents: function(dayNotEmpty) {
-        var event = dayNotEmpty[0];
-        return this.getMonth(event.date);
+        var event = dayNotEmpty;
+        return this.getMonth(event[0].date);
       }
     });
   </script>
