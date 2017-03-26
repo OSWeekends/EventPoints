@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>EventPoints</title>
+	<meta name="description" content="App with all events where play events">
+
+	<link rel="icon" href="img/favicon.ico">
+
+    <!-- See https://goo.gl/qRE0vM -->
+    <meta name="theme-color" content="#a42551">
+
+    <!-- Add to homescreen for Chrome on Android. Fallback for manifest.json -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="EventPoints">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="EventPoints">
+
+    <!-- Homescreen icons -->
+    <link rel="apple-touch-icon" href="img/manifest/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="16x16" href="img/manifest/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="32x32" href="img/manifest/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="img/manifest/icon-192x192.png">
+    <link rel="apple-touch-icon" sizes="512x512" href="img/manifest/icon-512x512.png">
+
+    <!-- Tile icon for Windows 8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="img/favicon.ico">
+    <meta name="msapplication-TileColor" content="#a42551">
+    <meta name="msapplication-tap-highlight" content="no">
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=10" />
+	<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1.0"/>
+
+	<!--CSS-->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+<body>
+
+	<header>
+		<a class="btn-volver" id="btn-volver"></a>
+		<h1 class="logo">EventPoints</h1>
+	</header>
+
+	<main role="main" id="contenido">
+
+	</main>
+
+	<!--TEMPLATE PARA HANDLEBARS-->
+	<script id="plantilla" type="text/x-handlebars-template">
+		
+		<!--INICIO ACORDEON-->
+		<ul class="acordeon">
+            
+            <!--INICIO CONTENEDOR DE TODOS LOS EVENTOS EN UNA FECHA-->
+            {{#each this}}
+            <li>
+                
+                <!--FECHA-->
+                {{{fecha_literal}}}
+                
+                <!--LISTA DE LOS EVENTOS POR FECHA-->
+                <ul class="innerEventos">
+                    
+					<!--UN EVENTO-->
+					{{#lista}}
+                    <li class="evento">
+
+                    	<div class="textos">
+                    		<h2 class="titulo">{{title}}</h2>
+                    		<p class="parrafo">{{abstract}}</p>
+                    	</div>
+
+                    	<div class="barra">
+                    		<div class="datos">
+                    			<span class="hora">{{hora_evento}}</span>
+                    			<span class="precio">{{precio_evento}}</span>
+                    		</div>
+                    		<div class="btn-verDetalles">VER DETALLES</div>
+                    	</div>
+
+						<!--DETALLES DEL EVENTO (está oculto al inicio, se muestra al hacer clic en VER DETALLES)-->
+						<div class="detallesEvento">
+				        	
+				        	<h3 class="titulo">{{title}}</h3>
+				        	<p class="parrafo">{{abstract_details}}</p>
+
+							<h4 class="tituloDetalles">DETALLES</h4>
+							
+							<ul class="detallesListado">
+								<li class="fecha">{{fecha_completa}}</li>
+								<li class="hora">{{hora_evento}}</li>
+								<li class="precio">{{precio_evento}}</li>
+								<li class="sitio">{{location.name}}{{notas_evento}}<span class="direccion">{{direccion_evento}}</span></li>
+							</ul>
+
+							{{{duo_botones}}}
+
+							<figure class="mapa">
+								{{{imagen_mapa}}}
+							</figure>
+
+							{{{enlaces_compartir}}}
+						
+				        </div><!--FIN DETALLES DEL EVENTO-->
+				        {{/lista}}
+
+                    </li><!--FIN UN EVENTO-->
+                    
+                </ul><!--FIN LISTA DE LOS EVENTOS POR FECHA-->
+
+            </li><!--FIN CONTENEDOR DE TODOS LOS EVENTOS EN UNA FECHA-->
+            {{/each}}
+
+        </ul><!--FIN ACORDEON-->
+
+	</script>
+
+	<!--HANDLEBARS JS-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+    <script>window.Handlebars || document.write('<script src="js/handlebars-v4.0.5.js">\x3C/script>');</script>
+	<script type="text/javascript" src="js/config.js"></script>
+	<script type="text/javascript" src="js/alljs.js"></script>
+	
+</body>
+</html>
