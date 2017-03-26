@@ -195,7 +195,8 @@ main {
   padding: 1em;
   overflow-y: scroll;
   bottom: 0;
-  display: none; }
+  display: none;
+  width: 100%; }
   .detallesEvento .titulo {
     color: #a42551;
     text-transform: uppercase;
