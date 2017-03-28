@@ -1,5 +1,27 @@
 	var urlIcon = "http://leylajacqueline.com/proyectos/eventPointsSass/img/pin.png";
 
+	//=======================================
+	//Petición AJAX*/
+	//=======================================
+	function peticionAjax(url, callback) {
+        var xmlHttp = new XMLHttpRequest();
+
+        xmlHttp.onreadystatechange = function() {
+        	if(xmlHttp.readyState === 4){
+        		var error, data;        		
+        		
+        		if(xmlHttp.status === 200){
+        			data = JSON.parse(xmlHttp.responseText);
+        		} else{
+        			error = JSON.parse(xmlHttp.responseText);
+        		} 
+        		callback(error, data);
+        	}
+        };
+        xmlHttp.open("GET", url, true);
+        xmlHttp.send();
+	}
+
 	function funcionalidad() {
 		//=================================================================
 		//ACORDEON
@@ -24,11 +46,9 @@
 		//MOSTRAR PANTALLA CON LOS DETALLES DEL EVENTO AL HACER CLIC EN "VER DETALLES"
 		//=============================================================================
 		var btnVerDetalles = document.getElementsByClassName("btn-verDetalles");
-		//console.log(btnVerDetalles.length);
 
 		for (var i = 0; i < btnVerDetalles.length; i++){
 			btnVerDetalles[i].onclick = function(){
-				//console.info('hizo clic');
 				var detalle = this.parentNode.nextElementSibling;
 				detalle.style.display = 'block';
 				document.body.classList.add('Detalle');
@@ -56,7 +76,6 @@
 		//=================================================================
 
 		var shareButtons = document.querySelectorAll('.compartir a');
-		//console.log('share: ' + shareButtons.length);
 
 		function fCompartir(tipo, url){
 			var windowShare;
@@ -83,33 +102,20 @@
 
 				var shareTipo = elemento.getAttribute('class');
 				var shareUrl = elemento.parentNode.parentNode.getAttribute('data-url');
-				//console.info('Tú eres del tipo: ' + shareTipo );
-				//console.info('Mi url es: ' + shareUrl);
 				
 				fCompartir(shareTipo, shareUrl);
 
 			}
 		}
 
-	};
+	};//FIN DE funcionalidad()
 
-	function obtenerDireccionCompleta(err, data){
-		var direccion = "";
 
-		if(err){
-			console.info("Ha ocurrido un horror obteniendo la dirección: " + err);
-		}else{
-			if(data.status !== "ZERO_RESULTS"){
-				direccion = data.results[0].formatted_address;
-			}
-		}
-		return direccion;
-	}
+	//===============================================================
+	//PARA PINTAR LA DIRECCION COMPLETA
+	//===============================================================
 
-	//=======================================
-	//Petición AJAX*/
-	//=======================================
-	function peticionAjax(url, callback) {
+	function peticionAjaxDireccion(url, callback, indice) {
         var xmlHttp = new XMLHttpRequest();
 
         xmlHttp.onreadystatechange = function() {
@@ -121,11 +127,39 @@
         		} else{
         			error = JSON.parse(xmlHttp.responseText);
         		} 
-        		callback(error, data);
+        		callback(error, data, indice);
         	}
         };
         xmlHttp.open("GET", url, true);
         xmlHttp.send();
+	}
+
+	function pintarDireccion(){
+
+		var direcciones = document.querySelectorAll('.direccion');
+
+		function pintarDireccionHTML(err, data, indice){
+			var direccion = "";
+
+			if(data.status === 'OK'){
+		    	direccion = data.results[0].formatted_address;
+		    	for ( var i = 0; i < direcciones.length; i++){
+					if(indice === i){
+						direcciones[i].innerHTML = direccion;
+						//console.warn("la direccion es " + direccion);
+					}
+				}
+		    }
+			
+		}
+
+		for ( var i = 0; i < direcciones.length; i++){
+			var latlng = direcciones[i].getAttribute('data-location');
+			var url = "http://maps.googleapis.com/maps/api/geocode/json?latlng=" + latlng;
+			//console.log(url);
+	        peticionAjaxDireccion(url, pintarDireccionHTML, i);
+		}
+
 	}
 
 	function agruparPorFecha(data) {
@@ -142,7 +176,6 @@
 		var lista = [];
 
 		for (var i = 0; i < data.length; i++){
-			console.log('número de vuelta--> ' + i);
 			var nueva = data[i].date.substring(0,10);
 			//console.log('Fecha: ' + data[i].date);
 
@@ -296,39 +329,7 @@
 
 
 			Handlebars.registerHelper('direccion_evento', function() {
-				var url = "http://maps.googleapis.com/maps/api/geocode/json?latlng=" + this.location.lat + "," + this.location.lng;
-
-				function obtenerDireccion(url){
-					console.info(url);
-
-					var xmlHttp = new XMLHttpRequest();
-
-			        xmlHttp.onreadystatechange = function() {
-			        	if(xmlHttp.readyState === 4){
-			        		var error, data;
-			        		var direccion = "";        		
-			        		
-			        		if(xmlHttp.status === 200){
-			        			data = JSON.parse(xmlHttp.responseText);
-			        			console.info("entra en data");
-			        		} else {
-			        			error = JSON.parse(xmlHttp.responseText);
-			        			console.info("entra en error");
-			        		} 
-			        		
-			        		if(data.status === 'OK'){
-			        			direccion = data.results[0].formatted_address;
-			        			console.info("la direccion es " + direccion);
-			        		}
-			        		return direccion;
-			        	}
-			        };
-			        xmlHttp.open("GET", url, true);
-			        xmlHttp.send();
-		    	}
-
-		    	return new Handlebars.SafeString(obtenerDireccion(url));
-
+		    	return "<span class='direccion' data-location='" + this.location.lat + "," + this.location.lng + "'></span>";
 			});
 
 
@@ -357,6 +358,7 @@
 
 				document.getElementById('contenido').innerHTML = theCompiledHtml;
 				funcionalidad();
+				pintarDireccion();
 			
 		}
 
