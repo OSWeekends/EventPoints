@@ -34,15 +34,15 @@ event-points
 index.js
 │
 App.js
-├── Cabecera.js
-├── Buscador.js
-├── Eventos.js
-│   ├── Eventos.js
-│       └── Fecha.js
-│       └── Horario.js
-├── Detalles.js (dentro iría la descripción)
-│   ├──Detalle.js
-│   ├──Acción.js
+├── Header.js
+├── Seacher.js
+├── Events.js
+│   ├── Event.js
+│       └── Date.js
+│       └── Time.js
+├── Details.js
+│   ├──Detail.js
+│   ├──Action.js
 │   ├──Social.js
 ├── Map.js
     └── Marker.js
