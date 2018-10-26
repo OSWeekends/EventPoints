@@ -1,13 +1,13 @@
-import React, {Component} from 'react';
-
+import React, { Component } from 'react';
 
 class Header extends Component {
   render() {
     return (
-      <div className="Header">
+      <div className="Header" class="header">
+        HEADER
       </div>
     );
   }
- }
+}
 
 export default Header;
