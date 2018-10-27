@@ -12,7 +12,7 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div className="App" class="container">
+        <div className="App container">
           <Header />
           <Search />
           <Route exact path="/" component={Events} />
