@@ -5,7 +5,7 @@
 - Repositorios: 
 	- [Eventpoints-backend](https://github.com/OSWeekends/eventpoints-backend)
 	- [Eventpoints-frontend](https://github.com/OSWeekends/EventPoints)
-- Tecnología: React + Python + Goblin DB
+- Tecnología: React + Python + [Goblin DB](http://goblindb.osweekends.com/)
 - Facilitador:
 	- Ricardo García-Duarte (Slack:@RicardoGDM / GitHub:[@rgarciaduarte](https://github.com/rgarciaduarte))
 - Equipo activo & contribuidores:
@@ -20,6 +20,7 @@
 	- Leyla Vieira (Slack:@leyla)
 	- Loreto Vaquero (Slack:@lvaquero / GitHub:[@VaqueroFontenla](https://github.com/VaqueroFontenla))
 	- Lucas Bernalte (Slack:@lucasbernalte / GitHub:[@lucbpz](https://github.com/lucbpz))
+	- Rumi Aguirre (Slack: @Rumi Aguirre / GitHub: [Rumi-Aguirre](https://github.com/Rumi-Aguirre))
 	- Sebastian Cabanas (Slack:@Sebastiancbvz)
 - Mentores:
 	- Jorge Baumann (Slack:@jbaumann / GitHub:[@baumannzone](https://github.com/baumannzone))
