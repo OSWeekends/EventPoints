@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Event from '../Event/Event';
 import './Events.scss';
-import { ApiService } from '../Services';
+import { ApiService } from '../../Services';
 
 class Events extends Component {
   state = {
