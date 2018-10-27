@@ -33,12 +33,12 @@ class Events extends Component {
   }
 
   state = {
-    current: null
+    current: null,
   };
 
   onSelect = eventID => {
     this.setState({
-      current: eventID
+      current: eventID,
     });
   };
 

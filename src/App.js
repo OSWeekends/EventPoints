@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import Search from './components/Search/Search';
 import Events from './components/Events/Events';
-import Details from './components/Details/Details';
-import Map from './components/Map/Map';
+// import Details from './components/Details/Details';
+// import Map from './components/Map/Map';
 import './App.scss';
 import Header from './components/Header/Header';
 
