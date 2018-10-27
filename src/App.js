@@ -6,7 +6,7 @@ import Search from './components/Search';
 import Events from './components/Events';
 import Details from './components/Details';
 import Map from './components/Map';
-import './App.css';
+import './App.scss';
 
 class App extends Component {
   render() {
