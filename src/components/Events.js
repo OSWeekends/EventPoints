@@ -3,6 +3,36 @@ import Event from './Event';
 import './Events.scss'
 
 class Events extends Component {
+  constructor() {
+    super();
+
+    this.state = { load: 'loading', events: [] };
+    this.requestEvents = this.requestEvents.bind(this);
+
+    this.requestEvents();
+  }
+
+  async requestEvents() {
+    const headers = new Headers();
+    headers.set('Access-Control-Allow-Credentials', 'true');
+    headers.set('Access-Control-Allow-Origin', '*');
+    headers.set('Access-Control-Allow-Headers', '*');
+    headers.set('Access-Control-Allow-Methods', 'POST, GET, OPTIONS, DELETE');
+
+    const myInit = { headers: headers };
+    try {
+      const eventsResponse = await fetch(
+        'http://localhost:3000/api/v1/events',
+        myInit
+      );
+      const events = await eventsResponse.json();
+      this.setState({ events: events });
+    } catch (e) {
+      console.log(`Error while fetching: ${e}`);
+    }
+  }
+
+
   state = {
     current: null
   }
@@ -14,9 +44,10 @@ class Events extends Component {
   }
 
   render() {
-    const {data} = this.props
+    const {data} = this.state.event
     const {current} = this.state
     const colores = ['red', 'green', 'yellow', '#fabada', 'purple']
+
     return (
       <ul className="Events">
         {data.map((event, index) => {
@@ -35,6 +66,5 @@ class Events extends Component {
     );
   }
 }
-
 
 export default Events;

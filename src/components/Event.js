@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import Date from './Date';
+import React, { Component } from 'react';
+import DateEvent from './DateEvent';
 import Time from './Time';
 import DetailButton from './DetailButton'
 import './Event.scss'

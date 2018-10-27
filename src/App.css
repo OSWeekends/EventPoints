@@ -27,3 +27,23 @@ h1, h2, h3, h4 {
 .TextIcon {
   display: flex;
   align-items: center; }
+
+.container {
+  font-family: Montserrat; }
+
+.flex-grid {
+  display: flex; }
+
+.col {
+  flex: 1; }
+
+@media (max-width: 400px) {
+  .flex-grid {
+    display: block; } }
+
+.events {
+  flex-direction: row;
+  flex-wrap: nowrap; }
+
+li {
+  list-style-type: none; }

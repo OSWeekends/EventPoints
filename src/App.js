@@ -1,5 +1,6 @@
-import React, {Component} from 'react';
-import Data from './components/Data';
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+
 import Header from './components/Header';
 import Search from './components/Search';
 import Events from './components/Events';
@@ -7,17 +8,16 @@ import Details from './components/Details';
 import Map from './components/Map';
 import './App.css';
 
-
 class App extends Component {
   render() {
     return (
-      <div className="App">
-      <Header/>
-      <Search/>
-      <Events data={Data} />
-      <Details/>
-      <Map/>
-      </div>
+      <Router>
+        <div className="App" class="container">
+          <Header />
+          <Search />
+          <Route exact path="/" component={Events} />
+        </div>
+      </Router>
     );
   }
 }
