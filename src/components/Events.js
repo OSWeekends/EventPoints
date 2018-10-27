@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Event from './Event';
+import './Events.scss';
 
 class Events extends Component {
   constructor() {
@@ -31,15 +32,38 @@ class Events extends Component {
     }
   }
 
-  render() {
-    var listEvents = this.state.events.map((event, index) => {
-      return <Event key={event.id} event={event} class="col" />;
+  state = {
+    current: null
+  };
+
+  onSelect = eventID => {
+    this.setState({
+      current: eventID
     });
+  };
+
+  render() {
+    const data = this.state.events || [];
+    const { current } = this.state;
+    const colores = ['red', 'green', 'yellow', '#fabada', 'purple'];
 
     return (
-      <div className="Events" class="event">
-        {listEvents}
-      </div>
+      <ul className="Events">
+        {data.map((event, index) => {
+          const color = index % 5;
+
+          const selected = event.id === current;
+          return (
+            <Event
+              color={colores[color]}
+              selected={selected}
+              onSelect={this.onSelect}
+              event={event}
+              key={event.title}
+            />
+          );
+        })}
+      </ul>
     );
   }
 }
