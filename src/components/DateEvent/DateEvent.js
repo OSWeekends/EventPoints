@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './DateEvent.css';
+import './DateEvent.scss';
 
 class DateEvent extends Component {
   render() {

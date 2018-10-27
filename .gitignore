@@ -6,6 +6,12 @@
 # testing
 /coverage
 
+# storybook
+/storybook-static
+
+#css
+/css
+
 # production
 /build
 
