@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Event from './Event';
+import Event from '../Event/Event';
 import './Events.scss';
 import { ApiService } from '../Services';
 

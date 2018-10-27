@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import DateEvent from './DateEvent';
-import Time from './Time';
-import DetailButton from './DetailButton';
+import DateEvent from '../DateEvent/DateEvent';
+import Time from '../Shared/Time/Time';
+import DetailButton from '../DetailButton/DetailButton';
 import './Event.scss';
-import '../images/svg/clock.svg';
-import '../images/svg/euro.svg';
+import '../../images/svg/clock.svg';
+import '../../images/svg/euro.svg';
 
 const Event = ({ event, onSelect, selected, color }) => {
   const css = selected ? 'Event is-selected' : 'Event';
