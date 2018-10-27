@@ -1,0 +1,50 @@
+.Event {
+  background-color: #212121;
+  padding-top: 1rem; }
+  .Event .icon {
+    display: block;
+    fill: #C7C7C7;
+    margin-right: 0.3rem; }
+
+.EventTitle {
+  color: #fff;
+  padding: 0 1rem;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  font-size: 18px; }
+
+.EventDescription {
+  color: #6B6B6B;
+  padding: 0 1rem;
+  font-size: 0.75rem;
+  margin-bottom: 0.75rem; }
+
+.EventDetails {
+  display: flex;
+  justify-content: space-between; }
+
+.EventInfo {
+  color: #C7C7C7;
+  display: flex;
+  align-items: center; }
+
+.EventInfo {
+  display: flex;
+  background-color: #5C5C5C;
+  padding: 0.6rem 1rem;
+  width: 50%; }
+
+.EventInfoItem {
+  display: flex;
+  align-items: center; }
+  .EventInfoItem:first-child {
+    margin-right: 0.5rem; }
+    .EventInfoItem:first-child::after {
+      content: '';
+      display: inline-block;
+      width: 1px;
+      height: 10px;
+      margin-left: 0.5rem;
+      background-color: #C7C7C7; }
+  .EventInfoItem .icon {
+    width: 0.8rem; }

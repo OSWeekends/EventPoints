@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Data from './components/Data';
 import Header from './components/Header';
 import Search from './components/Search';
 import Events from './components/Events';
@@ -13,7 +14,7 @@ class App extends Component {
       <div className="App">
       <Header/>
       <Search/>
-      <Events/>
+      <Events data={Data} />
       <Details/>
       <Map/>
       </div>

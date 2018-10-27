@@ -1,0 +1,29 @@
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+html, body {
+  height: 100%; }
+
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased; }
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif; }
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+p {
+  margin: 0; }
+
+h1, h2, h3, h4 {
+  margin: 0; }
+
+.TextIcon {
+  display: flex;
+  align-items: center; }
