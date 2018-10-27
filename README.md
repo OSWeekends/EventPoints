@@ -4,7 +4,7 @@
 - El proyecto EventPoints va a centralizar en un calendario único todos los eventos tecnológicos de interés para OWS. El 'core business' del proyecto son una serie de scrappers en Python que se encargarán de recoger los eventos de interés de diferentes orígenes de datos. Posteriormente mostraremos dichos datos en un calendario con su geolocalización y demás ;)
 - Repositorios: 
 	- [Eventpoints-backend](https://github.com/OSWeekends/eventpoints-backend)
-	- [Eventpoints-frontend](https://github.com/OSWeekends/EventPoints)
+	- [Eventpoints-frontend](https://github.com/OSWeekends/EventPoints#start-app)
 - Tecnología: React + Python + [Goblin DB](http://goblindb.osweekends.com/)
 - Facilitador:
 	- Ricardo García-Duarte (Slack:@RicardoGDM / GitHub:[@rgarciaduarte](https://github.com/rgarciaduarte))
