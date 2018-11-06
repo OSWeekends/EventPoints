@@ -45,7 +45,7 @@ class Events extends Component {
   render() {
     const data = this.state.events || [];
     const { current } = this.state;
-    const colores = ['red', 'green', 'yellow', '#fabada', 'purple'];
+    const colores = ['#a42551', '#521c4d', '#6f1c50', '#ab013c'];
 
     return (
       <ul className="Events">

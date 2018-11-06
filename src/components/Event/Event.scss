@@ -1,6 +1,6 @@
 .Event {
   background-color: #212121;
-  padding-top: 1rem;
+  // padding-top: 1rem;
 
   .icon {
     display: block;
@@ -22,6 +22,12 @@
   padding: 0 1rem;
   font-size: 0.75rem;
   margin-bottom: 0.75rem;
+}
+
+.EventDate {
+  padding: 0.75rem 1rem;
+  font-size: 1.5em;
+  color: #fff;
 }
 
 .EventDetails {

@@ -11,7 +11,7 @@ const Event = ({ event, onSelect, selected, color }) => {
 
   return (
     <li className={css}>
-      <div style={{ backgroundColor: color }}>Date</div>
+      <div style={{ backgroundColor: color }} className="EventDate" />
       <h2 className="EventTitle">{event.title}</h2>
       <p className="EventDescription">{event.abstract}</p>
       <div className="EventDetails">
