@@ -1,5 +1,6 @@
 .Event {
   background-color: #212121;
+  padding-top: 1rem;
 }
 .Event .icon {
   display: block;
