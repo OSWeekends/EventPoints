@@ -1,0 +1,20 @@
+.ButtonDetail {
+  background-color: #818181;
+  color: #fff;
+  text-transform: uppercase;
+  border: 0;
+  width: 50%;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+.ButtonDetail .icon {
+  margin-left: 0.6rem;
+  width: 1.2rem;
+}
+
+.ButtonDetail.isActive {
+  background-color: #d20047;
+}
