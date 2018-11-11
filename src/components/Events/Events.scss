@@ -3,3 +3,19 @@
   min-height: 100vh;
   background-color: #212121;
 }
+
+.EventsList {
+  display: none;
+}
+
+.Event-selected {
+  .EventsList {
+    display: block;
+  }
+
+  .ButtonEventDate {
+    .line:first-child {
+      display: none;
+    }
+  }
+}

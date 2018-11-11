@@ -1,8 +1,11 @@
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -27,7 +30,10 @@ p {
   margin: 0;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   margin: 0;
 }
 
@@ -37,11 +43,11 @@ h1, h2, h3, h4 {
 }
 
 .flex-grid {
-    display: flex;
+  display: flex;
 }
 
 .col {
-    flex: 1;
+  flex: 1;
 }
 
 .Button {
@@ -50,21 +56,17 @@ h1, h2, h3, h4 {
   cursor: pointer;
 }
 
-.LineClamp {
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-
 @media (max-width: 400px) {
-    .flex-grid {
-      display: block;
-    }
+  .flex-grid {
+    display: block;
   }
+}
 
 .events {
-    flex-direction: row;
-    flex-wrap: nowrap;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
-li { list-style-type: none; }
+
+li {
+  list-style-type: none;
+}
