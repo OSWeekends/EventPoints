@@ -7,7 +7,7 @@ class Events extends Component {
   state = {
     loading: true,
     events: [],
-    current: null
+    current: null,
   };
 
   componentWillMount() {

@@ -10,7 +10,7 @@ class Api {
     const headers = new Headers();
     try {
       const response = await fetch(`${ApiConstants.url}/api/v1/events`, {
-        headers: headers
+        headers: headers,
       });
       const events = await response.json();
       return events;
