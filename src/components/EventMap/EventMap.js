@@ -15,7 +15,7 @@ class EventMap extends Component {
     this.state = {
       loading: true,
       events: [],
-      zoom: 10
+      zoom: 10,
     };
   }
 
@@ -33,7 +33,7 @@ class EventMap extends Component {
     const iconMarker = new L.Icon({
       iconUrl: require('../../images/marker.png'),
       iconSize: [50, 58],
-      iconAnchor: [25, 50]
+      iconAnchor: [25, 50],
     });
     return (
       <Map
@@ -59,9 +59,9 @@ class EventMap extends Component {
 
           {events.map((event, index) => {
             const position = [event.location.lat, event.location.lng];
-            const price = event.price.isFree;
+            // const price = event.price.isFree;
             const cost = event.price.details;
-            const url = event.source.event_url;
+            // const url = event.source.event_url;
 
             if (event.price.isFree === true) {
               this.price = 'Gratis';
@@ -80,16 +80,21 @@ class EventMap extends Component {
                       <div className="InformationEvent">
                         <div>
                           <span className="Data">
-                            <img src={calendar} className="icon" />
+                            <img
+                              src={calendar}
+                              className="icon"
+                              alt="calendar"
+                            />
                             {event.date}
                           </span>
                           <span className="Data">
-                            <img src={pointer} className="icon" />
+                            <img src={pointer} className="icon" alt="pointer" />
                             {event.location.name}
                           </span>
                         </div>
                         <span className="Data">
-                          <img src={euro} className="icon" /> {this.price}
+                          <img src={euro} className="icon" alt="price" />{' '}
+                          {this.price}
                         </span>
                       </div>
                       <div className="DescriptionEvent">

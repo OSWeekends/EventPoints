@@ -7,7 +7,7 @@ class Events extends Component {
   state = {
     loading: true,
     events: [],
-    current: null
+    current: null,
   };
 
   componentWillMount() {
@@ -21,7 +21,7 @@ class Events extends Component {
 
   onSelect = eventID => {
     this.setState({
-      current: eventID
+      current: eventID,
     });
   };
 

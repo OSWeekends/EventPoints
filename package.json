@@ -31,7 +31,8 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "lint": "eslint \"**/*.js\" --max-warnings=0"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^4.0.0-alpha.4",
@@ -44,12 +45,12 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged && npm run lint"
     }
   },
   "lint-staged": {
     "src/**/*.{js,jsx,json,css}": [
-      "prettier --single-quote --write",
+      "prettier --trailing-comma --single-quote --write",
       "git add"
     ]
   }
