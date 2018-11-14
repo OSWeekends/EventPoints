@@ -8,38 +8,30 @@ import '../../images/svg/euro.svg';
 import IconClock from '../Shared/Svg/Icon-clock';
 import IconEuro from '../Shared/Svg/Icon-euro';
 
-const Event = ({ evento, onSelect, selected, color }) => {
-  const css = selected ? 'Event is-selected' : 'Event';
-
+const Event = ({ evento, onSelect, current }) => {
+  const isCurrent = evento.id === current;
+  const css = isCurrent ? 'Event is-selected' : 'Event';
   return (
     <li className={css}>
-      {/* <button style={{ backgroundColor: color }} className="Button ButtonEventDate">
-        Date
-        <div className="iconMenu">
-          <span className="line"></span>
-          <span className="line"></span>
-        </div>
-        
-      </button> */}
       <div className="EventContent">
         <h2 className="EventTitle">{evento.title}</h2>
         <p className="EventDescription">{evento.abstract}</p>
         <div className="EventDetails">
           <ul className="EventInfo">
-            <li className="EventInfoItem">
+            <li className="EventInfoItem" id="evento.id">
               <IconClock />
-              18:00h
+              <span>18:00h</span>
             </li>
             <li className="EventInfoItem">
               <IconEuro />
-              10,00
+              {evento.price.isFree ? (
+                <span>Free</span>
+              ) : (
+                <span>{evento.price.details}</span>
+              )}
             </li>
           </ul>
-          <DetailButton
-            onClick={() => {
-              onSelect(evento.id);
-            }}
-          />
+          <DetailButton onClick={() => onSelect(evento.id)} />
         </div>
       </div>
     </li>

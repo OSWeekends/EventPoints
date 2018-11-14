@@ -39,12 +39,6 @@ h1, h2, h3, h4 {
   border: 0;
   cursor: pointer; }
 
-.LineClamp {
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden; }
-
 @media (max-width: 400px) {
   .flex-grid {
     display: block; } }

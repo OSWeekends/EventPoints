@@ -13,6 +13,6 @@
   width: 1.2rem;
 }
 
-.ButtonDetail.isActive {
+.is-selected .ButtonDetail {
   background-color: #d20047;
 }

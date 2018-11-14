@@ -1,21 +1,24 @@
 .Events {
-  max-width: 380px;
+  max-width: 400px;
   min-height: 100vh;
   background-color: #212121;
+  flex: 0 0 100%;
 }
 
 .EventsList {
   display: none;
 }
 
-.Event-selected {
+.EventsList.selected {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
   .EventsList {
     display: block;
   }
 
-  .ButtonEventDate {
-    .line:first-child {
-      display: none;
-    }
+  .ButtonIcon {
+    display: none;
   }
 }

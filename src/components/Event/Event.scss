@@ -1,35 +1,7 @@
 .Event {
-  // background-color: #212121;
-  // padding-top: 1rem;
-
   .icon {
-    // display: block;
     fill: #fff;
-    margin-right: 0.3rem;
-  }
-}
-
-.iconMenu {
-  width: 20px;
-  height: 20px;
-  position: relative;
-
-  .line {
-    display: inline-block;
-    background: #fff;
-    width: 1px;
-    height: 100%;
-    position: absolute;
-
-    &:first-child {
-      top: 0;
-      left: 50%;
-      transform: translateX(-50%);
-    }
-
-    &:last-child {
-      transform: rotate(-90deg);
-    }
+    margin-right: 0.2rem;
   }
 }
 
@@ -47,15 +19,14 @@
 }
 
 .EventDescription {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;  
   color: #888888;
   font-size: 0.85rem;
   padding: 0 1rem;
   margin-bottom: 1rem;
   font-weight: 300;
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
   overflow: hidden;
 }
 
@@ -76,16 +47,12 @@
 
 .EventDetails {
   display: flex;
-  justify-content: space-between;
 }
 
 .EventInfo {
   color: #fff;
   display: flex;
   align-items: center;
-}
-
-.EventInfo {
   display: flex;
   background-color: #5C5C5C;
   padding: 0.6rem 1rem;
@@ -96,7 +63,7 @@
   display: flex;
   align-items: center;
   line-height: 1;
-  font-size: 1rem;
+  font-size: 0.85rem;
 
   &:first-child {
     margin-right: 0.5rem;
@@ -114,5 +81,15 @@
   .icon {
     width: 1rem;
     height: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .EventsItems {
+    display: flex;
+  }
+
+  .EventInfo {
+    padding: 0.6rem 1rem;
   }
 }

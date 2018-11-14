@@ -1,38 +1,38 @@
 import React, { Component } from 'react';
 import Event from '../Event/Event';
 import './Events.scss';
-import { ApiService } from '../../Services';
 import dayjs from 'dayjs';
+import IconMinus from '../Shared/Svg/Icon-minus';
+import IconPlus from '../Shared/Svg/Icon-plus';
 
 class Events extends Component {
   state = {
-    loading: true,
-    events: [],
-    current: null
+    currentDate: null
   };
 
-  componentWillMount() {
-    this.requestEvents();
-  }
+  selectEvent = id => {
+    const { onSelect } = this.props;
+    onSelect(id);
+  };
 
-  async requestEvents() {
-    const events = await ApiService.getEvents();
-    this.setState({ events, loading: false });
-  }
+  showEventsDate(date) {
+    if (window.innerWidth > 768) {
+      return;
+    }
 
-  onSelect = eventID => {
+    const { currentDate } = this.state;
     this.setState({
-      current: eventID
+      currentDate: currentDate !== date ? date : null
     });
-  };
+  }
 
   render() {
     const colores = ['#a42551', '#521c4d', '#6f1c50', '#ab013c'];
-    const { events, current } = this.state;
-    const { selected } = this.props;
+    const { currentDate } = this.state;
+    const { currentEvent, events } = this.props;
 
     const data = events.reduce((memo, d) => {
-      const date = dayjs(d.date).format('DD MMMM YYYY');
+      const date = dayjs(d.date).format('DD MMM');
 
       if (memo[date] === undefined) {
         memo[date] = [];
@@ -44,25 +44,31 @@ class Events extends Component {
     return (
       <ul className="Events">
         {Object.keys(data).map((date, index) => {
-          const css = selected ? 'Event-selected' : '';
+          const isCurrent = currentDate === date;
+          const css = isCurrent ? 'EventsList selected' : 'EventsList';
           const color = index % colores.length;
 
-          // return <li className= { css }>
           return (
-            <li className="Event-selected">
+            <li key={date} className="EventsItems">
               <button
                 style={{ backgroundColor: colores[color] }}
                 className="Button ButtonEventDate"
+                onClick={e => this.showEventsDate(date)}
               >
                 {date}
-                <div className="iconMenu">
-                  <span className="line" />
-                  <span className="line" />
-                </div>
+                <span className="ButtonIcon">
+                  {isCurrent ? <IconMinus /> : <IconPlus />}
+                </span>
               </button>
-              <ul className="EventsList">
+
+              <ul className={css}>
                 {data[date].map(evento => (
-                  <Event evento={evento} />
+                  <Event
+                    key={evento.id}
+                    evento={evento}
+                    onSelect={this.selectEvent}
+                    current={currentEvent}
+                  />
                 ))}
               </ul>
             </li>

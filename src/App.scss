@@ -1,3 +1,5 @@
+$bp-tablet: 768px;
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -50,12 +52,12 @@ h1, h2, h3, h4 {
   cursor: pointer;
 }
 
-.LineClamp {
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
+// .LineClamp {
+//   display: -webkit-box;
+//   -webkit-line-clamp: 3;
+//   -webkit-box-orient: vertical;
+//   overflow: hidden;
+// }
 
 @media (max-width: 400px) {
     .flex-grid {
