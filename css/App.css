@@ -28,14 +28,16 @@ h1, h2, h3, h4 {
   display: flex;
   align-items: center; }
 
-.container {
-  font-family: Montserrat; }
-
 .flex-grid {
   display: flex; }
 
 .col {
   flex: 1; }
+
+.Button {
+  outline: none;
+  border: 0;
+  cursor: pointer; }
 
 @media (max-width: 400px) {
   .flex-grid {

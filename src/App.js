@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import Search from './components/Search/Search';
-import Events from './components/Events/Events';
+import EventsContainer from './components/EventsContainer/EventsContainer';
+
 // import Details from './components/Details/Details';
 import EventMap from './components/EventMap/EventMap';
 import './App.scss';
@@ -15,7 +16,7 @@ class App extends Component {
         <div className="App container">
           <Header />
           <Search />
-          <Route exact path="/" component={Events} />
+          <Route exact path="/" component={EventsContainer} />
           <EventMap />
         </div>
       </Router>

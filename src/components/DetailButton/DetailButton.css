@@ -7,13 +7,12 @@
   justify-content: center;
   align-items: center;
   font-size: 14px;
-
-  .icon {
-    margin-left: 0.6rem;
-    width: 1.2rem;
-  }
+}
+.ButtonDetail .icon {
+  margin-left: 0.6rem;
+  width: 1.2rem;
 }
 
 .is-selected .ButtonDetail {
-  background-color: #D20047;
+  background-color: #d20047;
 }

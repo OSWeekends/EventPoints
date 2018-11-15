@@ -1,0 +1,103 @@
+.Event {
+  background-color: #212121;
+}
+.Event .icon {
+  fill: #fff;
+  margin-right: 0.3rem;
+}
+
+.iconMenu {
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+.iconMenu .line {
+  display: inline-block;
+  background: #fff;
+  width: 1px;
+  height: 100%;
+  position: absolute;
+}
+.iconMenu .line:first-child {
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.iconMenu .line:last-child {
+  transform: rotate(-90deg);
+}
+
+.EventTitle {
+  color: #fff;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 0 1rem;
+  font-weight: 700;
+}
+
+.EventContent {
+  padding-top: 1rem;
+}
+
+.EventDescription {
+  color: #888888;
+  font-size: 0.85rem;
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+
+.ButtonEventDate {
+  padding: 0.75rem 1rem;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.ButtonEventDate svg {
+  fill: white;
+}
+
+.EventDetails {
+  display: flex;
+  justify-content: space-between;
+}
+
+.EventInfo {
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.EventInfo {
+  display: flex;
+  background-color: #5c5c5c;
+  padding: 0.6rem 1rem;
+  width: 50%;
+}
+
+.EventInfoItem {
+  display: flex;
+  align-items: center;
+  line-height: 1;
+  font-size: 1rem;
+}
+.EventInfoItem:first-child {
+  margin-right: 0.5rem;
+}
+.EventInfoItem:first-child::after {
+  content: '';
+  display: inline-block;
+  width: 1px;
+  height: 10px;
+  margin-left: 0.5rem;
+  background-color: #c7c7c7;
+}
+.EventInfoItem .icon {
+  width: 1rem;
+  height: 1rem;
+}
