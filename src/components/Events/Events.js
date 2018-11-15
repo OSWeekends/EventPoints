@@ -4,6 +4,9 @@ import './Events.scss';
 import { ApiService } from '../../Services';
 
 class Events extends Component {
+  static defaultProps = {
+    getEvents: ApiService.getEvents,
+  };
   state = {
     loading: true,
     events: [],
@@ -15,7 +18,7 @@ class Events extends Component {
   }
 
   async requestEvents() {
-    const events = await ApiService.getEvents();
+    const events = await this.props.getEvents();
     this.setState({ events, loading: false });
   }
 
