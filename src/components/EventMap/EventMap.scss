@@ -1,0 +1,71 @@
+.leaflet-popup-content {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.leaflet-popup-close-button {
+    background-color: #808080;
+    position: absolute;
+    top:25px;
+  }
+
+.MapContainer {
+    height: 400px;
+    width: 100%;
+}
+
+
+.PopUp {
+  margin: 3px;
+  border-radius: 5px;
+  color: white;
+  font-family: Lato sans-serif;
+  cursor: pointer;
+  
+  .icon {
+    width: 1rem;
+    height: 1rem;
+    display: block;
+    fill: white;
+    margin-right: 0.3rem;
+  }
+
+  .TitleEvent {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 5px;
+    background-color: #a42551;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .InformationEvent {
+    background-color: #808080;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+
+  }
+
+  .DescriptionEvent {
+    background-color: #808080;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 0 10px 10px 10px;
+  }
+
+  .Data {
+    display: flex;
+    margin-bottom: 5px
+  }
+
+  .Link {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    color: #262626;
+  }
+}

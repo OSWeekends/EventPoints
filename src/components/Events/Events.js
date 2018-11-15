@@ -4,10 +4,17 @@ import './Events.scss';
 import dayjs from 'dayjs';
 import IconMinus from '../Shared/Svg/Icon-minus';
 import IconPlus from '../Shared/Svg/Icon-plus';
+import ApiService from '../../Services/Api';
 
 class Events extends Component {
+  static defaultProps = {
+    getEvents: ApiService.getEvents,
+  };
   state = {
-    currentDate: null
+    currentDate: null,
+    loading: true,
+    events: [],
+    current: null,
   };
 
   selectEvent = id => {
@@ -22,8 +29,14 @@ class Events extends Component {
 
     const { currentDate } = this.state;
     this.setState({
-      currentDate: currentDate !== date ? date : null
+      currentDate: currentDate !== date ? date : null,
+      // current: eventID,
     });
+  }
+
+  async requestEvents() {
+    const events = await this.props.getEvents();
+    this.setState({ events, loading: false });
   }
 
   render() {

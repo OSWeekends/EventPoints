@@ -18,7 +18,7 @@ class EventsContainer extends Component {
   state = {
     loading: true,
     events: null,
-    currentEvent: null
+    currentEvent: null,
   };
 
   componentDidMount() {
@@ -32,7 +32,7 @@ class EventsContainer extends Component {
 
   onSelectEvent = id => {
     this.setState({
-      currentEvent: id
+      currentEvent: id,
     });
   };
 
