@@ -4,7 +4,7 @@ import './Events.scss';
 import dayjs from 'dayjs';
 import IconMinus from '../Shared/Svg/Icon-minus';
 import IconPlus from '../Shared/Svg/Icon-plus';
-import ApiService from '../../Services/Api';
+import { ApiService } from '../../Services';
 
 class Events extends Component {
   static defaultProps = {
