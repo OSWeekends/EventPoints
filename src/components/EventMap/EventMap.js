@@ -38,7 +38,7 @@ class EventMap extends Component {
     return (
       <Map
         className="MapContainer"
-        style={{ backgroundColor: 'black', height: '500px', widht: '500px' }}
+        style={{ backgroundColor: 'black', height: '1000px', width: '1000px' }}
         center={[40.3995824, -3.7206383]}
         zoom={this.state.zoom}
       >

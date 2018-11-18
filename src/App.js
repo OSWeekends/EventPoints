@@ -5,7 +5,7 @@ import Search from './components/Search/Search';
 import EventsContainer from './components/EventsContainer/EventsContainer';
 
 // import Details from './components/Details/Details';
-import EventMap from './components/EventMap/EventMap';
+// import EventMap from './components/EventMap/EventMap';
 import './App.scss';
 import Header from './components/Header/Header';
 
@@ -17,7 +17,7 @@ class App extends Component {
           <Header />
           <Search />
           <Route exact path="/" component={EventsContainer} />
-          <EventMap />
+          {/* <EventMap /> */}
         </div>
       </Router>
     );
