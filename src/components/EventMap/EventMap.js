@@ -19,7 +19,7 @@ class EventMap extends Component {
     };
   }
 
-  componentWillMount() {
+  componentDidMount() {
     this.requestEvents();
   }
 
@@ -58,12 +58,19 @@ class EventMap extends Component {
           </BaseLayer>
 
           {events.map((event, index) => {
-            const position = [event.location.lat, event.location.lng];
-            // const price = event.price.isFree;
+            let position;
+            try {
+              if (!isNaN(event.location.lat) && !isNaN(event.location.lng)) {
+                position = [event.location.lat, event.location.lng];
+              }
+            } catch (e) {
+              position = [0, 0];
+            }
+            // const price = event.price.is_free;
             const cost = event.price.details;
             // const url = event.source.event_url;
 
-            if (event.price.isFree === true) {
+            if (event.price.is_free === true) {
               this.price = 'Gratis';
             } else {
               this.price = cost;
@@ -100,7 +107,7 @@ class EventMap extends Component {
                       <div className="DescriptionEvent">
                         <span>
                           Más info:{' '}
-                          <a className="Link" href={event.source.event_url}>
+                          <a className="Link" href={event.target_url}>
                             {' '}
                             Pincha aquí
                           </a>

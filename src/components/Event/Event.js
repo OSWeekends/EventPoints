@@ -41,7 +41,10 @@ class Event extends Component {
       <li className={this.state.css}>
         <div className="EventContent">
           <h2 className="EventTitle">{evento.title}</h2>
-          <p className="EventDescription">{evento.abstract}</p>
+          <p
+            className="EventDescription"
+            dangerouslySetInnerHTML={{ __html: evento.abstract }}
+          />
           <div className="EventDetails">
             <ul className="EventInfo">
               <li className="EventInfoItem" id="evento.id">

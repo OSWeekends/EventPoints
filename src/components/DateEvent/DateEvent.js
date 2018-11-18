@@ -3,7 +3,7 @@ import './DateEvent.scss';
 
 class DateEvent extends Component {
   render() {
-    const date = new Date(this.props.date);
+    const date = new Date(this.props.datetime);
     const weekDay = date
       .toLocaleString('es-es', { weekday: 'short' })
       .toUpperCase()

@@ -33,7 +33,7 @@ class Events extends Component {
     });
   }
 
-  componentWillMount() {
+  componentDidMount() {
     this.requestEvents();
   }
 
@@ -49,7 +49,7 @@ class Events extends Component {
     if (!events) return null;
 
     const data = events.reduce((memo, d) => {
-      const date = dayjs(d.date).format('DD MMM');
+      const date = dayjs(d.datetime).format('DD MMM');
 
       if (memo[date] === undefined) {
         memo[date] = [];

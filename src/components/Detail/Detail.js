@@ -31,9 +31,10 @@ class Detail extends Component {
           </Link>
         </div>
         <div className="EventDetailTitle">{currentEvent.title}</div>
-        <div className="EventDetailDescription">
-          {currentEvent.abstract_details}
-        </div>
+        <div
+          className="EventDetailDescription"
+          dangerouslySetInnerHTML={{ __html: currentEvent.abstract_details }}
+        />
       </div>
     ) : null;
   }
