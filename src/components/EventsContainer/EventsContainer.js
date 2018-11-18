@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 
 import { ApiService } from '../../Services';
 import Events from '../Events/Events';
-import Detail from '../Detail/Detail';
+import Header from '../Header/Header';
 import './EventsContainer.scss';
-import EventMap from '../EventMap/EventMap';
+// import EventMap from '../EventMap/EventMap';
 // const Detail = ({ events, currentEvent }) => {
 //   const foundedEvents = events
 //     ? events.filter(event => event.id === currentEvent)
@@ -42,13 +42,14 @@ class EventsContainer extends Component {
       <div>Loading...</div>
     ) : (
       <div className="EventsContainer">
+        <Header />
         <Events
           events={events}
           onSelect={this.onSelectEvent}
           currentEvent={currentEvent}
         />
-        <Detail events={events} currentEventId={currentEvent} />
-        <EventMap />
+        {/* <Detail events={events} currentEventId={currentEvent} /> */}
+        {/* <EventMap /> */}
       </div>
     );
   }

@@ -19,6 +19,20 @@ class Api {
       return [];
     }
   }
+
+  async getEventById(id) {
+    const headers = new Headers();
+    try {
+      const response = await fetch(`${ApiConstants.url}/api/v1/events/${id}`, {
+        headers: headers,
+      });
+      const events = await response.json();
+      return events;
+    } catch (e) {
+      console.error(`Error while fetching: ${e}`);
+      return [];
+    }
+  }
 }
 
 export const ApiService = new Api();

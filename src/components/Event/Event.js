@@ -8,6 +8,7 @@ import '../../images/svg/euro.svg';
 import IconClock from '../Shared/Svg/Icon-clock';
 import IconEuro from '../Shared/Svg/Icon-euro';
 // import { render } from 'react-testing-library';
+import { Link } from 'react-router-dom';
 
 class Event extends Component {
   constructor(props) {
@@ -29,6 +30,10 @@ class Event extends Component {
     this.setState({ ...this.state, css });
   }
 
+  // handleDetailButtonClick(eventId) {
+  //   this.props.history.push(`/${eventId}`);
+  // }
+
   render() {
     const evento = this.state.evento ? this.state.evento : {};
 
@@ -45,14 +50,16 @@ class Event extends Component {
               </li>
               <li className="EventInfoItem">
                 <IconEuro />
-                {evento.price && evento.price.isFree ? (
+                {evento.price && evento.price.is_free ? (
                   <span>Free</span>
                 ) : (
                   <span>{evento.price ? evento.price.details : null}</span>
                 )}
               </li>
             </ul>
-            <DetailButton onClick={() => this.state.onSelect(evento.id)} />
+            <Link to={'/' + evento.id}>
+              <DetailButton />
+            </Link>
           </div>
         </div>
       </li>
@@ -76,7 +83,7 @@ class Event extends Component {
 //             </li>
 //             <li className="EventInfoItem">
 //               <IconEuro />
-//               {evento.price.isFree ? (
+//               {evento.price.is_free ? (
 //                 <span>Free</span>
 //               ) : (
 //                 <span>{evento.price.details}</span>
