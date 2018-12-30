@@ -1,6 +1,6 @@
 import 'jest-dom/extend-expect';
 import React from 'react';
-import { render, wait } from 'react-testing-library';
+import { render } from 'react-testing-library';
 import Events from './Events';
 import { eventsMock } from './EventsMock';
 
@@ -14,7 +14,7 @@ test('loads and show events', async () => {
   // the API method should be called once
   expect(mockGetEvents).toHaveBeenCalledTimes(1);
   // we resolve the API method and look for some content
-  await wait(() =>
+  await mockGetEvents(() =>
     expect(queryByText(eventsMock[0].title)).toHaveTextContent(
       eventsMock[0].title
     )

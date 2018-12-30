@@ -10,6 +10,7 @@ class Events extends Component {
   static defaultProps = {
     getEvents: ApiService.getEvents,
   };
+
   state = {
     currentDate: null,
     loading: true,
@@ -26,12 +27,14 @@ class Events extends Component {
     if (window.innerWidth > 768) {
       return;
     }
-
     const { currentDate } = this.state;
     this.setState({
       currentDate: currentDate !== date ? date : null,
-      // current: eventID,
     });
+  }
+
+  componentDidMount() {
+    this.requestEvents();
   }
 
   async requestEvents() {
@@ -43,9 +46,10 @@ class Events extends Component {
     const colores = ['#a42551', '#521c4d', '#6f1c50', '#ab013c'];
     const { currentDate } = this.state;
     const { currentEvent, events } = this.props;
+    if (!events) return null;
 
     const data = events.reduce((memo, d) => {
-      const date = dayjs(d.date).format('DD MMM');
+      const date = dayjs(d.datetime).format('DD MMM');
 
       if (memo[date] === undefined) {
         memo[date] = [];
@@ -87,7 +91,6 @@ class Events extends Component {
             </li>
           );
         })}
-        )
       </ul>
     );
   }

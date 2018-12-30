@@ -1,6 +1,7 @@
 .Events {
   max-width: 400px;
-  min-height: 100vh;
+  height: 100vh;
+  overflow: scroll;
   background-color: #212121;
   flex: 0 0 100%;
 }

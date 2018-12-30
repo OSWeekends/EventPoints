@@ -2,17 +2,17 @@ import React, { Component } from 'react';
 
 import { ApiService } from '../../Services';
 import Events from '../Events/Events';
-
+import Header from '../Header/Header';
 import './EventsContainer.scss';
+// import EventMap from '../EventMap/EventMap';
+// const Detail = ({ events, currentEvent }) => {
+//   const foundedEvents = events
+//     ? events.filter(event => event.id === currentEvent)
+//     : null;
+//   const event = foundedEvents ? foundedEvents[0] : null;
 
-const Detail = ({ events, currentEvent }) => {
-  const foundedEvents = events
-    ? events.filter(event => event.id === currentEvent)
-    : null;
-  const event = foundedEvents ? foundedEvents[0] : null;
-
-  return event ? <div>{event.title}</div> : null;
-};
+//   return event ? <div>{event.title}</div> : null;
+// };
 
 class EventsContainer extends Component {
   state = {
@@ -30,9 +30,9 @@ class EventsContainer extends Component {
     this.setState({ events, loading: false });
   };
 
-  onSelectEvent = id => {
+  onSelectEvent = selectedEvent => {
     this.setState({
-      currentEvent: id,
+      currentEvent: selectedEvent,
     });
   };
 
@@ -42,12 +42,14 @@ class EventsContainer extends Component {
       <div>Loading...</div>
     ) : (
       <div className="EventsContainer">
+        <Header />
         <Events
           events={events}
           onSelect={this.onSelectEvent}
           currentEvent={currentEvent}
         />
-        <Detail events={events} currentEvent={currentEvent} />
+        {/* <Detail events={events} currentEventId={currentEvent} /> */}
+        {/* <EventMap /> */}
       </div>
     );
   }

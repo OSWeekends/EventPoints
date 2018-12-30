@@ -2,9 +2,9 @@ import React from 'react';
 import './DetailButton.scss';
 import IconArrowRight from '../Shared/Svg/Icon-arrow-right';
 
-const DetailButton = ({ onClick, className = '' }) => {
+const DetailButton = ({ className = '' }) => {
   return (
-    <button className={`Button ButtonDetail ${className}`} onClick={onClick}>
+    <button className={`Button ButtonDetail ${className}`}>
       Ver detalles
       <IconArrowRight />
     </button>

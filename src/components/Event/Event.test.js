@@ -5,11 +5,13 @@ import Event from './Event';
 
 test('Event has basic info', async () => {
   const mockOnSelect = jest.fn();
-  const { getByText } = render(
-    <Event event={eventMock} onSelect={mockOnSelect} />
-  );
-  getByText(eventMock.title);
-  getByText(eventMock.abstract);
+  await mockOnSelect(() => {
+    const { getByText } = render(
+      <Event event={eventMock} onSelect={mockOnSelect} />
+    );
+    getByText(eventMock.title);
+    getByText(eventMock.abstract);
+  });
 });
 
 test('Test click on Detail Button', async () => {

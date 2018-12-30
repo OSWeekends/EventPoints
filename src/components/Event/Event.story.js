@@ -5,4 +5,4 @@ import { eventMock } from './EventMock';
 
 storiesOf('Event', module)
   .add('with no event', () => <Event />)
-  .add('with event', () => <Event event={eventMock} />);
+  .add('with event', () => <Event evento={eventMock} />);
