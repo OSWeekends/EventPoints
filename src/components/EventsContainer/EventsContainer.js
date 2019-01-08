@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import { ApiService } from '../../Services';
 import Events from '../Events/Events';
 import Header from '../Header/Header';
+import Search from '../Search/Search';
 import './EventsContainer.scss';
 // import EventMap from '../EventMap/EventMap';
 // const Detail = ({ events, currentEvent }) => {
@@ -43,6 +44,7 @@ class EventsContainer extends Component {
     ) : (
       <div className="EventsContainer">
         <Header />
+        <Search filterEvent={events} />
         <Events
           events={events}
           onSelect={this.onSelectEvent}
