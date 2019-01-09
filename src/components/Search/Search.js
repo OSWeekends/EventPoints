@@ -4,7 +4,6 @@ import './Search.scss';
 class Search extends Component {
   render() {
     const { filterEvent } = this.props;
-    console.log(filterEvent);
 
     return (
       <div className="Search">

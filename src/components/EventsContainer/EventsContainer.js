@@ -20,6 +20,8 @@ class EventsContainer extends Component {
     loading: true,
     events: null,
     currentEvent: null,
+    title: '',
+    filteredEvents: [],
   };
 
   componentDidMount() {
@@ -37,16 +39,37 @@ class EventsContainer extends Component {
     });
   };
 
+  filterEvent = e => {
+    this.setState(
+      {
+        title: e.target.value,
+        //potters: nameFilter
+      },
+      () => {
+        const events = [...this.state.events];
+        const eventsSelect = events.filter(item => {
+          return item.title
+            .toLowerCase()
+            .includes(this.state.title.toLowerCase());
+        });
+        this.setState({
+          filteredEvents: eventsSelect,
+        });
+      }
+    );
+  };
+
   render() {
-    const { currentEvent, events, loading } = this.state;
+    const { currentEvent, events, loading, filteredEvents } = this.state;
     return loading ? (
       <div>Loading...</div>
     ) : (
       <div className="EventsContainer">
         <Header />
-        <Search filterEvent={events} />
+        <Search filterEvent={this.filterEvent} />
         <Events
           events={events}
+          filteredEvents={filteredEvents}
           onSelect={this.onSelectEvent}
           currentEvent={currentEvent}
         />

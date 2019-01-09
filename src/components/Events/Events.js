@@ -33,22 +33,30 @@ class Events extends Component {
     });
   }
 
-  componentDidMount() {
-    this.requestEvents();
-  }
-
-  async requestEvents() {
-    const events = await this.props.getEvents();
-    this.setState({ events, loading: false });
-  }
+  // componentDidMount() {
+  //   this.requestEvents();
+  // }
+  //
+  // async requestEvents() {
+  //   const events = await this.props.getEvents();
+  //   this.setState({ events, loading: false });
+  // }
 
   render() {
     const colores = ['#a42551', '#521c4d', '#6f1c50', '#ab013c'];
     const { currentDate } = this.state;
-    const { currentEvent, events } = this.props;
+    const { currentEvent, events, filteredEvents } = this.props;
+
+    let filterOrNot;
+    if (filteredEvents.length === 0) {
+      filterOrNot = events;
+    } else {
+      filterOrNot = filteredEvents;
+    }
+
     if (!events) return null;
 
-    const data = events.reduce((memo, d) => {
+    const data = filterOrNot.reduce((memo, d) => {
       const date = dayjs(d.datetime).format('DD MMM');
 
       if (memo[date] === undefined) {
