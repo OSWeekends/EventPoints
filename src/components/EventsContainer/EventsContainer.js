@@ -22,6 +22,7 @@ class EventsContainer extends Component {
     currentEvent: null,
     title: '',
     filteredEvents: [],
+    date: '',
   };
 
   componentDidMount() {
@@ -39,24 +40,47 @@ class EventsContainer extends Component {
     });
   };
 
-  filterEvent = e => {
+  filterEventByTitle = e => {
     this.setState(
       {
         title: e.target.value,
-        //potters: nameFilter
       },
       () => {
         const events = [...this.state.events];
-        const eventsSelect = events.filter(item => {
+        const eventsSelectByTitle = events.filter(item => {
           return item.title
             .toLowerCase()
             .includes(this.state.title.toLowerCase());
         });
         this.setState({
-          filteredEvents: eventsSelect,
+          filteredEvents: eventsSelectByTitle,
         });
       }
     );
+  };
+
+  filterEventByDay = e => {
+    console.log(e.target.value);
+    this.setState(
+      {
+        date: e.target.value,
+      },
+      () => {
+        const events = [...this.state.events];
+        const eventsSelectByDay = events.map(item => {
+          return item.date
+            .toLowerCase()
+            .includes(this.state.title.toLowerCase());
+        });
+        this.setState({
+          filteredEvents: eventsSelectByDay,
+        });
+      }
+    );
+  };
+
+  filterEventByMoney = e => {
+    console.log('hola');
   };
 
   render() {
@@ -66,7 +90,11 @@ class EventsContainer extends Component {
     ) : (
       <div className="EventsContainer">
         <Header />
-        <Search filterEvent={this.filterEvent} />
+        <Search
+          filterEventByTitle={this.filterEventByTitle}
+          filterEventByDay={this.filterEventDay}
+          filterEventByMoney={this.filterEventMoney}
+        />
         <Events
           events={events}
           filteredEvents={filteredEvents}
