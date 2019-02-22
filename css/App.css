@@ -40,8 +40,12 @@ h1, h2, h3, h4 {
   cursor: pointer; }
 
 @media (max-width: 400px) {
-  .flex-grid {
-    display: block; } }
+  .AppContainer {
+    display: block; }
+  .Events {
+    height: unset; }
+  .MapContainer {
+    height: 50vh !important; } }
 
 .events {
   flex-direction: row;

@@ -18,11 +18,6 @@ class Events extends Component {
     current: null,
   };
 
-  selectEvent = id => {
-    const { onSelect } = this.props;
-    onSelect(id);
-  };
-
   showEventsDate(date) {
     if (window.innerWidth > 768) {
       return;
@@ -83,7 +78,7 @@ class Events extends Component {
                   <Event
                     key={evento.id}
                     evento={evento}
-                    onSelect={this.selectEvent}
+                    onSelect={() => this.props.onSelect(evento)}
                     current={currentEvent}
                   />
                 ))}
