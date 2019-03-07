@@ -16,7 +16,7 @@ class App extends Component {
       <Router>
         <div className="AppContainer">
           {/* <Search /> */}
-          <EventsContainer />
+          <Route exact path={'/'} component={EventsContainer} />
           <Route exact path={'/:id'} component={Detail} />
           <EventMap />
         </div>

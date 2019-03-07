@@ -1,58 +1,44 @@
-import React, { Component } from 'react';
+import React, { useEffect } from 'react';
 
 import { ApiService } from '../../Services';
 import Events from '../Events/Events';
 import Header from '../Header/Header';
 import './EventsContainer.scss';
-// import EventMap from '../EventMap/EventMap';
-// const Detail = ({ events, currentEvent }) => {
-//   const foundedEvents = events
-//     ? events.filter(event => event.id === currentEvent)
-//     : null;
-//   const event = foundedEvents ? foundedEvents[0] : null;
+import { createStore, useStore } from 'react-hookstore';
 
-//   return event ? <div>{event.title}</div> : null;
-// };
+const eventsStore = createStore('eventsStore', []);
+const loadingStore = createStore('loadingStore', true);
+const selectedEventStore = createStore('selectedEventStore', {});
 
-class EventsContainer extends Component {
-  state = {
-    loading: true,
-    events: null,
-    currentEvent: null,
+function EventsContainer() {
+  const [events, setEvents] = useStore(eventsStore);
+  const [loading, setLoading] = useStore(loadingStore);
+  const [currentEvent, setCurrentEvent] = useStore(selectedEventStore);
+
+  const requestEvents = async () => {
+    const data = await ApiService.getEvents();
+    setEvents(data);
+    setLoading(false);
   };
 
-  componentDidMount() {
-    this.requestEvents();
-  }
+  useEffect(() => {
+    requestEvents();
+  }, []);
 
-  requestEvents = async () => {
-    const events = await ApiService.getEvents();
-    this.setState({ events, loading: false });
-  };
-
-  onSelectEvent = selectedEvent => {
-    this.setState({
-      currentEvent: selectedEvent,
-    });
-  };
-
-  render() {
-    const { currentEvent, events, loading } = this.state;
-    return loading ? (
-      <div>Loading...</div>
-    ) : (
-      <div className="EventsContainer">
-        <Header />
-        <Events
-          events={events}
-          onSelect={this.onSelectEvent}
-          currentEvent={currentEvent}
-        />
-        {/* <Detail events={events} currentEventId={currentEvent} /> */}
-        {/* <EventMap /> */}
-      </div>
-    );
-  }
+  return loading ? (
+    <div>Loading...</div>
+  ) : (
+    <div className="EventsContainer">
+      <Header />
+      <Events
+        events={events}
+        onSelect={setCurrentEvent}
+        currentEvent={currentEvent}
+      />
+      {/* <Detail events={events} currentEventId={currentEvent} /> */}
+      {/* <EventMap /> */}
+    </div>
+  );
 }
 
 export default EventsContainer;

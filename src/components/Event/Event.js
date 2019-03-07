@@ -61,7 +61,7 @@ class Event extends Component {
               </li>
             </ul>
             <Link to={'/' + evento.id}>
-              <DetailButton />
+              <DetailButton onSelect={this.props.onSelect} />
             </Link>
           </div>
         </div>
