@@ -64,6 +64,7 @@ class EventsContainer extends Component {
   };
 
   filterEventByMoney = e => {
+    console.log('gratis');
     const events = [...this.state.events];
     const eventsFree = events.filter(item => item.price._isfree === true);
     this.setState({
