@@ -60,27 +60,15 @@ class EventsContainer extends Component {
   };
 
   filterEventByDay = e => {
-    console.log(e.target.value);
-    this.setState(
-      {
-        date: e.target.value,
-      },
-      () => {
-        const events = [...this.state.events];
-        const eventsSelectByDay = events.map(item => {
-          return item.date
-            .toLowerCase()
-            .includes(this.state.title.toLowerCase());
-        });
-        this.setState({
-          filteredEvents: eventsSelectByDay,
-        });
-      }
-    );
+    console.dir(e);
   };
 
   filterEventByMoney = e => {
-    console.log('hola');
+    const events = [...this.state.events];
+    const eventsFree = events.filter(item => item.price._isfree === true);
+    this.setState({
+      filteredEvents: eventsFree,
+    });
   };
 
   render() {

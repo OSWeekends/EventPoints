@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import IconClock from '../Shared/Svg/Icon-clock';
+import IconCalendar from '../Shared/Svg/Icon-calendar';
+import IconLens from '../Shared/Svg/Icon-lens';
 import IconEuro from '../Shared/Svg/Icon-euro';
 import Calendar from 'react-calendar';
 import './Search.scss';
@@ -30,22 +31,28 @@ class Search extends Component {
       filterEventByDay,
       filterEventByMoney,
     } = this.props;
+    console.log(filterEventByMoney);
 
     return (
       <div className="Search">
-        <IconEuro onClick={filterEventByMoney} />
-        <IconClock onClick={this.showCalendar} />
+        <IconEuro filterEventByMoney={filterEventByMoney} />
+        <hr />
+        <IconCalendar onClick={this.showCalendar} />
         {this.state.showCalendar ? (
           <Calendar onChange={filterEventByDay} />
         ) : null}
-        <label htmlFor="inputEvents" />
-        <input
-          className="search-input"
-          type="text"
-          name="inputEvents"
-          value={this.props.name}
-          onChange={filterEventByTitle}
-        />
+        <div className="InputSearch">
+          <label htmlFor="inputEvents" />
+          <input
+            className="Input"
+            type="text"
+            name="inputEvents"
+            placeholder="Buscador de eventos"
+            value={this.props.name}
+            onChange={filterEventByTitle}
+          />
+          <IconLens className="Lens" />
+        </div>
       </div>
     );
   }
