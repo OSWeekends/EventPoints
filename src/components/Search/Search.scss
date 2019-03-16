@@ -1,0 +1,57 @@
+.Search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  background-color: #F48DAC;
+  padding: 0.8rem;
+  opacity: 0.8;
+}
+
+.Icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.iconCalendar, .iconEuro {
+  width: 2rem;
+  height:1.5rem;
+}
+
+hr {
+  border:1px solid #A42551;
+  min-height: 2rem;
+  margin: 5
+}
+svg {
+  fill: #A42551;
+  height: 1.5rem;
+}
+
+
+.InputSearch {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #F48DAC;
+  border: 1px solid #A42551;
+  height: 2.5rem;
+
+}
+input {
+  background-color: #F48DAC;
+  border: 0;
+  margin-left: 1rem;
+  color:#fff;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .InputSearch {
+    min-width: 65%;
+  }
+}
