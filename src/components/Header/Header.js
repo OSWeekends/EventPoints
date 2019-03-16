@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Header.scss';
 import IconMarker from '../Shared/Svg/Icon-marker';
+import Search from '../Search/Search';
 
 class Header extends Component {
   render() {
@@ -13,6 +14,7 @@ class Header extends Component {
           Events
           <b>Points</b>
         </h1>
+        <Search />
       </div>
     );
   }
