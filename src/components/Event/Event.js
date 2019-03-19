@@ -49,7 +49,7 @@ class Event extends Component {
             <ul className="EventInfo">
               <li className="EventInfoItem" id="evento.id">
                 <IconClock />
-                <span>18:00h</span>
+                <span>{evento.time}</span>
               </li>
               <li className="EventInfoItem">
                 <IconEuro />
