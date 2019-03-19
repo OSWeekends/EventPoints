@@ -5,6 +5,12 @@ import Search from '../Search/Search';
 
 class Header extends Component {
   render() {
+    const {
+      filterEventByTitle,
+      filterEventByDay,
+      filterEventByMoney,
+    } = this.props;
+
     return (
       <div className="HeaderContainer">
         <div className="Header">
@@ -16,7 +22,11 @@ class Header extends Component {
             <b>Points</b>
           </h1>
         </div>
-        <Search />
+        <Search
+          filterEventByTitle={filterEventByTitle}
+          filterEventByDay={filterEventByDay}
+          filterEventByMoney={filterEventByMoney}
+        />
       </div>
     );
   }

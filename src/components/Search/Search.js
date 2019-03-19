@@ -14,7 +14,7 @@ class Search extends Component {
 
     this.showCalendar = this.showCalendar.bind(this);
   }
-  //
+
   // showCalendar(e) {
   //   this.state.showCalendar === false
   //     ? this.setState({
@@ -31,7 +31,6 @@ class Search extends Component {
       filterEventByDay,
       filterEventByMoney,
     } = this.props;
-    console.log(filterEventByMoney);
 
     return (
       <div className="Search">
