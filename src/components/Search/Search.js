@@ -39,7 +39,12 @@ class Search extends Component {
           <hr />
           <IconCalendar onClick={this.showCalendar} />
           {this.state.showCalendar ? (
-            <Calendar onChange={filterEventByDay} />
+            <Calendar
+              onChange={e => {
+                filterEventByDay(e);
+                this.showCalendar(e);
+              }}
+            />
           ) : null}
         </div>
         <div className="InputSearch">
