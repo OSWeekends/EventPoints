@@ -17,6 +17,7 @@
 .iconCalendar, .iconEuro {
   width: 2rem;
   height:1.5rem;
+  cursor: pointer;
 }
 
 hr {
@@ -54,4 +55,16 @@ input::placeholder {
   .InputSearch {
     min-width: 65%;
   }
+}
+
+.Calendar {
+  position: absolute;
+  left: 20px;
+  top: 180px;
+}
+
+.Clear {
+  width: 20px;
+  color: white;
+  cursor: pointer;
 }

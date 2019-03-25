@@ -10,20 +10,45 @@ class Search extends Component {
     super(props);
     this.state = {
       showCalendar: false,
+      date: null,
     };
-
-    this.showCalendar = this.showCalendar.bind(this);
+    this.toggleCalendar = this.toggleCalendar.bind(this);
+    this.clearFilters = this.clearFilters.bind(this);
   }
 
-  // showCalendar(e) {
-  //   this.state.showCalendar === false
-  //     ? this.setState({
-  //         showCalendar: true,
-  //       })
-  //     : this.setState({
-  //         showCalendar: false,
-  //       });
-  // }
+  toggleCalendar() {
+    this.setState(prevState => {
+      return {
+        showCalendar: !prevState.showCalendar,
+      };
+    });
+  }
+
+  clearFilters() {
+    this.setState({ date: null });
+    this.props.filterEventByDay();
+  }
+
+  setCalendarDate(date) {
+    this.setState(prevState => {
+      return {
+        date: this.datesAreEqual(date, prevState.date) ? null : date,
+      };
+    });
+  }
+
+  datesAreEqual(dateA, dateB) {
+    if (
+      dateA &&
+      dateB &&
+      dateA.getYear() === dateB.getYear() &&
+      dateA.getMonth() === dateB.getMonth() &&
+      dateA.getDay() === dateB.getDay()
+    ) {
+      return true;
+    }
+    return false;
+  }
 
   render() {
     const {
@@ -37,13 +62,16 @@ class Search extends Component {
         <div className="Icons">
           <IconEuro filterEventByMoney={filterEventByMoney} />
           <hr />
-          <IconCalendar onClick={this.showCalendar} />
+          <IconCalendar onClick={this.toggleCalendar} />
           {this.state.showCalendar ? (
             <Calendar
-              onChange={e => {
-                filterEventByDay(e);
-                this.showCalendar(e);
+              className="Calendar"
+              onChange={date => {
+                this.toggleCalendar(date);
+                this.setCalendarDate(date);
+                filterEventByDay(date);
               }}
+              value={this.state.date}
             />
           ) : null}
         </div>
@@ -58,6 +86,9 @@ class Search extends Component {
             onChange={filterEventByTitle}
           />
           <IconLens className="Lens" />
+          <div className="Clear" onClick={this.clearFilters}>
+            X
+          </div>
         </div>
       </div>
     );

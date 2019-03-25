@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 
 import { ApiService } from '../../Services';
 import Events from '../Events/Events';
@@ -15,9 +15,12 @@ function EventsContainer() {
   const [loading, setLoading] = useStore(loadingStore);
   const [currentEvent, setCurrentEvent] = useStore(selectedEventStore);
 
+  const [filteredEvents, setFilteredEvents] = useState([]);
+
   const requestEvents = async () => {
     const data = await ApiService.getEvents();
     setEvents(data);
+    setFilteredEvents([].concat(data));
     setLoading(false);
   };
 
@@ -30,20 +33,25 @@ function EventsContainer() {
     const eventsSelectByTitle = events.filter(item => {
       return item.title.toLowerCase().includes(filterTitle.toLowerCase());
     });
-    setEvents(eventsSelectByTitle);
+    setFilteredEvents(eventsSelectByTitle);
   };
 
   const filterEventByDay = e => {
-    const dateToFormat = `${e.getDate()}-0${e.getMonth() +
-      1}-${e.getFullYear()}`;
-    const eventsSelectByDay = events.filter(item => item.date === dateToFormat);
-    console.log(eventsSelectByDay);
-    setEvents(eventsSelectByDay);
+    if (e) {
+      const dateToFormat = `${e.getDate()}-0${e.getMonth() +
+        1}-${e.getFullYear()}`;
+      const eventsSelectByDay = events.filter(
+        item => item.date === dateToFormat
+      );
+      setFilteredEvents(eventsSelectByDay);
+    } else {
+      setFilteredEvents([].concat(events));
+    }
   };
 
   const filterEventByMoney = e => {
     const eventsFree = events.filter(item => item.price.is_free === true);
-    setEvents(eventsFree);
+    setFilteredEvents(eventsFree);
   };
 
   return loading ? (
@@ -56,7 +64,7 @@ function EventsContainer() {
         filterEventByMoney={filterEventByMoney}
       />
       <Events
-        events={events}
+        events={filteredEvents}
         onSelect={setCurrentEvent}
         currentEvent={currentEvent}
       />
