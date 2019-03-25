@@ -10,6 +10,7 @@
     "prettier": "^1.14.3",
     "ramda": "^0.26.1",
     "react": "^16.8.3",
+    "react-calendar": "^2.18.1",
     "react-dom": "^16.8.3",
     "react-hookstore": "^1.2.0",
     "react-leaflet": "^2.1.4",
