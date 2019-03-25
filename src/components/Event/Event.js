@@ -7,7 +7,6 @@ import '../../images/svg/clock.svg';
 import '../../images/svg/euro.svg';
 import IconClock from '../Shared/Svg/Icon-clock';
 import IconEuro from '../Shared/Svg/Icon-euro';
-// import { render } from 'react-testing-library';
 import { Link } from 'react-router-dom';
 
 class Event extends Component {
@@ -15,7 +14,6 @@ class Event extends Component {
     super(props);
 
     this.state = {
-      key: this.props.key,
       evento: this.props.evento,
       onSelect: this.props.onSelect,
       current: this.props.current,
@@ -49,7 +47,7 @@ class Event extends Component {
             <ul className="EventInfo">
               <li className="EventInfoItem" id="evento.id">
                 <IconClock />
-                <span>18:00h</span>
+                <span>{evento.time}</span>
               </li>
               <li className="EventInfoItem">
                 <IconEuro />

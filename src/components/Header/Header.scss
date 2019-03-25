@@ -1,10 +1,25 @@
+.HeaderContainer {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to right,#6f1c50 0%, #a42551 50%, #ab013c 100%);
+}
+
 .Header {
   display: flex;
-  height: 20vh;
-  // justify-content: center;
+  align-items: center;
+  justify-content: center;
+  height: 8rem;
 }
 
 .title {
+  color:#fff;
   font-weight: normal;
-  
+  font-size: 2rem;
+
+}
+
+.Market {
+  fill: #fff;
+  width: 4rem;
+  height:4rem;
 }
