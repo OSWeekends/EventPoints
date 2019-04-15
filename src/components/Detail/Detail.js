@@ -15,10 +15,10 @@ function Detail(props) {
           <IconArrowLeft />
         </Link>
       </div>
-      <div className="EventDetailTitle">{event.title}</div>
+      <div className="EventDetailTitle">{event[0].title}</div>
       <div
         className="EventDetailDescription"
-        dangerouslySetInnerHTML={{ __html: event.abstract_details }}
+        dangerouslySetInnerHTML={{ __html: event[0].abstract_details }}
       />
     </div>
   ) : null;

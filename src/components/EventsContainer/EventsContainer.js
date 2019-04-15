@@ -8,7 +8,7 @@ import { createStore, useStore } from 'react-hookstore';
 
 const eventsStore = createStore('eventsStore', []);
 const loadingStore = createStore('loadingStore', true);
-const selectedEventStore = createStore('selectedEventStore', {});
+const selectedEventStore = createStore('selectedEventStore', []);
 
 function EventsContainer() {
   const [events, setEvents] = useStore(eventsStore);
@@ -21,6 +21,7 @@ function EventsContainer() {
     const data = await ApiService.getEvents();
     setEvents(data);
     setFilteredEvents([].concat(data));
+    setCurrentEvent([]);
     setLoading(false);
   };
 
@@ -44,8 +45,10 @@ function EventsContainer() {
         item => item.date === dateToFormat
       );
       setFilteredEvents(eventsSelectByDay);
+      setCurrentEvent(eventsSelectByDay);
     } else {
       setFilteredEvents([].concat(events));
+      setCurrentEvent([]);
     }
   };
 

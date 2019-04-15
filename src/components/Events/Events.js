@@ -78,7 +78,7 @@ class Events extends Component {
                   <Event
                     key={evento.id}
                     evento={evento}
-                    onSelect={() => this.props.onSelect(evento)}
+                    onSelect={() => this.props.onSelect([evento])}
                     current={currentEvent}
                   />
                 ))}
