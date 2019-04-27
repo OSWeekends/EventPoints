@@ -6,7 +6,6 @@ import euro from '../../images/svg/euro.svg';
 import pointer from '../../images/svg/pointer.svg';
 import calendar from '../../images/svg/calendar.svg';
 import { useStore } from 'react-hookstore';
-import { isEmpty } from 'ramda';
 
 function EventMap(props) {
   const zoom = 10;
@@ -42,9 +41,9 @@ function EventMap(props) {
         </LayersControl.BaseLayer>
       </LayersControl>
 
-      {isEmpty(currentEvent)
+      {currentEvent.length === 0
         ? events.map(renderMarkerAndPopup())
-        : [currentEvent].map(renderMarkerAndPopup())}
+        : currentEvent.map(renderMarkerAndPopup())}
     </Map>
   );
 
