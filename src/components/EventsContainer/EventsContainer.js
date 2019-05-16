@@ -9,19 +9,20 @@ import { createStore, useStore } from 'react-hookstore';
 const eventsStore = createStore('eventsStore', []);
 const loadingStore = createStore('loadingStore', true);
 const selectedEventStore = createStore('selectedEventStore', []);
+const filterStore = createStore('filterStore', { day: null });
 
 function EventsContainer() {
   const [events, setEvents] = useStore(eventsStore);
   const [loading, setLoading] = useStore(loadingStore);
   const [currentEvent, setCurrentEvent] = useStore(selectedEventStore);
+  const [datafilterEvent, setDataFilterEvent] = useStore(filterStore);
 
   const [filteredEvents, setFilteredEvents] = useState([]);
 
   const requestEvents = async () => {
     const data = await ApiService.getEvents();
     setEvents(data);
-    setFilteredEvents([].concat(data));
-    setCurrentEvent([]);
+    setValueFilterDay(datafilterEvent.day, data);
     setLoading(false);
   };
 
@@ -38,9 +39,20 @@ function EventsContainer() {
   };
 
   const filterEventByDay = e => {
+    let dataFilter = { day: null };
     if (e) {
-      const dateToFormat = `${e.getDate()}-0${e.getMonth() +
-        1}-${e.getFullYear()}`;
+      dataFilter = {
+        day: { date: e.getDate(), month: e.getMonth(), year: e.getFullYear() },
+      };
+    }
+
+    setDataFilterEvent({ ...datafilterEvent, ...dataFilter });
+    setValueFilterDay(dataFilter.day, events);
+  };
+
+  const setValueFilterDay = (day, events) => {
+    if (day !== null) {
+      const dateToFormat = `${day.date}-0${day.month + 1}-${day.year}`;
       const eventsSelectByDay = events.filter(
         item => item.date === dateToFormat
       );
