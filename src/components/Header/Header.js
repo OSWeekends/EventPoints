@@ -9,6 +9,8 @@ class Header extends Component {
       filterEventByTitle,
       filterEventByDay,
       filterEventByMoney,
+      clearFilters,
+      titleSearch,
     } = this.props;
 
     return (
@@ -26,6 +28,8 @@ class Header extends Component {
           filterEventByTitle={filterEventByTitle}
           filterEventByDay={filterEventByDay}
           filterEventByMoney={filterEventByMoney}
+          clearFilters={clearFilters}
+          titleSearch={titleSearch}
         />
       </div>
     );

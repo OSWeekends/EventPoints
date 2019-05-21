@@ -26,7 +26,7 @@ class Search extends Component {
 
   clearFilters() {
     this.setState({ date: null });
-    this.props.filterEventByDay();
+    this.props.clearFilters();
   }
 
   setCalendarDate(date) {
@@ -55,6 +55,7 @@ class Search extends Component {
       filterEventByTitle,
       filterEventByDay,
       filterEventByMoney,
+      titleSearch,
     } = this.props;
 
     return (
@@ -82,7 +83,7 @@ class Search extends Component {
             type="text"
             name="inputEvents"
             placeholder="Buscador de eventos"
-            value={this.props.name}
+            value={titleSearch}
             onChange={filterEventByTitle}
           />
           <IconLens className="Lens" />
