@@ -21,7 +21,7 @@ function EventMap(props) {
   return (
     <Map
       className="MapContainer"
-      style={{ backgroundColor: 'black', height: '100vh', width: '1000px' }}
+      style={{ backgroundColor: 'black', height: '100vh' }}
       center={[40.3995824, -3.7206383]}
       zoom={zoom}
     >
