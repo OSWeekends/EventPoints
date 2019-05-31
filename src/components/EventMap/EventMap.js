@@ -7,6 +7,27 @@ import pointer from '../../images/svg/pointer.svg';
 import calendar from '../../images/svg/calendar.svg';
 import { useStore } from 'react-hookstore';
 
+function GetViewPortByEvents(events, zoom)
+{
+  let viewport = {center: [40.3995824, -3.7206383], zoom: zoom};
+  if (events.length > 0)
+  {      
+      let latMed = 0;
+      let lngMed = 0;
+      events.forEach( event => {
+          if (event.location){              
+            latMed += parseFloat(event.location.lat); 
+            lngMed += parseFloat(event.location.lng);
+          }          
+        });
+          
+      latMed = latMed/events.length;
+      lngMed = lngMed/events.length;
+      viewport.center = [latMed, lngMed];      
+  }
+  return viewport;
+}
+
 function EventMap(props) {
   const zoom = 10;
   const [events] = useStore('eventsStore');
@@ -17,12 +38,13 @@ function EventMap(props) {
     iconSize: [50, 58],
     iconAnchor: [25, 50],
   });
+  const viewport =  GetViewPortByEvents(currentEvent, zoom); 
 
   return (
     <Map
       className="MapContainer"
       style={{ backgroundColor: 'black', height: '100vh' }}
-      center={[40.3995824, -3.7206383]}
+      viewport={viewport}
       zoom={zoom}
     >
       <LayersControl position="topright">
