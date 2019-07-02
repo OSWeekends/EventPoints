@@ -53,6 +53,14 @@ class Events extends Component {
       return memo;
     }, {});
 
+    if (events.length === 0) {
+      return (
+        <div className="Events NoEvents">
+          {' '}
+          <h2> Actualmente no hay eventos</h2>{' '}
+        </div>
+      );
+    }
     return (
       <ul className="Events">
         {Object.keys(data).map((date, index) => {
